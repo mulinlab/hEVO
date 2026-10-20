@@ -1,0 +1,37 @@
+benchmark: adaptive_allele_preference_benchmark
+roster: full_34_public_S38_S39
+models:
+  - {model_id: HyenaDNA_tiny_1k, family: HyenaDNA, kind: causal, path: models/LongSafari/hyenadna-tiny-1k-seqlen-hf-causal}
+  - {model_id: NT_500m_1kG, family: NucleotideTransformer, kind: masked, path: models/InstaDeepAI/NT-500m-1000g}
+  - {model_id: NT_500m_MS, family: NucleotideTransformer, kind: masked, path: models/InstaDeepAI/NT-500m-MS}
+  - {model_id: NT_2.5b_1kG, family: NucleotideTransformer, kind: masked, path: models/InstaDeepAI/NT-2.5b-1000g}
+  - {model_id: NT_2.5b_MS, family: NucleotideTransformer, kind: masked, path: models/InstaDeepAI/NT-2.5b-MS}
+  - {model_id: NTv3-8M-pre, family: NTv3, kind: masked, path: models/InstaDeepAI/NTv3_8M_pre}
+  - {model_id: NTv3-100M-pre, family: NTv3, kind: masked, path: models/InstaDeepAI/NTv3_100M_pre}
+  - {model_id: NTv3-650M-pre, family: NTv3, kind: masked, path: models/InstaDeepAI/NTv3_650M_pre}
+  - {model_id: GPN-MSA, family: GPN, kind: masked, path: models/gpn-msa-sapiens}
+  - {model_id: GPN-promoter, family: GPN, kind: masked, path: models/gpn-animal-promoter}
+  - {model_id: Genos-1.2B, family: Genos, kind: causal, path: models/Genos-1.2B}
+  - {model_id: SpeciesLM, family: SpeciesLM, kind: masked, path: models/specieslm-metazoa-upstream-k6}
+  - {model_id: AIDO.DNA-300M, family: AIDO, kind: masked, path: models/AIDO.DNA-300M}
+  - {model_id: DNABERT, family: DNABERT, kind: masked, path: models/DNABERT-S}
+  - {model_id: DNABERT2, family: DNABERT2, kind: masked, path: models/DNABERT-2-117M}
+  - {model_id: evo2_1b_base, family: Evo2, kind: causal, path: models/Evo2/evo2_1b_base/evo2_1b_base.pt}
+  - {model_id: evo2_7b_base, family: Evo2, kind: causal, path: models/Evo2/evo2_7b_base/evo2_7b_base.pt}
+  - {model_id: hEvo-base, family: hEvo, kind: masked, path: models/hEvo-base}
+  - {model_id: hEvo-large, family: hEvo, kind: masked, path: models/hEvo-large}
+  - {model_id: GENA-LM-base, family: GENA-LM, kind: masked, path: models/GENA-LM/GENA-LM-base}
+  - {model_id: GENA-LM-large, family: GENA-LM, kind: masked, path: models/GENA-LM/GENA-LM-large}
+  - {model_id: GROVER, family: GROVER, kind: masked, path: models/GROVER}
+  - {model_id: Mistral-DNA-17M, family: Mistral-DNA, kind: causal, path: models/Mistral-DNA/Mistral-DNA-v1-17M-hg38}
+  - {model_id: Mistral-DNA-138M, family: Mistral-DNA, kind: causal, path: models/Mistral-DNA/Mistral-DNA-v1-138M-hg38}
+  - {model_id: Mistral-DNA-422M, family: Mistral-DNA, kind: causal, path: models/Mistral-DNA/Mistral-DNA-v1-422M-hg38}
+  - {model_id: Caduceus-PH, family: Caduceus, kind: masked, path: models/Caduceus/caduceus-ph_seqlen-131k_d_model-256_n_layer-16}
+  - {model_id: Caduceus-PS, family: Caduceus, kind: masked, path: models/Caduceus/caduceus-ps_seqlen-131k_d_model-256_n_layer-16}
+  - {model_id: GENERator-1.2B, family: GENERator, kind: causal, path: models/GENERator-v2/GENERator-v2-eukaryote-1.2b-base}
+  - {model_id: GENERator-3B, family: GENERator, kind: causal, path: models/GENERator-v2/GENERator-v2-eukaryote-3b-base}
+  - {model_id: hEvo-open-base, family: hEvo, kind: masked, path: models/hEvo-open-base}
+  - {model_id: GPN-Star-M, family: GPN-Star, kind: masked, path: configs/gpn_star.yaml#GPN-Star-M}
+  - {model_id: GPN-Star-P, family: GPN-Star, kind: masked, path: configs/gpn_star.yaml#GPN-Star-P}
+  - {model_id: GPN-Star-V, family: GPN-Star, kind: masked, path: configs/gpn_star.yaml#GPN-Star-V}
+  - {model_id: hEvo-open-large, family: hEvo, kind: masked, path: models/hEvo-open-large}

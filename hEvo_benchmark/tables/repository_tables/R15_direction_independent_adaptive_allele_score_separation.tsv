@@ -1,0 +1,41 @@
+## Repository Table R15. Direction-independent adaptive allele score separation
+## Study: hEVO, reader-facing repository tables
+## Description: CH is computed on two one-dimensional groups of raw selected and alternative allele log probabilities. It measures separation irrespective of direction. A large value can accompany systematic preference for the alternative allele and is not evidence of selection prediction.
+## Missing values: NA means unavailable or not applicable, never a zero score. Numeric values retain source precision.
+## Column 1 | Model | Evaluated checkpoint display name, harmonized with the figures.
+## Column 2 | Locus pairs | Locus pairs for the observation defined in the table description.
+## Column 3 | Calinski–Harabasz index | Calinski–Harabasz index for the observation defined in the table description.
+Model	Locus pairs	Calinski–Harabasz index
+HyenaDNA-1K	30	4.051850274457593e-06
+NTv1-500M-1kG	30	0.08220613506505461
+NTv2-500M-MS	30	0.0016184337507499818
+NTv1-2.5B-1kG	30	0.14713616869474955
+NTv1-2.5B-MS	30	0.0629303065201174
+NTv3-8M	30	0.34160475488841546
+NTv3-100M	30	0.0019801604187812834
+NTv3-650M	30	3.717537949606222
+GPN-MSA	30	65.4326602140655
+GPN-Promoter	30	4.657954809417759
+Genos-1.2B	30	0.5618426356178119
+SpeciesLM	30	0.33907413292723837
+AIDO.DNA-300M	30	1.1470340914189028
+DNABERT2	30	0.02805949812189394
+Evo2-1B	30	0.0001565016697374882
+Evo2-7B	30	0.005716412200902514
+hEVO-base	30	1.9013785385165274
+hEVO-large	30	0.29073096401995124
+GENA-LM-base	30	0.004691792654594494
+GENA-LM-large	30	0.004315444415208494
+GROVER	30	0.0011401220468826188
+Mistral-DNA-17M	30	5.152068107162377e-05
+Mistral-DNA-138M	30	0.000591881784810467
+Mistral-DNA-422M	30	1.5369179152208877e-05
+Caduceus-PH	30	3.465208913964145e-05
+Caduceus-PS	30	0.0034385170466296106
+GENERator-1.2B	30	0.001660517877970191
+GENERator-3B	30	0.010627562529920032
+hEVO-base-o	30	0.12717245750823497
+GPN-Star-M	30	93.13792985583352
+GPN-Star-P	30	90.52835724143617
+GPN-Star-V	30	68.89213248358719
+hEVO-large-o	30	7.5952410427760695

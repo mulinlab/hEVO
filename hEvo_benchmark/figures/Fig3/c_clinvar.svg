@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="183.30708661426772" height="170.07874015748033" preserveAspectRatio="xMinYMin meet" viewBox="0 0 183 170" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="183.30708661426772" height="170.07874015748033"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-170)" style="clip-path: url(#clip)">
+		<g transform="">
+			<g transform=" matrix(1,0,0,1,-14.173228,-368.503937)">
+				<text x="14.173228346456694" y="515.9055118110236" style="font-family: Arial-Bold; font-size: 13.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1031) scale(1,-1)"></text>
+				<text x="105.82677165359055" y="515.3385826771654" style="font-family: Arial-Bold; font-size: 7.2px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1030) scale(1,-1)"></text>
+				<text x="49.357045091090555" y="502.5826771653544" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1005) scale(1,-1)">AUPRC | model-specific N and prevalence</text>
+				<path d="M 96.944882,488.692913 L 174.519685,488.692913 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.65;"/>
+				<path d="M 96.944882,488.692913 L 96.944882,485.574803 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.5;"/>
+				<text x="92.77447173351379" y="491.52755905511816" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,983) scale(1,-1)">0.2</text>
+				<path d="M 135.732283,488.692913 L 135.732283,485.574803 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.5;"/>
+				<text x="131.56187330836417" y="491.52755905511816" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,983) scale(1,-1)">0.6</text>
+				<path d="M 174.519685,488.692913 L 174.519685,485.574803 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.5;"/>
+				<text x="172.85122800821458" y="491.52755905511816" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,983) scale(1,-1)">1</text>
+				<rect x="14.173228346456694" y="475.67586614173234" width="183.30708661426772" height="5.057716535433087" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,90%,86%); fill-rule: evenodd;"/>
+				<text x="16.157480314960633" y="476.1637795275591" style="font-family: Arial-Bold; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,952) scale(1,-1)">hEVO-base</text>
+				<rect x="96.94488188976379" y="476.5188188976378" width="68.24751363603701" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(71%,36%,11%); fill-rule: evenodd;"/>
+				<path d="M 165.044482,478.204724 L 165.344325,478.204724 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 165.044482,476.447244 L 165.044482,479.962205 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 165.344325,476.447244 L 165.344325,479.962205 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,475.880315 L 108.595255,480.529134 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="476.1637795275591" style="font-family: Arial-Bold; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,952) scale(1,-1)">0.904</text>
+				<text x="16.157480314960633" y="469.67952755905515" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,939) scale(1,-1)">GPN-MSA</text>
+				<rect x="96.94488188976379" y="470.03456692913386" width="68.09950070090395" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(4%,18%,51%); fill-rule: evenodd;"/>
+				<path d="M 164.961894,471.720472 L 165.119878,471.720472 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 164.961894,469.962992 L 164.961894,473.477953 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 165.119878,469.962992 L 165.119878,473.477953 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,469.396063 L 108.595255,474.044882 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="469.67952755905515" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,939) scale(1,-1)">0.902</text>
+				<text x="16.157480314960633" y="463.1952755905512" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,926) scale(1,-1)">Evo2-7B</text>
+				<rect x="96.94488188976379" y="463.55031496063" width="67.91732957053298" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(5%,48%,52%); fill-rule: evenodd;"/>
+				<path d="M 164.683156,465.23622 L 165.079438,465.23622 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 164.683156,463.47874 L 164.683156,466.993701 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 165.079438,463.47874 L 165.079438,466.993701 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,462.911811 L 108.595255,467.56063 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="463.1952755905512" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,926) scale(1,-1)">0.900</text>
+				<text x="16.157480314960633" y="456.7110236220472" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,913) scale(1,-1)">GPN-Star-M</text>
+				<rect x="96.94488188976379" y="457.066062992126" width="67.7942320693164" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(35%,30%,60%); fill-rule: evenodd;"/>
+				<path d="M 164.559884,458.751969 L 164.91888,458.751969 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 164.559884,456.994488 L 164.559884,460.509449 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 164.91888,456.994488 L 164.91888,460.509449 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.692334,456.427559 L 108.692334,461.076378 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="456.7110236220472" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,913) scale(1,-1)">0.899</text>
+				<rect x="14.173228346456694" y="449.7388582677166" width="183.30708661426772" height="5.057716535433087" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,90%,86%); fill-rule: evenodd;"/>
+				<text x="16.157480314960633" y="450.2267716535433" style="font-family: Arial-Bold; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,900) scale(1,-1)">hEVO-large</text>
+				<rect x="96.94488188976379" y="450.58181102362204" width="64.92935737667347" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(71%,36%,11%); fill-rule: evenodd;"/>
+				<path d="M 161.673863,452.267717 L 162.073647,452.267717 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 161.673863,450.510236 L 161.673863,454.025197 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 162.073647,450.510236 L 162.073647,454.025197 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,449.943307 L 108.595255,454.592126 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="450.2267716535433" style="font-family: Arial-Bold; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,900) scale(1,-1)">0.870</text>
+				<text x="16.157480314960633" y="443.7425196850394" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,887) scale(1,-1)">NTv3-650M</text>
+				<rect x="96.94488188976379" y="444.0975590551181" width="55.41881068139074" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(39%,44%,49%); fill-rule: evenodd;"/>
+				<path d="M 152.113644,445.783465 L 152.62025,445.783465 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 152.113644,444.025984 L 152.113644,447.540945 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 152.62025,444.025984 L 152.62025,447.540945 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,443.459055 L 108.595255,448.107874 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="443.7425196850394" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,887) scale(1,-1)">0.772</text>
+				<text x="16.157480314960633" y="437.25826771653544" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,874) scale(1,-1)">GENERator-3B</text>
+				<rect x="96.94488188976379" y="437.6133070866142" width="49.599135201890874" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,75%,79%); fill-rule: evenodd;"/>
+				<path d="M 146.257828,439.299213 L 146.829432,439.299213 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 146.257828,437.541732 L 146.257828,441.056693 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 146.829432,437.541732 L 146.829432,441.056693 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,436.974803 L 108.595255,441.623622 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="437.25826771653544" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,874) scale(1,-1)">0.711</text>
+				<text x="16.157480314960633" y="430.77401574803156" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,861) scale(1,-1)">AIDO.DNA-300M</text>
+				<rect x="96.94488188976379" y="431.1290551181103" width="46.833809939132124" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,75%,79%); fill-rule: evenodd;"/>
+				<path d="M 143.46525,432.814961 L 144.065284,432.814961 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 143.46525,431.05748 L 143.46525,434.572441 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 144.065284,431.05748 L 144.065284,434.572441 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,430.490551 L 108.595255,435.13937 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="430.77401574803156" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,861) scale(1,-1)">0.683</text>
+				<text x="16.157480314960633" y="424.28976377952756" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,848) scale(1,-1)">NTv2-2.5B-MS</text>
+				<rect x="96.94488188976379" y="424.6448031496063" width="42.52208297902462" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(39%,44%,49%); fill-rule: evenodd;"/>
+				<path d="M 139.10474,426.330709 L 139.833014,426.330709 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 139.10474,424.573228 L 139.10474,428.088189 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 139.833014,424.573228 L 139.833014,428.088189 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,424.006299 L 108.595255,428.655118 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="424.28976377952756" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,848) scale(1,-1)">0.639</text>
+				<text x="16.157480314960633" y="417.8055118110236" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,835) scale(1,-1)">SpeciesLM</text>
+				<rect x="96.94488188976379" y="418.16055118110233" width="35.193631017686585" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,75%,79%); fill-rule: evenodd;"/>
+				<path d="M 131.781445,419.846457 L 132.506723,419.846457 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 131.781445,418.088976 L 131.781445,421.603937 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 132.506723,418.088976 L 132.506723,421.603937 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,417.522047 L 108.595255,422.170866 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="417.8055118110236" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,835) scale(1,-1)">0.563</text>
+				<text x="16.157480314960633" y="411.3212598425197" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,822) scale(1,-1)">Genos-1.2B</text>
+				<rect x="96.94488188976379" y="411.6762992125984" width="29.959634778481217" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,75%,79%); fill-rule: evenodd;"/>
+				<path d="M 126.560753,413.362205 L 127.245904,413.362205 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 126.560753,411.604724 L 126.560753,415.119685 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 127.245904,411.604724 L 127.245904,415.119685 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,411.037795 L 108.595255,415.686614 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="411.3212598425197" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,822) scale(1,-1)">0.509</text>
+				<text x="16.157480314960633" y="404.8370078740158" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,809) scale(1,-1)">DNABERT2</text>
+				<rect x="96.94488188976379" y="405.1920472440945" width="13.085793619083645" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,75%,79%); fill-rule: evenodd;"/>
+				<path d="M 109.779006,406.877953 L 110.299664,406.877953 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 109.779006,405.120472 L 109.779006,408.635433 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 110.299664,405.120472 L 110.299664,408.635433 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,404.553543 L 108.595255,409.202362 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="404.8370078740158" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,809) scale(1,-1)">0.335</text>
+				<text x="16.157480314960633" y="398.35275590551186" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,796) scale(1,-1)">GENA-LM-large</text>
+				<rect x="96.94488188976379" y="398.70779527559057" width="12.543149105104078" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,75%,79%); fill-rule: evenodd;"/>
+				<path d="M 109.247504,400.393701 L 109.711038,400.393701 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 109.247504,398.63622 L 109.247504,402.151181 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 109.711038,398.63622 L 109.711038,402.151181 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,398.069291 L 108.595255,402.71811 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="398.35275590551186" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,796) scale(1,-1)">0.329</text>
+				<text x="16.157480314960633" y="391.86850393700786" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,783) scale(1,-1)">Caduceus-PH</text>
+				<rect x="96.94488188976379" y="392.2235433070866" width="10.995078716276382" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,75%,79%); fill-rule: evenodd;"/>
+				<path d="M 107.716304,393.909449 L 108.162284,393.909449 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 107.716304,392.151969 L 107.716304,395.666929 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.162284,392.151969 L 108.162284,395.666929 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,391.585039 L 108.595255,396.233858 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="391.86850393700786" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,783) scale(1,-1)">0.313</text>
+				<text x="16.157480314960633" y="385.38425196850403" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,770) scale(1,-1)">HyenaDNA-1K</text>
+				<rect x="96.94488188976379" y="385.73929133858275" width="10.7570183311893" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,75%,79%); fill-rule: evenodd;"/>
+				<path d="M 107.474718,387.425197 L 107.94287,387.425197 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 107.474718,385.667717 L 107.474718,389.182677 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 107.94287,385.667717 L 107.94287,389.182677 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,385.100787 L 108.595255,389.749606 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="385.38425196850403" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,770) scale(1,-1)">0.311</text>
+				<text x="16.157480314960633" y="378.90000000000003" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,757) scale(1,-1)">GROVER</text>
+				<rect x="96.94488188976379" y="379.25503937007875" width="9.883803333099365" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,75%,79%); fill-rule: evenodd;"/>
+				<path d="M 106.605178,380.940945 L 107.045488,380.940945 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 106.605178,379.183465 L 106.605178,382.698425 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 107.045488,379.183465 L 107.045488,382.698425 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,378.616535 L 108.595255,383.265354 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="378.90000000000003" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,757) scale(1,-1)">0.302</text>
+				<text x="16.157480314960633" y="372.4157480314961" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,744) scale(1,-1)">Mistral-DNA-422M</text>
+				<rect x="96.94488188976379" y="372.7707874015748" width="8.034102657945766" height="3.371811023622058" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,75%,79%); fill-rule: evenodd;"/>
+				<path d="M 104.767122,374.456693 L 105.173748,374.456693 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.62;"/>
+				<path d="M 104.767122,372.699213 L 104.767122,376.214173 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 105.173748,372.699213 L 105.173748,376.214173 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.52;"/>
+				<path d="M 108.595255,372.132283 L 108.595255,376.781102 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.58;"/>
+				<text x="180.48141455472046" y="372.4157480314961" style="font-family: Arial; font-size: 6.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,744) scale(1,-1)">0.283</text>
+				<circle cx="69.67516993730119" cy="521.4330708661417" r="3.118110236220473" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.46; fill: rgb(83%,29%,21%); fill-rule: evenodd;"/>
+				<text x="68.14575099198869" y="519.7606299212598" style="font-family: Arial-Bold; font-size: 5.5px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,1039) scale(1,-1)">1</text>
+				<text x="14.173228346456694" y="522.992125984252" style="font-family: Arial-Bold; font-size: 13.0px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1045) scale(1,-1)">c</text>
+				<text x="86.0410636842254" y="523.2755905511812" style="font-family: Arial-Bold; font-size: 6.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1046) scale(1,-1)">ClinVar variants</text>
+				<text x="76.4783195436004" y="516.4724409448819" style="font-family: Arial-Bold; font-size: 6.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1032) scale(1,-1)">pathogenic vs. benign</text>
+			</g>
+		</g>
+	</g>
+</svg>

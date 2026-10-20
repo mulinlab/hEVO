@@ -1,0 +1,25 @@
+{
+  "version": "s1_6pc_round2",
+  "pcs": 6,
+  "neighbors": 15,
+  "weights": "distance",
+  "probability": 0.8,
+  "margin": 0.3,
+  "distance_method": "population_envelope",
+  "distance_quantile": 0.999,
+  "distance_neighbors": 5,
+  "seed": 20261016,
+  "reference_n": 2791,
+  "files": {
+    "classifier.pkl": "395a25de11ebff54a7f9d67713fc7793081c06272bba37e086d3e700455a14ac",
+    "calibration_folds.tsv": "edf2819e533255001bbf4e900c15a23c89cfab36dfb4ceb5cebd8db1d37a8fc9",
+    "reference.tsv": "0a3c7315584f285d0b132e0e90e7112bdb200d2e6ee957528fb27c64cff5351f"
+  },
+  "software": {
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.7.2",
+    "pandas": "2.3.3"
+  },
+  "original_model_sha256": "438122541f8b7d00aa0342a7be77d3a6f533f5717cdb98cc471f386cbf0c09f9"
+}

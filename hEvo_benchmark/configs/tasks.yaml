@@ -1,0 +1,495 @@
+Tasks:
+- supername: NT_Pareto
+  path: ${BENCHMARK_ROOT}/datasets/NT_benchmark_v2
+  subtasks:
+  - name: H3K9ac
+    train_path: /H3K9ac/train.csv
+    test_path: /H3K9ac/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: enhancers
+    train_path: /enhancers/train.csv
+    test_path: /enhancers/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: enhancers_types
+    train_path: /enhancers_types/train.csv
+    test_path: /enhancers_types/test.csv
+    type: classification
+    classes: 3
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: H3K4me3
+    train_path: /H3K4me3/train.csv
+    test_path: /H3K4me3/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: H3K36me3
+    train_path: /H3K36me3/train.csv
+    test_path: /H3K36me3/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: H3K4me2
+    train_path: /H3K4me2/train.csv
+    test_path: /H3K4me2/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: H3K27me3
+    train_path: /H3K27me3/train.csv
+    test_path: /H3K27me3/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: splice_sites_acceptors
+    train_path: /splice_sites_acceptors/train.csv
+    test_path: /splice_sites_acceptors/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: H3K27ac
+    train_path: /H3K27ac/train.csv
+    test_path: /H3K27ac/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: promoter_all
+    train_path: /promoter_all/train.csv
+    test_path: /promoter_all/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: promoter_no_tata
+    train_path: /promoter_no_tata/train.csv
+    test_path: /promoter_no_tata/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: promoter_tata
+    train_path: /promoter_tata/train.csv
+    test_path: /promoter_tata/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: H2AFZ
+    train_path: /H2AFZ/train.csv
+    test_path: /H2AFZ/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: H4K20me1
+    train_path: /H4K20me1/train.csv
+    test_path: /H4K20me1/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: splice_sites_all
+    train_path: /splice_sites_all/train.csv
+    test_path: /splice_sites_all/test.csv
+    type: classification
+    classes: 3
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: H3K4me1
+    train_path: /H3K4me1/train.csv
+    test_path: /H3K4me1/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: splice_sites_donors
+    train_path: /splice_sites_donors/train.csv
+    test_path: /splice_sites_donors/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: H3K9me3
+    train_path: /H3K9me3/train.csv
+    test_path: /H3K9me3/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+- supername: GenomicBenchmark
+  path: ${BENCHMARK_ROOT}/datasets/GenomicBenchmark
+  subtasks:
+  - name: human_ensembl_regulatory
+    train_path: /human_ensembl_regulatory/train.csv
+    test_path: /human_ensembl_regulatory/test.csv
+    type: classification
+    classes: 3
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: human_nontata_promoters
+    train_path: /human_nontata_promoters/train.csv
+    test_path: /human_nontata_promoters/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: human_enhancers_cohn
+    train_path: /human_enhancers_cohn/train.csv
+    test_path: /human_enhancers_cohn/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: human_enhancers_ensembl
+    train_path: /human_enhancers_ensembl/train.csv
+    test_path: /human_enhancers_ensembl/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: demo_human_or_worm
+    train_path: /demo_human_or_worm/train.csv
+    test_path: /demo_human_or_worm/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: human_ocr_ensembl
+    train_path: /human_ocr_ensembl/train.csv
+    test_path: /human_ocr_ensembl/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: demo_coding_vs_intergenomic_seqs
+    train_path: /demo_coding_vs_intergenomic_seqs/train.csv
+    test_path: /demo_coding_vs_intergenomic_seqs/test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+- supername: URE_binary_classification
+  path: ${BENCHMARK_ROOT}/datasets/URE_binary_classification
+  subtasks:
+  - name: dataset_1
+    train_path: /train_dataset_1.csv
+    test_path: /test_dataset_1.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: dataset_2
+    train_path: /train_dataset_2.csv
+    test_path: /test_dataset_2.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: dataset_3
+    train_path: /train_dataset_3.csv
+    test_path: /test_dataset_3.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: dataset_4
+    train_path: /train_dataset_4.csv
+    test_path: /test_dataset_4.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: dataset_5
+    train_path: /train_dataset_5.csv
+    test_path: /test_dataset_5.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+- supername: URE_multi_classification
+  path: ${BENCHMARK_ROOT}/datasets/URE_multi_classification
+  subtasks:
+  - name: dataset_1
+    train_path: /train_dataset_1.csv
+    test_path: /test_dataset_1.csv
+    type: classification
+    classes: 5
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: dataset_2
+    train_path: /train_dataset_2.csv
+    test_path: /test_dataset_2.csv
+    type: classification
+    classes: 5
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: dataset_3
+    train_path: /train_dataset_3.csv
+    test_path: /test_dataset_3.csv
+    type: classification
+    classes: 5
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: dataset_4
+    train_path: /train_dataset_4.csv
+    test_path: /test_dataset_4.csv
+    type: classification
+    classes: 5
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: dataset_5
+    train_path: /train_dataset_5.csv
+    test_path: /test_dataset_5.csv
+    type: classification
+    classes: 5
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+- supername: ClinVar260615
+  path: ${BENCHMARK_ROOT}/datasets/newClinvar_260615
+  subtasks:
+  - name: ClinVar260615_coding
+    train_path: /clinvar_coding_1023bp.csv
+    test_path: /clinvar_coding_1023bp.csv
+    type: classification
+    seqtype: paired
+    classes: 2
+    idx_col: 0
+    ref_col: 1
+    alt_col: 2
+    label_col: 3
+    sep: ','
+  - name: ClinVar260615_noncoding
+    train_path: /clinvar_noncoding_1023bp.csv
+    test_path: /clinvar_noncoding_1023bp.csv
+    type: classification
+    seqtype: paired
+    classes: 2
+    idx_col: 0
+    ref_col: 1
+    alt_col: 2
+    label_col: 3
+    sep: ','
+  - name: ClinVar260615_all
+    train_path: /clinvar_all_1023bp.csv
+    test_path: /clinvar_all_1023bp.csv
+    type: classification
+    seqtype: paired
+    classes: 2
+    idx_col: 0
+    ref_col: 1
+    alt_col: 2
+    label_col: 3
+    sep: ','
+- supername: MPRA
+  path: ${BENCHMARK_ROOT}/datasets/MPRA
+  subtasks:
+  - name: combined_emvar_strict
+    train_path: /mpra_emvar_hg38_1023.csv
+    test_path: /mpra_emvar_hg38_1023.csv
+    type: classification
+    seqtype: paired
+    classes: 2
+    idx_col: 0
+    ref_col: 1
+    alt_col: 2
+    label_col: 3
+    sep: ','
+- supername: Causal_Variants
+  path: ${BENCHMARK_ROOT}/datasets/Causal_Variants
+  subtasks:
+  - name: Causal_Variants
+    train_path: /causal_variants_hg38_1023.csv
+    test_path: /causal_variants_hg38_1023.csv
+    type: classification
+    classes: 2
+    seqtype: paired
+    idx_col: 0
+    ref_col: 2
+    alt_col: 3
+    chrom_col: 5
+    pos_col: 6
+    label_col: 4
+    sep: ','
+- supername: Rare_Causal_Variants
+  path: ${BENCHMARK_ROOT}/datasets/Rare_Causal_Variants/rare_causal
+  subtasks:
+  - name: Rare_Causal_Variants
+    train_path: /rare_causal_ref_alt_hg38_1023.csv
+    test_path: /rare_causal_ref_alt_hg38_1023.csv
+    type: classification
+    classes: 2
+    seqtype: paired
+    idx_col: 0
+    ref_col: 1
+    alt_col: 2
+    label_col: 3
+    sep: ','
+- supername: Rare_Variants
+  path: ${BENCHMARK_ROOT}/datasets/Rare_Variants
+  subtasks:
+  - name: Rare_Variants
+    train_path: /rare_variants_ref_alt_dataset_w1023.csv
+    test_path: /rare_variants_ref_alt_dataset_w1023.csv
+    type: classification
+    classes: 2
+    seqtype: paired
+    idx_col: 0
+    ref_col: 1
+    alt_col: 2
+    label_col: 3
+    sep: ','
+- supername: Denovo_Variants
+  path: ${BENCHMARK_ROOT}/datasets/Denovo_Variants
+  subtasks:
+  - name: DDD_LoF_splice_vs_ClinVar_benign
+    train_path: /DDD_LoF_splice_vs_ClinVar_benign/ddd_public_research_vs_clinvar_benign_plof_splice_snv.csv
+    test_path: /DDD_LoF_splice_vs_ClinVar_benign/ddd_public_research_vs_clinvar_benign_plof_splice_snv.csv
+    type: classification
+    seqtype: paired
+    classes: 2
+    idx_col: 0
+    ref_col: 1
+    alt_col: 2
+    label_col: 3
+    sep: ','
+  - name: DDD_LoF_splice_vs_same_position_other_alleles
+    train_path: /DDD_LoF_splice_vs_same_position_other_alleles/ddd_public_research_plof_splice_snv_vs_same_pos_other_alt.csv
+    test_path: /DDD_LoF_splice_vs_same_position_other_alleles/ddd_public_research_plof_splice_snv_vs_same_pos_other_alt.csv
+    type: classification
+    seqtype: paired
+    classes: 2
+    idx_col: 0
+    ref_col: 1
+    alt_col: 2
+    label_col: 3
+    sep: ','
+- supername: Evolution
+  path: ${BENCHMARK_ROOT}/datasets/Evolution
+  subtasks:
+  - name: HAQER_combined_rep1
+    train_path: /HAQER_replicates/HAQER_combined_rep1_train.csv
+    test_path: /HAQER_replicates/HAQER_combined_rep1_test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: HAQER_combined_rep2
+    train_path: /HAQER_replicates/HAQER_combined_rep2_train.csv
+    test_path: /HAQER_replicates/HAQER_combined_rep2_test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: HAQER_combined_rep3
+    train_path: /HAQER_replicates/HAQER_combined_rep3_train.csv
+    test_path: /HAQER_replicates/HAQER_combined_rep3_test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: HAQER_combined_rep4
+    train_path: /HAQER_replicates/HAQER_combined_rep4_train.csv
+    test_path: /HAQER_replicates/HAQER_combined_rep4_test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: HAQER_combined_rep5
+    train_path: /HAQER_replicates/HAQER_combined_rep5_train.csv
+    test_path: /HAQER_replicates/HAQER_combined_rep5_test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: HAR_combined_rep1
+    train_path: /HAR_replicates/HAR_combined_rep1_train.csv
+    test_path: /HAR_replicates/HAR_combined_rep1_test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: HAR_combined_rep2
+    train_path: /HAR_replicates/HAR_combined_rep2_train.csv
+    test_path: /HAR_replicates/HAR_combined_rep2_test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: HAR_combined_rep3
+    train_path: /HAR_replicates/HAR_combined_rep3_train.csv
+    test_path: /HAR_replicates/HAR_combined_rep3_test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: HAR_combined_rep4
+    train_path: /HAR_replicates/HAR_combined_rep4_train.csv
+    test_path: /HAR_replicates/HAR_combined_rep4_test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','
+  - name: HAR_combined_rep5
+    train_path: /HAR_replicates/HAR_combined_rep5_train.csv
+    test_path: /HAR_replicates/HAR_combined_rep5_test.csv
+    type: classification
+    classes: 2
+    sequence_col: 1
+    label_col: 2
+    sep: ','

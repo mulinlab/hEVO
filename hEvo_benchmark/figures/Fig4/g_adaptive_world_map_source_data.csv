@@ -1,0 +1,31 @@
+region_id,region,map_lon,map_lat,variant_id,gene,target_population,benchmark_tier
+1,Europe,13,50,rs4988235,MCM6/LCT,EUR,core
+1,Europe,13,50,rs16891982,SLC45A2,EUR,core
+1,Europe,13,50,rs12913832,HERC2/OCA2,EUR,core
+1,Europe,13,50,rs1042602,TYR,EUR,core
+1,Europe,13,50,rs12821256,KITLG,Northern EUR,secondary
+1,Europe,13,50,rs12203592,IRF4,EUR,secondary
+2,Africa / Arabia,38,19,rs41380347,MCM6/LCT,Africa/Middle East,core
+2,Africa / Arabia,38,19,rs145946881,MCM6/LCT,Eastern/Southern Africa,core
+3,Sub-Saharan Africa,19,1,rs2814778,ACKR1,AFR,core
+3,Sub-Saharan Africa,19,1,rs334,HBB,AFR,secondary
+3,Sub-Saharan Africa,19,1,rs33930165,HBB,West Africa,core
+3,Sub-Saharan Africa,19,1,rs1871534,SLC39A4,Sub-Saharan Africa,secondary
+4,Tibetan Plateau,89,31,rs186996510,EGLN1,Tibetan,core
+4,Tibetan Plateau,89,31,rs12097901,EGLN1,Tibetan,secondary
+4,Tibetan Plateau,89,31,rs149594770,EPAS1,Tibetan,secondary
+5,East Asia,116,37,rs1800414,OCA2,EAS,core
+5,East Asia,116,37,rs74653330,OCA2,EAS,secondary
+5,East Asia,116,37,rs3827760,EDAR,EAS,core
+5,East Asia,116,37,rs885479,MC1R,EAS,secondary
+5,East Asia,116,37,rs17822931,ABCC11,EAS,core
+5,East Asia,116,37,rs671,ALDH2,EAS,secondary
+6,Andean highlands,-70,-16,rs10035235,PRKAA1,Andean,core
+7,Northern Eurasia,62,61,rs10166942,TRPM8,Northern Eurasia,secondary
+8,Western Eurasia,37,45,rs174546,FADS1/FADS2,West Eurasia,secondary
+8,Western Eurasia,37,45,rs5743618,TLR1,EUR/Middle East,core
+B,Broad distributions,-17,30,rs1426654,SLC24A5,EUR/SAS,core
+B,Broad distributions,-17,30,rs642742,KITLG,Eurasian,secondary
+B,Broad distributions,-17,30,rs10774671,OAS1,Eurasian,secondary
+B,Broad distributions,-17,30,rs1047626,SLC30A9,Non-African,secondary
+B,Broad distributions,-17,30,rs497116,CASP12,Near-global / non-AFR,core

@@ -1,0 +1,14 @@
+## Repository Table R25. Genomic Benchmark demo-task alignment records
+## Study: hEVO, reader-facing repository tables
+## Description: These source-export values are outside the five-task human-coordinate evaluation and the S49 ranking set. One demo task mixes human and worm sequences; the other is a coding versus intergenic task and must not be described as uniformly nonhuman.
+## Missing values: NA means unavailable or not applicable, never a zero score. Numeric values retain source precision.
+## Do not interpret these records as validated performance under the approved coordinate-mapping pipeline.
+## Column 1 | Task group | Task group for the observation defined in the table description.
+## Column 2 | Task | Task for the observation defined in the table description.
+## Column 3 | Model | Evaluated checkpoint display name, harmonized with the figures.
+## Column 4 | MCC | Matthews correlation coefficient; larger is better; range -1 to 1.
+## Column 5 | MCC lower 95% bound | Source-reported percentile interval endpoint unless the table description specifies exact binomial inference.
+## Column 6 | MCC upper 95% bound | Source-reported percentile interval endpoint unless the table description specifies exact binomial inference.
+Task group	Task	Model	MCC	MCC lower 95% bound	MCC upper 95% bound
+Human Related Tasks	demo_coding_vs_intergenomic_seqs	GPN-MSA	0.5632771010048081	0.5398128947625704	0.5852167944195286
+Human Related Tasks	demo_human_or_worm	GPN-MSA	0.5390552415312534	0.5197483112433452	0.5592753096575778

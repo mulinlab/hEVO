@@ -1,0 +1,53 @@
+category,axis,axis_label,family,best_model,metric,rank,n_eligible,canonical_roster_size,display_radius,source_tables,status
+Genomic elements,Genomic,Genomic (7),hEVO family,hEvo-large,0.6680738431349912,1.0,29,29,1.0,S18,PASS
+Genomic elements,Genomic,Genomic (7),Evo 2 family,evo2_7b_base,0.6053710555429533,7.0,29,29,0.7931034482758621,S18,PASS
+Genomic elements,Genomic,Genomic (7),NT family,NT_2.5b_MS,0.6160335247322503,4.0,29,29,0.896551724137931,S18,PASS
+Genomic elements,Genomic,Genomic (7),GPN family,GPN-promoter,0.5591476036111673,18.0,29,29,0.41379310344827586,S18,PASS
+Genomic elements,NT,NT (18),hEVO family,hEvo-base,0.5904039444444444,1.0,29,29,1.0,S17,PASS
+Genomic elements,NT,NT (18),Evo 2 family,evo2_7b_base,0.5895975,2.0,29,29,0.9655172413793104,S17,PASS
+Genomic elements,NT,NT (18),NT family,NT_2.5b_1kG,0.5460767777777777,5.0,29,29,0.8620689655172413,S17,PASS
+Genomic elements,NT,NT (18),GPN family,GPN-MSA,0.5220830778278822,10.0,29,29,0.6896551724137931,S17,PASS
+Genomic elements,URE,URE (10),hEVO family,hEvo-large,0.8443590851873854,1.0,29,29,1.0,S19;S20,PASS
+Genomic elements,URE,URE (10),Evo 2 family,evo2_7b_base,0.7247331948455062,5.0,29,29,0.8620689655172413,S19;S20,PASS
+Genomic elements,URE,URE (10),NT family,NT_2.5b_MS,0.7143786949384853,6.0,29,29,0.8275862068965517,S19;S20,PASS
+Genomic elements,URE,URE (10),GPN family,GPN-MSA,0.7581904453013868,2.0,29,29,0.9655172413793104,S19;S20,PASS
+Genomic elements,DeepSEA,DeepSEA (3),hEVO family,hEvo-large,0.8624045838460658,1.0,19,29,1.0,S21,PASS
+Genomic elements,DeepSEA,DeepSEA (3),Evo 2 family,evo2_7b_base,0.7016496926918213,15.0,19,29,0.2631578947368421,S21,PASS
+Genomic elements,DeepSEA,DeepSEA (3),NT family,NT_2.5b_MS,0.848584971947794,3.0,19,29,0.8947368421052632,S21,PASS
+Genomic elements,DeepSEA,DeepSEA (3),GPN family,GPN-promoter,0.6028050056669398,16.0,19,29,0.21052631578947367,S21,PASS
+Variant scoring,ClinVar,ClinVar (3),hEVO family,hEvo-base,0.90311663964745,1.0,28,29,1.0,S23;S24;S25,PASS
+Variant scoring,ClinVar,ClinVar (3),Evo 2 family,evo2_7b_base,0.8981513058144083,2.0,28,29,0.9642857142857143,S23;S24;S25,PASS
+Variant scoring,ClinVar,ClinVar (3),NT family,NTv3-650M-pre,0.7243713317144808,4.0,28,29,0.8928571428571429,S23;S24;S25,PASS
+Variant scoring,ClinVar,ClinVar (3),GPN family,GPN-promoter,0.5943995005945206,8.0,28,29,0.75,S23;S24;S25,PASS
+Variant scoring,De novo,De novo (2),hEVO family,hEvo-base,0.7255724479799172,1.0,28,29,1.0,S30;S31,PASS
+Variant scoring,De novo,De novo (2),Evo 2 family,evo2_7b_base,0.6862421600501338,2.0,28,29,0.9642857142857143,S30;S31,PASS
+Variant scoring,De novo,De novo (2),NT family,NTv3-650M-pre,0.660237875945232,4.0,28,29,0.8928571428571429,S30;S31,PASS
+Variant scoring,De novo,De novo (2),GPN family,GPN-promoter,0.38005648814980714,13.0,28,29,0.5714285714285714,S30;S31,PASS
+Variant scoring,GWAS causal,GWAS causal (1),hEVO family,hEvo-large,0.1690132954490836,1.0,28,29,1.0,S26,PASS
+Variant scoring,GWAS causal,GWAS causal (1),Evo 2 family,evo2_7b_base,0.1254487867919076,4.0,28,29,0.8928571428571429,S26,PASS
+Variant scoring,GWAS causal,GWAS causal (1),NT family,NT_2.5b_1kG,0.0977041087676892,15.0,28,29,0.5,S26,PASS
+Variant scoring,GWAS causal,GWAS causal (1),GPN family,GPN-MSA,0.1509386103507646,3.0,28,29,0.9285714285714286,S26,PASS
+Variant scoring,Rare variants,Rare variants (1),hEVO family,hEvo-large,0.76747436790496,1.0,28,29,1.0,S28,PASS
+Variant scoring,Rare variants,Rare variants (1),Evo 2 family,evo2_7b_base,0.7175056923135232,2.0,28,29,0.9642857142857143,S28,PASS
+Variant scoring,Rare variants,Rare variants (1),NT family,NT_2.5b_1kG,0.6671091183974394,13.0,28,29,0.5714285714285714,S28,PASS
+Variant scoring,Rare variants,Rare variants (1),GPN family,GPN-MSA,0.674198035955,7.0,28,29,0.7857142857142857,S28,PASS
+Variant scoring,MPRA,MPRA (1),hEVO family,hEvo-large,0.3253387164223057,1.0,28,29,1.0,S29,PASS
+Variant scoring,MPRA,MPRA (1),Evo 2 family,evo2_7b_base,0.276008337522066,5.0,28,29,0.8571428571428571,S29,PASS
+Variant scoring,MPRA,MPRA (1),NT family,NTv3-8M-pre,0.2742980977677628,7.0,28,29,0.7857142857142857,S29,PASS
+Variant scoring,MPRA,MPRA (1),GPN family,GPN-promoter,0.2884361355776461,3.0,28,29,0.9285714285714286,S29,PASS
+Evolution & ancestry,HAR,HAR (5),hEVO family,hEvo-large,0.8711705279905264,1.0,29,29,1.0,S37,PASS
+Evolution & ancestry,HAR,HAR (5),Evo 2 family,evo2_7b_base,0.6547528882642991,5.0,29,29,0.8620689655172413,S37,PASS
+Evolution & ancestry,HAR,HAR (5),NT family,NT_2.5b_1kG,0.62090152329107,8.0,29,29,0.7586206896551724,S37,PASS
+Evolution & ancestry,HAR,HAR (5),GPN family,GPN-MSA,0.8572790012922369,2.0,29,29,0.9655172413793104,S37,PASS
+Evolution & ancestry,HAQER,HAQER (5),hEVO family,hEvo-large,0.8425146471687848,1.0,29,29,1.0,S36,PASS
+Evolution & ancestry,HAQER,HAQER (5),Evo 2 family,evo2_7b_base,0.6774564506011008,4.0,29,29,0.896551724137931,S36,PASS
+Evolution & ancestry,HAQER,HAQER (5),NT family,NT_2.5b_1kG,0.6438015708151225,8.0,29,29,0.7586206896551724,S36,PASS
+Evolution & ancestry,HAQER,HAQER (5),GPN family,GPN-MSA,0.6172402928347529,14.0,29,29,0.5517241379310345,S36,PASS
+Evolution & ancestry,Ancestry,Ancestry (3),hEVO family,hEvo-large,0.9343613804880596,1.0,29,29,1.0,S33;S34;S35,PASS
+Evolution & ancestry,Ancestry,Ancestry (3),Evo 2 family,evo2_7b_base,0.8944323123756885,7.0,29,29,0.7931034482758621,S33;S34;S35,PASS
+Evolution & ancestry,Ancestry,Ancestry (3),NT family,NT_2.5b_1kG,0.913964763620232,3.0,29,29,0.9310344827586207,S33;S34;S35,PASS
+Evolution & ancestry,Ancestry,Ancestry (3),GPN family,GPN-MSA,0.7502111017222441,23.0,29,29,0.2413793103448276,S33;S34;S35,PASS
+Evolution & ancestry,Adaptation,Adaptation (30),hEVO family,hEvo-base,0.6666666667,1.0,28,29,1.0,S38,PASS
+Evolution & ancestry,Adaptation,Adaptation (30),Evo 2 family,evo2_1b_base,0.4333333333,15.0,28,29,0.5,S38,PASS
+Evolution & ancestry,Adaptation,Adaptation (30),NT family,NT_500m_MS,0.5333333333,3.0,28,29,0.9285714285714286,S38,PASS
+Evolution & ancestry,Adaptation,Adaptation (30),GPN family,GPN-promoter,0.4,17.0,28,29,0.42857142857142855,S38,PASS

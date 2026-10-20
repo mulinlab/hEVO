@@ -1,0 +1,22 @@
+{
+  "h3k27ac": {
+    "source": "/baotianpeng/XQY/HAR_HAQER_Finetune_Final/external_tracks/ucsc/wgEncodeBroadHistoneH1hescH3k27acStdSig.bigWig",
+    "assembly": "hg38",
+    "method": "exact BigWig mean over 32 bp target bins; missing values retained"
+  },
+  "phastcons": {
+    "source": "/baotianpeng/XQY/HAR_HAQER_Finetune_Final/external_tracks/ucsc/hg38.phastCons100way.bw",
+    "assembly": "hg38",
+    "method": "exact BigWig mean over 32 bp target bins; missing values retained"
+  },
+  "ape_divergence": {
+    "source": "/baotianpeng/XQY/HAR_HAQER_Finetune_Final/results/final_har_haqer_panel/formal_main_figure/external_track_cache/haqer.divergenceDensity.bw",
+    "assembly": "hg38",
+    "method": "exact BigWig mean over 32 bp target bins; missing values retained"
+  },
+  "ccres": {
+    "source": "/baotianpeng/XQY/HAR_HAQER_Finetune_Final/external_tracks/ucsc/encodeCcreCombined.hg38.bb",
+    "assembly": "hg38",
+    "method": "ENCODE cCRE intervals; no CAGE signal is implied"
+  }
+}

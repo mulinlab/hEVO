@@ -1,0 +1,109 @@
+table_id,condition_id,condition_label,stage,training_dataset,windowing,model_size,model_id,benchmark,task_group,dataset,metric,metric_mean,ci_lower,ci_upper,num_samples,num_positive,num_negative,baseline,seed,split
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Histone Markers,H3K9ac,MCC,0.525428,0.442171,0.583785,1004,502,502,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Regulatory Annotation,promoter_all,MCC,0.68764,0.66311,0.709244,1584,792,792,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Regulatory Annotation,enhancers,MCC,0.407208,0.374287,0.443097,3000,1453,1547,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Regulatory Annotation,promoter_no_tata,MCC,0.689388,0.659876,0.726396,1372,686,686,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Regulatory Annotation,enhancers_types,MCC,0.414417,0.366294,0.459533,3000,1332,1547,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Regulatory Annotation,promoter_tata,MCC,0.717361,0.647765,0.770707,212,106,106,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Histone Markers,H3K4me3,MCC,0.552996,0.491123,0.602423,776,388,388,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Histone Markers,H2AFZ,MCC,0.404517,0.372284,0.430207,3000,1494,1506,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Histone Markers,H3K36me3,MCC,0.524188,0.497885,0.55547,3000,1506,1494,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Histone Markers,H4K20me1,MCC,0.595492,0.554228,0.628859,2270,1135,1135,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Histone Markers,H3K4me2,MCC,0.463137,0.426151,0.48748,2138,1069,1069,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Splice Site Annotation,splice_sites_all,MCC,0.586701,0.568878,0.601783,3000,952,1029,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Histone Markers,H3K27me3,MCC,0.53297,0.495082,0.566339,3000,1493,1507,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Histone Markers,H3K4me1,MCC,0.452775,0.418408,0.479882,3000,1505,1495,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Splice Site Annotation,splice_sites_acceptors,MCC,0.594555,0.570714,0.629638,3000,1475,1525,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Splice Site Annotation,splice_sites_donors,MCC,0.61927,0.578819,0.664646,3000,1480,1520,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Histone Markers,H3K27ac,MCC,0.435947,0.407187,0.478447,1616,808,808,,40,train/test
+S41,A01,UKB_500K-NoSW-86M-StageI,Stage I,UKB_500K,NoSW,87.095M,UKB_500K-NoSW-86M,NT Benchmark,Histone Markers,H3K9me3,MCC,0.374702,0.324075,0.419795,850,425,425,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Histone Markers,H3K9ac,MCC,0.537016,0.496825,0.564647,1004,502,502,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Regulatory Annotation,promoter_all,MCC,0.723753,0.680792,0.759255,1584,792,792,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Regulatory Annotation,enhancers,MCC,0.412655,0.382391,0.435623,3000,1453,1547,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Regulatory Annotation,promoter_no_tata,MCC,0.772331,0.731692,0.816319,1372,686,686,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Regulatory Annotation,enhancers_types,MCC,0.420472,0.366788,0.469268,3000,1332,1547,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Regulatory Annotation,promoter_tata,MCC,0.695564,0.603371,0.80699,212,106,106,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Histone Markers,H3K4me3,MCC,0.584071,0.531122,0.632813,776,388,388,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Histone Markers,H2AFZ,MCC,0.410415,0.361479,0.443071,3000,1494,1506,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Histone Markers,H3K36me3,MCC,0.510259,0.477292,0.559184,3000,1506,1494,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Histone Markers,H4K20me1,MCC,0.63026,0.600969,0.660865,2270,1135,1135,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Histone Markers,H3K4me2,MCC,0.492219,0.454391,0.517592,2138,1069,1069,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Splice Site Annotation,splice_sites_all,MCC,0.580342,0.547352,0.616708,3000,952,1029,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Histone Markers,H3K27me3,MCC,0.564271,0.538047,0.595061,3000,1493,1507,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Histone Markers,H3K4me1,MCC,0.479303,0.419875,0.529001,3000,1505,1495,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Splice Site Annotation,splice_sites_acceptors,MCC,0.65518,0.613988,0.680357,3000,1475,1525,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Splice Site Annotation,splice_sites_donors,MCC,0.624359,0.596836,0.65101,3000,1480,1520,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Histone Markers,H3K27ac,MCC,0.476909,0.425144,0.506167,1616,808,808,,40,train/test
+S41,A03,UKB_500K-SW-86M-StageI,Stage I,UKB_500K,SW,87.095M,UKB_500K-SW-86M,NT Benchmark,Histone Markers,H3K9me3,MCC,0.39486,0.345985,0.473282,850,425,425,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Histone Markers,H3K9ac,MCC,0.5532,0.507679,0.598769,1004,502,502,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Regulatory Annotation,promoter_all,MCC,0.732705,0.709939,0.77811,1584,792,792,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Regulatory Annotation,enhancers,MCC,0.451235,0.382145,0.482627,3000,1453,1547,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Regulatory Annotation,promoter_no_tata,MCC,0.749419,0.719785,0.784864,1372,686,686,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Regulatory Annotation,enhancers_types,MCC,0.455779,0.441348,0.47613,3000,1332,1547,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Regulatory Annotation,promoter_tata,MCC,0.707008,0.612479,0.78723,212,106,106,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Histone Markers,H3K4me3,MCC,0.620638,0.572609,0.670245,776,388,388,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Histone Markers,H2AFZ,MCC,0.415614,0.381934,0.442951,3000,1494,1506,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Histone Markers,H3K36me3,MCC,0.511108,0.481869,0.530985,3000,1506,1494,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Histone Markers,H4K20me1,MCC,0.629166,0.605882,0.658504,2270,1135,1135,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Histone Markers,H3K4me2,MCC,0.467143,0.441499,0.508186,2138,1069,1069,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Splice Site Annotation,splice_sites_all,MCC,0.576727,0.550582,0.611363,3000,952,1029,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Histone Markers,H3K27me3,MCC,0.540163,0.514255,0.57448,3000,1493,1507,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Histone Markers,H3K4me1,MCC,0.433432,0.404578,0.466976,3000,1505,1495,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Splice Site Annotation,splice_sites_acceptors,MCC,0.65517,0.612991,0.685436,3000,1475,1525,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Splice Site Annotation,splice_sites_donors,MCC,0.676604,0.658012,0.693037,3000,1480,1520,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Histone Markers,H3K27ac,MCC,0.48818,0.451356,0.52937,1616,808,808,,40,train/test
+S41,A05,PopReduce_60K-NoSW-86M-StageI,Stage I,PopReduce_60K,NoSW,87.095M,PopReduce_60K-NoSW-86M,NT Benchmark,Histone Markers,H3K9me3,MCC,0.400663,0.345098,0.446245,850,425,425,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Histone Markers,H3K9ac,MCC,0.574591,0.521942,0.623659,1004,502,502,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Regulatory Annotation,promoter_all,MCC,0.755136,0.724279,0.786243,1584,792,792,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Regulatory Annotation,enhancers,MCC,0.49394,0.46442,0.524642,3000,1453,1547,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Regulatory Annotation,promoter_no_tata,MCC,0.767818,0.734888,0.802471,1372,686,686,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Regulatory Annotation,enhancers_types,MCC,0.474001,0.444946,0.505024,3000,1332,1547,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Regulatory Annotation,promoter_tata,MCC,0.755515,0.667999,0.839667,212,106,106,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Histone Markers,H3K4me3,MCC,0.626311,0.570648,0.682415,776,388,388,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Histone Markers,H2AFZ,MCC,0.463866,0.432986,0.494384,3000,1494,1506,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Histone Markers,H3K36me3,MCC,0.571004,0.54199,0.59949,3000,1506,1494,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Histone Markers,H4K20me1,MCC,0.647382,0.617207,0.676708,2270,1135,1135,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Histone Markers,H3K4me2,MCC,0.535848,0.498893,0.56939,2138,1069,1069,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Splice Site Annotation,splice_sites_all,MCC,0.622239,0.598456,0.645622,3000,952,1029,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Histone Markers,H3K27me3,MCC,0.575002,0.547717,0.600336,3000,1493,1507,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Histone Markers,H3K4me1,MCC,0.48852,0.459096,0.518029,3000,1505,1495,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Splice Site Annotation,splice_sites_acceptors,MCC,0.669149,0.64013,0.696576,3000,1475,1525,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Splice Site Annotation,splice_sites_donors,MCC,0.681495,0.653988,0.708213,3000,1480,1520,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Histone Markers,H3K27ac,MCC,0.49913,0.457588,0.541672,1616,808,808,,40,train/test
+S41,A07,PopReduce_60K-SW-86M-StageI,Stage I,PopReduce_60K,SW,87.095M,PopReduce_60K-SW-86M,NT Benchmark,Histone Markers,H3K9me3,MCC,0.426324,0.369494,0.483187,850,425,425,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Histone Markers,H3K9ac,MCC,0.541413,0.493915,0.603715,1004,502,502,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Regulatory Annotation,promoter_all,MCC,0.710125,0.679211,0.730083,1584,792,792,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Regulatory Annotation,enhancers,MCC,0.481176,0.447601,0.509747,3000,1453,1547,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Regulatory Annotation,promoter_no_tata,MCC,0.743853,0.71287,0.773263,1372,686,686,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Regulatory Annotation,enhancers_types,MCC,0.448319,0.421703,0.473022,3000,1332,1547,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Regulatory Annotation,promoter_tata,MCC,0.710775,0.614302,0.804094,212,106,106,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Histone Markers,H3K4me3,MCC,0.594099,0.546986,0.632729,776,388,388,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Histone Markers,H2AFZ,MCC,0.45258,0.4139,0.478602,3000,1494,1506,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Histone Markers,H3K36me3,MCC,0.514831,0.485063,0.564981,3000,1506,1494,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Histone Markers,H4K20me1,MCC,0.64975,0.615853,0.682901,2270,1135,1135,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Histone Markers,H3K4me2,MCC,0.517167,0.477562,0.555732,2138,1069,1069,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Splice Site Annotation,splice_sites_all,MCC,0.622661,0.595753,0.653082,3000,952,1029,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Histone Markers,H3K27me3,MCC,0.516405,0.490436,0.547783,3000,1493,1507,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Histone Markers,H3K4me1,MCC,0.434827,0.407347,0.462214,3000,1505,1495,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Splice Site Annotation,splice_sites_acceptors,MCC,0.614545,0.590652,0.644684,3000,1475,1525,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Splice Site Annotation,splice_sites_donors,MCC,0.612647,0.594711,0.656757,3000,1480,1520,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Histone Markers,H3K27ac,MCC,0.458975,0.422512,0.506101,1616,808,808,,40,train/test
+S41,A09,1000G_3K-NoSW-86M-StageI,Stage I,1000G_3K,NoSW,87.095M,1000G_3K-NoSW-86M,NT Benchmark,Histone Markers,H3K9me3,MCC,0.369567,0.29893,0.419097,850,425,425,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Histone Markers,H3K9ac,MCC,0.511533,0.453037,0.563246,1004,502,502,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Regulatory Annotation,promoter_all,MCC,0.723373,0.699437,0.770797,1584,792,792,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Regulatory Annotation,enhancers,MCC,0.4839,0.457708,0.514006,3000,1453,1547,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Regulatory Annotation,promoter_no_tata,MCC,0.757226,0.72773,0.781457,1372,686,686,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Regulatory Annotation,enhancers_types,MCC,0.436756,0.40596,0.462078,3000,1332,1547,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Regulatory Annotation,promoter_tata,MCC,0.737434,0.651096,0.807459,212,106,106,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Histone Markers,H3K4me3,MCC,0.618411,0.508385,0.688538,776,388,388,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Histone Markers,H2AFZ,MCC,0.453022,0.424898,0.486634,3000,1494,1506,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Histone Markers,H3K36me3,MCC,0.572319,0.526838,0.611987,3000,1506,1494,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Histone Markers,H4K20me1,MCC,0.682591,0.636868,0.720207,2270,1135,1135,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Histone Markers,H3K4me2,MCC,0.524788,0.497795,0.564482,2138,1069,1069,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Splice Site Annotation,splice_sites_all,MCC,0.608854,0.565195,0.660888,3000,952,1029,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Histone Markers,H3K27me3,MCC,0.571603,0.54152,0.59424,3000,1493,1507,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Histone Markers,H3K4me1,MCC,0.461641,0.420248,0.493705,3000,1505,1495,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Splice Site Annotation,splice_sites_acceptors,MCC,0.680494,0.656507,0.70659,3000,1475,1525,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Splice Site Annotation,splice_sites_donors,MCC,0.692597,0.66456,0.709813,3000,1480,1520,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Histone Markers,H3K27ac,MCC,0.489228,0.446804,0.541681,1616,808,808,,40,train/test
+S41,A11,1000G_3K-SW-86M-StageI,Stage I,1000G_3K,SW,87.095M,1000G_3K-SW-86M,NT Benchmark,Histone Markers,H3K9me3,MCC,0.36475,0.28428,0.44711,850,425,425,,40,train/test

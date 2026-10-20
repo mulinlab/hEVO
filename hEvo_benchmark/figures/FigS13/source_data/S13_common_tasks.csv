@@ -1,0 +1,39 @@
+task_unit
+S17:H2AFZ
+S17:H3K27ac
+S17:H3K27me3
+S17:H3K36me3
+S17:H3K4me1
+S17:H3K4me2
+S17:H3K4me3
+S17:H3K9ac
+S17:H3K9me3
+S17:H4K20me1
+S17:enhancers
+S17:enhancers_types
+S17:promoter_all
+S17:promoter_no_tata
+S17:promoter_tata
+S17:splice_sites_acceptors
+S17:splice_sites_all
+S17:splice_sites_donors
+S18:human_enhancers_cohn
+S18:human_enhancers_ensembl
+S18:human_ensembl_regulatory
+S18:human_nontata_promoters
+S18:human_ocr_ensembl
+S19:URE_dataset_1
+S19:URE_dataset_2
+S19:URE_dataset_3
+S19:URE_dataset_4
+S19:URE_dataset_5
+S20:URE_dataset_1
+S20:URE_dataset_2
+S20:URE_dataset_3
+S20:URE_dataset_4
+S20:URE_dataset_5
+S33:1000G ancestry unsupervised
+S34:1000G ancestry supervised
+S35:1000G ancestry proportion regression
+S36:v1_HAQERs_combined
+S37:v1_7_HARs_combined

@@ -1,0 +1,6 @@
+PathVars:
+  BENCHMARK_ROOT: ${CONFIG_DIR}
+ConfigFiles:
+  project: configs/project.yaml
+  models: configs/models.yaml
+  tasks: configs/tasks.yaml

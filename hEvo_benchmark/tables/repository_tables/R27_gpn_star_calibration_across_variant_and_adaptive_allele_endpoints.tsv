@@ -1,0 +1,59 @@
+## Repository Table R27. GPN-Star calibration across variant and adaptive-allele endpoints
+## Study: hEVO, reader-facing repository tables
+## Description: Matched-subset raw versus mutation-rate-calibrated sensitivity. Original endpoint IDs map through the crosswalk. Descriptive comparisons do not imply new model inference or training on clinical labels.
+## Missing values: NA means unavailable or not applicable, never a zero score. Numeric values retain source precision.
+## Column 1 | Model | Evaluated checkpoint display name, harmonized with the figures.
+## Column 2 | Original endpoint identifier | Original endpoint identifier for the observation defined in the table description.
+## Column 3 | Matched records | Matched records for the observation defined in the table description.
+## Column 4 | Positives | Positives for the observation defined in the table description.
+## Column 5 | Negatives | Negatives for the observation defined in the table description.
+## Column 6 | Raw AUPRC | Raw AUPRC for the observation defined in the table description.
+## Column 7 | Calibrated AUPRC | Calibrated AUPRC for the observation defined in the table description.
+## Column 8 | Raw AUROC | Raw AUROC for the observation defined in the table description.
+## Column 9 | Calibrated AUROC | Calibrated AUROC for the observation defined in the table description.
+## Column 10 | Raw within-position top rank | Raw within-position top rank for the observation defined in the table description.
+## Column 11 | Calibrated within-position top rank | Calibrated within-position top rank for the observation defined in the table description.
+## Column 12 | Raw selected-allele preference | Raw selected-allele preference for the observation defined in the table description.
+## Column 13 | Calibrated selected-allele preference | Calibrated selected-allele preference for the observation defined in the table description.
+## Column 14 | Calibrated preference lower bound | Calibrated preference lower bound for the observation defined in the table description.
+## Column 15 | Calibrated preference upper bound | Calibrated preference upper bound for the observation defined in the table description.
+Model	Original endpoint identifier	Matched records	Positives	Negatives	Raw AUPRC	Calibrated AUPRC	Raw AUROC	Calibrated AUROC	Raw within-position top rank	Calibrated within-position top rank	Raw selected-allele preference	Calibrated selected-allele preference	Calibrated preference lower bound	Calibrated preference upper bound
+GPN-Star-V	S23	263275.0	84550.0	178725.0	0.8809970332393713	0.8907784283295236	0.9344265240042586	0.9395791371614379	NA	NA	NA	NA	NA	NA
+GPN-Star-V	S26	10732	1117	9615	0.14721149652717166	0.1592298811887134	0.5313431015306862	0.548717941555621	NA	NA	NA	NA	NA	NA
+GPN-Star-V	S27	1101.0	426.0	675.0	0.39511045446063603	0.40831931194426613	0.4684680925056512	0.49828551556251083	NA	NA	NA	NA	NA	NA
+GPN-Star-V	S28	1992.0	1314.0	678.0	0.711876377157103	0.7078855999383633	0.5229780938654741	0.5175240096442666	NA	NA	NA	NA	NA	NA
+GPN-Star-V	S29	9998.0	2640.0	7358.0	0.2819616812418178	0.2835384738041172	0.5015645720592716	0.5222987811658306	NA	NA	NA	NA	NA	NA
+GPN-Star-V	S30	1836.0	306.0	1530.0	0.6116175884876798	0.6825280151591203	0.8559955572643	0.882241872783972	NA	NA	NA	NA	NA	NA
+GPN-Star-V	S31	918.0	306.0	612.0	0.28967650562187663	0.3042234384821809	0.4449624076210005	0.47809603144089874	0.1895424836601307	0.20588235294117646	NA	NA	NA	NA
+GPN-Star-M	S23	263275.0	84550.0	178725.0	0.8991366197964024	0.9005004049496391	0.9478561057242397	0.9498246748954975	NA	NA	NA	NA	NA	NA
+GPN-Star-M	S26	10732	1117	9615	0.15655126264215746	0.16655107843642142	0.5560888756051584	0.5665869177291711	NA	NA	NA	NA	NA	NA
+GPN-Star-M	S27	1101.0	426.0	675.0	0.43321380303064516	0.4379797026937387	0.5172004868718484	0.5384072335246044	NA	NA	NA	NA	NA	NA
+GPN-Star-M	S28	1992.0	1314.0	678.0	0.7330516075068952	0.7308290020914753	0.557935754277735	0.558532347355235	NA	NA	NA	NA	NA	NA
+GPN-Star-M	S29	9998.0	2640.0	7358.0	0.2789621396444958	0.28805702534256217	0.48765183947383595	0.5302052702891926	NA	NA	NA	NA	NA	NA
+GPN-Star-M	S30	1836.0	306.0	1530.0	0.6622251106195288	0.7198172626342435	0.865929770601051	0.8892263659276347	NA	NA	NA	NA	NA	NA
+GPN-Star-M	S31	918.0	306.0	612.0	0.3400617383027583	0.38970764634090327	0.5125165534623435	0.5724934854115938	0.2777777777777778	0.4803921568627451	NA	NA	NA	NA
+GPN-Star-P	S23	263275.0	84550.0	178725.0	0.8650316240997391	0.8648028159090859	0.9222077502951247	0.9190596585528994	NA	NA	NA	NA	NA	NA
+GPN-Star-P	S26	10732	1117	9615	0.15148005788479454	0.16397960966359076	0.5538753188444459	0.566869972918881	NA	NA	NA	NA	NA	NA
+GPN-Star-P	S27	1101.0	426.0	675.0	0.3982580306817608	0.41189792345921206	0.48761954442705613	0.505188662841245	NA	NA	NA	NA	NA	NA
+GPN-Star-P	S28	1992.0	1314.0	678.0	0.7136742433255692	0.7106744221098583	0.5355666006654005	0.526708063379175	NA	NA	NA	NA	NA	NA
+GPN-Star-P	S29	9998.0	2640.0	7358.0	0.2840325947535032	0.2925055110148174	0.48980129852479676	0.5409075979968205	NA	NA	NA	NA	NA	NA
+GPN-Star-P	S30	1836.0	306.0	1530.0	0.6324867685990484	0.6984019433770632	0.8302554573027469	0.8521551540005982	NA	NA	NA	NA	NA	NA
+GPN-Star-P	S31	918.0	306.0	612.0	0.3421695873879368	0.3789100567306058	0.5019703960015379	0.5559507027211756	0.2581699346405229	0.4084967320261438	NA	NA	NA	NA
+GPN-Star-V	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-V	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-V	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-V	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-V	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-M	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-M	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-M	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-M	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-M	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-P	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-P	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-P	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-P	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-P	S32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+GPN-Star-V	S38/S39	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.06666666667	0.1	0.02111713703	0.2652884505
+GPN-Star-M	S38/S39	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.06666666667	0.1333333333	0.03755349634	0.3072183503
+GPN-Star-P	S38/S39	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.1	0.06666666667	0.008178134461	0.2207354015

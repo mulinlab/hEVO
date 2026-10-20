@@ -1,0 +1,36 @@
+DownloadConfig:
+  MirrorHub: https://hf-mirror.com
+  UseMirror: true
+  SaveRoot: ${BENCHMARK_ROOT}
+ProjectPaths:
+  benchmark_root: ${BENCHMARK_ROOT}
+  sbatch_root: ${BENCHMARK_ROOT}/.sbatch
+  slurm_root: ${BENCHMARK_ROOT}/slurm
+  results_root: ${BENCHMARK_ROOT}/results
+  probe_runs_root: ${BENCHMARK_ROOT}/Probe_runs
+  datasets_h5_root: ${BENCHMARK_ROOT}/datasets_H5
+  datasets_emb_h5_root: ${BENCHMARK_ROOT}/datasets_emb_H5
+CliDefaults:
+  create_probe_single_seq:
+    supername: NT_Pareto
+    python_exec: micromamba -n llmbm run python
+    protocol: auto
+    sbatch_root: ${BENCHMARK_ROOT}/.sbatch
+    slurm_root: ${BENCHMARK_ROOT}/slurm
+    results_root: ${BENCHMARK_ROOT}/results
+    hdf5_root: ${BENCHMARK_ROOT}/datasets_emb_H5
+    log_root: ${BENCHMARK_ROOT}/Probe_runs
+  create_zeroshot_paired_seq:
+    python_exec: micromamba -n llmbm run python
+    evaluate_script: ${BENCHMARK_ROOT}/scripts/evaluate/zeroshot_paried_seq_input.py
+    sbatch_root: ${BENCHMARK_ROOT}/.sbatch
+    slurm_root: ${BENCHMARK_ROOT}/slurm
+    results_root: ${BENCHMARK_ROOT}/results
+    h5_root: ${BENCHMARK_ROOT}/datasets_H5
+    log_root: ${BENCHMARK_ROOT}/Probe_runs
+  create_popu_classification:
+    script_path: ${BENCHMARK_ROOT}/scripts/population_classify/extract_single_sample_emb.py
+    dataset_dir: ${BENCHMARK_ROOT}/datasets/Ancestry_Classification/jsonl_2000v_1500s_511bp
+    results_dir: ${BENCHMARK_ROOT}/results/1kg_popu_classification/2000v_1500s_511bp
+    log_dir: ${BENCHMARK_ROOT}/.sbatch/2000v_1500s_511bp
+    slurm_dir: ${BENCHMARK_ROOT}/slurm/popu_emb_2000v

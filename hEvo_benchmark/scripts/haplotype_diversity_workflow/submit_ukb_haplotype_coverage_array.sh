@@ -1,0 +1,23 @@
+#!/bin/bash
+set -euo pipefail
+
+PROJECT="${HAPDIV_PROJECT_ROOT:-<source-project-root>}"
+SCRIPT_DIR="${HAPDIV_SCRIPT_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
+PYTHON="${PYTHON:-<micromamba-root>/envs/llmbm/bin/python}"
+
+N_SHARDS="${N_SHARDS:-45}"
+CONCURRENCY="${CONCURRENCY:-160}"
+WINDOW_SIZE="${WINDOW_SIZE:-100000}"
+WINDOW_SUBSAMPLE_RATE="${WINDOW_SUBSAMPLE_RATE:-0.02}"
+MAX_SAMPLES_UKB_FULL="${MAX_SAMPLES_UKB_FULL:-2000}"
+MAX_SAMPLES_TARGET="${MAX_SAMPLES_TARGET:-2000}"
+OUT_DIR="${OUT_DIR:-${PROJECT}/results/ukb_haplotype_coverage_vcf}"
+
+TOTAL_TASKS=$((22 * N_SHARDS))
+
+mkdir -p "${PROJECT}/logs/haplotype_coverage" "${OUT_DIR}"
+
+sbatch \
+  --array="1-${TOTAL_TASKS}%${CONCURRENCY}" \
+  --export="ALL,PYTHON=${PYTHON},N_SHARDS=${N_SHARDS},WINDOW_SIZE=${WINDOW_SIZE},WINDOW_SUBSAMPLE_RATE=${WINDOW_SUBSAMPLE_RATE},MAX_SAMPLES_UKB_FULL=${MAX_SAMPLES_UKB_FULL},MAX_SAMPLES_TARGET=${MAX_SAMPLES_TARGET},OUT_DIR=${OUT_DIR}" \
+  "${SCRIPT_DIR}/run_ukb_haplotype_coverage_array.sbatch"

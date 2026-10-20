@@ -1,0 +1,26 @@
+## Repository Table R28. Cohort sources and ancestry composition
+## Description: Counts of unique final-resource individuals by source cohort and five-category ancestry.
+## Method: S1 PC classifier (calibrated kNN, 15 neighbors, first 6 PCs); all 3,188 internal Chinese cohort participants are EAS by cohort annotation.
+## Interpretation: Others combines accepted AMR/MID/OCE and rejected predictions. Model probabilities are not ancestry proportions.
+## Source: Same sample assignments as S2 and cohort totals as S4.
+## Column 1 | Source cohort | Source cohort; All is the entire final resource.
+## Column 2 | Individuals | Number of unique individuals.
+## Column 3 | EUR | Number assigned to the EUR display category.
+## Column 4 | AFR | Number assigned to the AFR display category.
+## Column 5 | EAS | Number assigned to the EAS display category.
+## Column 6 | SAS | Number assigned to the SAS display category.
+## Column 7 | Others | Number assigned to the Others display category.
+## Column 8 | Others AMR | Accepted AMR underlying class, displayed as Others.
+## Column 9 | Others MID | Accepted MID underlying class, displayed as Others.
+## Column 10 | Others OCE | Accepted OCE underlying class, displayed as Others.
+## Column 11 | Others rejected | Rejected by model confidence, distance or input quality criteria; displayed as Others.
+Source cohort	Individuals	EUR	AFR	EAS	SAS	Others	Others AMR	Others MID	Others OCE	Others rejected
+All	63809	12723	22901	10636	12075	5474	1166	1659	29	2620
+AFR	655	7	535	0	1	112	57	0	0	55
+HGDP	929	155	104	223	194	253	61	161	28	3
+1k genome	3202	633	892	585	601	491	474	0	0	17
+EAS	3188	0	0	3188	0	0	0	0	0	0
+UK10K	3781	3740	0	2	10	29	2	16	0	11
+SG10K	4810	0	0	3551	1120	139	0	0	1	138
+TOPMed	21310	6559	13057	620	3	1071	140	324	0	607
+UKB	25934	1629	8313	2467	10146	3379	432	1158	0	1789

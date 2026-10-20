@@ -1,0 +1,35 @@
+model_id,display_model,plot_label,family,model_type,summary_status,n_loci,accuracy,accuracy_ci_low,accuracy_ci_high,finite_selected_other_pairs,ch_index,ch_status,score_definition
+hEvo-base,hEVO-base,hEVO-base,hEVO,masked,PASS,30,0.6666666667,0.4718799552,0.8271257785,30,1.9013785385165414,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+hEvo-open-base,hEVO-base-o,hEVO-base-o,hEVO,masked,PASS,30,0.6666666667,0.4718799552,0.8271257785,30,0.12717245750823503,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+Mistral-DNA-17M,Mistral-DNA-17M,Mistral-DNA-17M,Other,causal,PASS,30,0.5666666667,0.3742734506,0.7453924501,30,5.152068107199669e-05,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+Mistral-DNA-422M,Mistral-DNA-422M,Mistral-DNA-422M,Other,causal,PASS,30,0.5333333333,0.3432552382,0.7165819208,30,1.5369179152115084e-05,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+NT_500m_MS,NTv2-500M-MS,NTv2-500M-MS,NT,masked,PASS,30,0.5333333333,0.3432552382,0.7165819208,30,0.0016184337507499818,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+Caduceus-PS,Caduceus-PS,Caduceus-PS,Other,masked,PASS,30,0.5,0.3129702859,0.6870297141,30,0.0034385170466296106,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+HyenaDNA_tiny_1k,HyenaDNA-1K,HyenaDNA-1K,Other,causal,PASS,30,0.5,0.3129702859,0.6870297141,30,4.051850274519084e-06,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+Mistral-DNA-138M,Mistral-DNA-138M,Mistral-DNA-138M,Other,causal,PASS,30,0.5,0.3129702859,0.6870297141,30,0.0005918817848104669,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+hEvo-large,hEVO-large,hEVO-large,hEVO,masked,PASS,30,0.5,0.3129702859,0.6870297141,30,0.29073096401994986,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+Caduceus-PH,Caduceus-PH,Caduceus-PH,Other,masked,PASS,30,0.4666666667,0.2834180792,0.6567447618,30,3.465208913962844e-05,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+GENA-LM-base,GENA-LM-base,GENA-LM-base,Other,masked,PASS,30,0.4666666667,0.2834180792,0.6567447618,30,0.004691792654594364,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+GENA-LM-large,GENA-LM-large,GENA-LM-large,Other,masked,PASS,30,0.4666666667,0.2834180792,0.6567447618,30,0.004315444415208622,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+GROVER,GROVER,GROVER,Other,masked,PASS,30,0.4666666667,0.2834180792,0.6567447618,30,0.0011401220468827368,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+NT_2.5b_1kG,NTv2-2.5B-1kG,NTv2-2.5B-1kG,NT,masked,PASS,30,0.4666666667,0.2834180792,0.6567447618,30,0.14713616869474952,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+NT_2.5b_MS,NTv2-2.5B-MS,NTv2-2.5B-MS,NT,masked,PASS,30,0.4666666667,0.2834180792,0.6567447618,30,0.06293030652011739,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+DNABERT2,DNABERT2,DNABERT2,Other,masked,PASS,30,0.4333333333,0.2546075499,0.6257265494,30,0.02805949812189394,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+evo2_1b_base,Evo2-1B,Evo2-1B,Evo 2,causal,PASS,30,0.4333333333,0.2546075499,0.6257265494,30,0.0001565016697407863,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+hEvo-open-large,hEVO-large-o,hEVO-large-o,hEVO,masked,PASS,30,0.4333333333,0.2546075499,0.6257265494,30,7.595241042776063,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+AIDO.DNA-300M,AIDO.DNA-300M,AIDO.DNA-300M,Other,masked,PASS,30,0.4,0.2265576488,0.5939650699,30,1.1470340914189074,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+GENERator-1.2B,GENERator-1.2B,GENERator-1.2B,Other,causal,PASS,30,0.4,0.2265576488,0.5939650699,30,0.0016605178779705086,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+GPN-promoter,GPN-Promoter,GPN-Promoter,GPN,masked,PASS,30,0.4,0.2265576488,0.5939650699,30,4.657954809417761,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+NT_500m_1kG,NTv2-500M-1kG,NTv2-500M-1kG,NT,masked,PASS,30,0.4,0.2265576488,0.5939650699,30,0.08220613506505461,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+NTv3-100M-pre,NTv3-100M,NTv3-100M,NT,masked,PASS,30,0.4,0.2265576488,0.5939650699,30,0.0019801604187811035,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+NTv3-8M-pre,NTv3-8M,NTv3-8M,NT,masked,PASS,30,0.4,0.2265576488,0.5939650699,30,0.3416047548884128,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+SpeciesLM,SpeciesLM,SpeciesLM,Other,masked,PASS,30,0.4,0.2265576488,0.5939650699,30,0.33907413292723443,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+NTv3-650M-pre,NTv3-650M,NTv3-650M,NT,masked,PASS,30,0.3666666667,0.199298625,0.561440151,30,3.7175379496062257,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+GENERator-3B,GENERator-3B,GENERator-3B,Other,causal,PASS,30,0.2666666667,0.1227948099,0.4588936514,30,0.010627562529918543,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+evo2_7b_base,Evo2-7B,Evo2-7B,Evo 2,causal,PASS,30,0.2666666667,0.1227948099,0.4588936514,30,0.005716412200903521,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+Genos-1.2B,Genos-1.2B,Genos-1.2B,Other,causal,PASS,30,0.2,0.077135512,0.385666511,30,0.5618426356178107,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+GPN-Star-P,GPN-Star-P,GPN-Star-P,GPN,masked,PASS,30,0.1,0.02111713703,0.2652884505,30,90.52835724143621,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+GPN-MSA,GPN-MSA,GPN-MSA,GPN,masked,PASS,30,0.06666666667,0.008178134461,0.2207354015,30,65.4326602140655,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+GPN-Star-M,GPN-Star-M,GPN-Star-M,GPN,masked,PASS,30,0.06666666667,0.008178134461,0.2207354015,30,93.1379298558335,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+GPN-Star-V,GPN-Star-V,GPN-Star-V,GPN,masked,PASS,30,0.06666666667,0.008178134461,0.2207354015,30,68.89213248358719,PASS,Calinski-Harabasz on 30 selected and 30 other raw logprob values
+DNABERT,DNABERT,DNABERT,Other,masked,BLOCKED,,,,,0,,NA,Calinski-Harabasz on 30 selected and 30 other raw logprob values

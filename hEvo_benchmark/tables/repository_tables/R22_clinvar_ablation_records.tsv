@@ -1,0 +1,91 @@
+## Repository Table R22. ClinVar training ablation estimates and intervals
+## Study: hEVO, reader-facing repository table release
+## Description: Estimates, confidence-interval endpoints and scored sample counts synchronized from the current S42 source table. The existing all/coding/noncoding source records are retained; manuscript overall ablation uses subset all.
+## Source: S42_effects_of_corpus_windowing_and_allelic_refinement_on_clinvar_scoring.csv
+## Source SHA256: 9ceafcefbf500a1b2a607701eaac646342b993919c0b849175e32d7ce9acd11e
+## Missing values: NA means unavailable or not applicable. Source precision is retained.
+## Column 1 | Corpus | Training corpus used for this configuration.
+## Column 2 | Window sampling | NoSW denotes nonoverlapping windows; SW denotes sliding windows.
+## Column 3 | Stage | Pretraining (Stage I) or allelic refinement (Stage II).
+## Column 4 | ClinVar subset | Retained S42 source stratum: all, coding or noncoding.
+## Column 5 | Metric | AUROC or average precision (source label AUPRC).
+## Column 6 | Estimate | Source metric_mean value, copied without rounding.
+## Column 7 | CI lower | Lower confidence-interval endpoint from S42 ci_lower.
+## Column 8 | CI upper | Upper confidence-interval endpoint from S42 ci_upper.
+## Column 9 | Scored N | Number of scored variants recorded in S42 num_samples.
+## Column 10 | Positive N | Number of positive scored variants recorded in S42 num_positive.
+## Column 11 | Negative N | Number of negative scored variants recorded in S42 num_negative.
+## Column 12 | Evaluation seed | Seed recorded in S42; bootstrap resample count is specified by the original run records.
+Corpus	Window sampling	Stage	ClinVar subset	Metric	Estimate	CI lower	CI upper	Scored N	Positive N	Negative N	Evaluation seed
+UK Biobank full cohort	NoSW	Stage I	all	AUROC	0.535926	0.53348	0.538426	264192	84580	179612	42
+UK Biobank full cohort	NoSW	Stage I	all	AUPRC	0.345737	0.343258	0.34819	264192	84580	179612	42
+UK Biobank full cohort	NoSW	Stage I	coding	AUROC	0.550689	0.547105	0.55425	144285	70787	73498	42
+UK Biobank full cohort	NoSW	Stage I	coding	AUPRC	0.530745	0.526415	0.535171	144285	70787	73498	42
+UK Biobank full cohort	NoSW	Stage I	noncoding	AUROC	0.54537	0.544238	0.546539	119907	13793	106114	42
+UK Biobank full cohort	NoSW	Stage I	noncoding	AUPRC	0.135105	0.133705	0.136594	119907	13793	106114	42
+UK Biobank full cohort	NoSW	Stage II	all	AUROC	0.850937	0.849405	0.852378	264192	84580	179612	42
+UK Biobank full cohort	NoSW	Stage II	all	AUPRC	0.785519	0.78053	0.79041	264192	84580	179612	42
+UK Biobank full cohort	NoSW	Stage II	coding	AUROC	0.840008	0.837461	0.842532	144285	70787	73498	42
+UK Biobank full cohort	NoSW	Stage II	coding	AUPRC	0.815524	0.810557	0.820398	144285	70787	73498	42
+UK Biobank full cohort	NoSW	Stage II	noncoding	AUROC	0.865078	0.863991	0.866105	119907	13793	106114	42
+UK Biobank full cohort	NoSW	Stage II	noncoding	AUPRC	0.745566	0.742061	0.749015	119907	13793	106114	42
+UK Biobank full cohort	SW	Stage I	all	AUROC	0.575661	0.572287	0.579001	264192	84580	179612	42
+UK Biobank full cohort	SW	Stage I	all	AUPRC	0.375745	0.37146	0.380009	264192	84580	179612	42
+UK Biobank full cohort	SW	Stage I	coding	AUROC	0.570532	0.569349	0.571665	144285	70787	73498	42
+UK Biobank full cohort	SW	Stage I	coding	AUPRC	0.55004	0.548092	0.552032	144285	70787	73498	42
+UK Biobank full cohort	SW	Stage I	noncoding	AUROC	0.580067	0.577854	0.582337	119907	13793	106114	42
+UK Biobank full cohort	SW	Stage I	noncoding	AUPRC	0.150962	0.148694	0.15327	119907	13793	106114	42
+UK Biobank full cohort	SW	Stage II	all	AUROC	0.87575	0.87211	0.879292	264192	84580	179612	42
+UK Biobank full cohort	SW	Stage II	all	AUPRC	0.815704	0.812692	0.818743	264192	84580	179612	42
+UK Biobank full cohort	SW	Stage II	coding	AUROC	0.86562	0.862022	0.869289	144285	70787	73498	42
+UK Biobank full cohort	SW	Stage II	coding	AUPRC	0.84547	0.84442	0.846571	144285	70787	73498	42
+UK Biobank full cohort	SW	Stage II	noncoding	AUROC	0.892687	0.889437	0.895984	119907	13793	106114	42
+UK Biobank full cohort	SW	Stage II	noncoding	AUPRC	0.780425	0.777774	0.782983	119907	13793	106114	42
+Representative human corpus	NoSW	Stage I	all	AUROC	0.605874	0.60109	0.61061	264192	84580	179612	42
+Representative human corpus	NoSW	Stage I	all	AUPRC	0.410909	0.406556	0.415334	264192	84580	179612	42
+Representative human corpus	NoSW	Stage I	coding	AUROC	0.610705	0.607341	0.614136	144285	70787	73498	42
+Representative human corpus	NoSW	Stage I	coding	AUPRC	0.585062	0.583157	0.586911	144285	70787	73498	42
+Representative human corpus	NoSW	Stage I	noncoding	AUROC	0.615528	0.613171	0.617806	119907	13793	106114	42
+Representative human corpus	NoSW	Stage I	noncoding	AUPRC	0.165613	0.164496	0.166659	119907	13793	106114	42
+Representative human corpus	NoSW	Stage II	all	AUROC	0.895222	0.891922	0.898492	264192	84580	179612	42
+Representative human corpus	NoSW	Stage II	all	AUPRC	0.840156	0.838915	0.841354	264192	84580	179612	42
+Representative human corpus	NoSW	Stage II	coding	AUROC	0.885883	0.88329	0.888543	144285	70787	73498	42
+Representative human corpus	NoSW	Stage II	coding	AUPRC	0.870547	0.868097	0.873053	144285	70787	73498	42
+Representative human corpus	NoSW	Stage II	noncoding	AUROC	0.910535	0.908905	0.912222	119907	13793	106114	42
+Representative human corpus	NoSW	Stage II	noncoding	AUPRC	0.805913	0.804313	0.807601	119907	13793	106114	42
+Representative human corpus	SW	Stage I	all	AUROC	0.655111	0.653575	0.656711	264192	84580	179612	42
+Representative human corpus	SW	Stage I	all	AUPRC	0.470554	0.468481	0.472668	264192	84580	179612	42
+Representative human corpus	SW	Stage I	coding	AUROC	0.645685	0.643953	0.647453	144285	70787	73498	42
+Representative human corpus	SW	Stage I	coding	AUPRC	0.625871	0.623004	0.628801	144285	70787	73498	42
+Representative human corpus	SW	Stage I	noncoding	AUROC	0.66021	0.658078	0.662415	119907	13793	106114	42
+Representative human corpus	SW	Stage I	noncoding	AUPRC	0.205397	0.203375	0.207492	119907	13793	106114	42
+Representative human corpus	SW	Stage II	all	AUROC	0.940537	0.939595	0.941503	264192	84580	179612	42
+Representative human corpus	SW	Stage II	all	AUPRC	0.903811	0.902285	0.905377	264192	84580	179612	42
+Representative human corpus	SW	Stage II	coding	AUROC	0.920833	0.919497	0.922205	144285	70787	73498	42
+Representative human corpus	SW	Stage II	coding	AUPRC	0.923199	0.921649	0.924661	144285	70787	73498	42
+Representative human corpus	SW	Stage II	noncoding	AUROC	0.960449	0.958374	0.962429	119907	13793	106114	42
+Representative human corpus	SW	Stage II	noncoding	AUPRC	0.882339	0.878115	0.886975	119907	13793	106114	42
+1000 Genomes Project	NoSW	Stage I	all	AUROC	0.545176	0.542691	0.547711	264192	84580	179612	42
+1000 Genomes Project	NoSW	Stage I	all	AUPRC	0.350297	0.346286	0.354223	264192	84580	179612	42
+1000 Genomes Project	NoSW	Stage I	coding	AUROC	0.550961	0.547663	0.554182	144285	70787	73498	42
+1000 Genomes Project	NoSW	Stage I	coding	AUPRC	0.525263	0.522497	0.528077	144285	70787	73498	42
+1000 Genomes Project	NoSW	Stage I	noncoding	AUROC	0.550975	0.54862	0.553386	119907	13793	106114	42
+1000 Genomes Project	NoSW	Stage I	noncoding	AUPRC	0.132319	0.128888	0.135849	119907	13793	106114	42
+1000 Genomes Project	NoSW	Stage II	all	AUROC	0.840104	0.838781	0.841406	264192	84580	179612	42
+1000 Genomes Project	NoSW	Stage II	all	AUPRC	0.775401	0.77106	0.779661	264192	84580	179612	42
+1000 Genomes Project	NoSW	Stage II	coding	AUROC	0.832649	0.828333	0.836996	144285	70787	73498	42
+1000 Genomes Project	NoSW	Stage II	coding	AUPRC	0.805377	0.803052	0.807658	144285	70787	73498	42
+1000 Genomes Project	NoSW	Stage II	noncoding	AUROC	0.855944	0.852215	0.859624	119907	13793	106114	42
+1000 Genomes Project	NoSW	Stage II	noncoding	AUPRC	0.735837	0.73143	0.740309	119907	13793	106114	42
+1000 Genomes Project	SW	Stage I	all	AUROC	0.565066	0.561253	0.568804	264192	84580	179612	42
+1000 Genomes Project	SW	Stage I	all	AUPRC	0.365118	0.36137	0.368959	264192	84580	179612	42
+1000 Genomes Project	SW	Stage I	coding	AUROC	0.575122	0.572795	0.577427	144285	70787	73498	42
+1000 Genomes Project	SW	Stage I	coding	AUPRC	0.545422	0.541968	0.548903	144285	70787	73498	42
+1000 Genomes Project	SW	Stage I	noncoding	AUROC	0.58532	0.582136	0.58847	119907	13793	106114	42
+1000 Genomes Project	SW	Stage I	noncoding	AUPRC	0.14851	0.143601	0.15334	119907	13793	106114	42
+1000 Genomes Project	SW	Stage II	all	AUROC	0.865211	0.861957	0.868427	264192	84580	179612	42
+1000 Genomes Project	SW	Stage II	all	AUPRC	0.80525	0.803858	0.806708	264192	84580	179612	42
+1000 Genomes Project	SW	Stage II	coding	AUROC	0.858072	0.854618	0.86148	144285	70787	73498	42
+1000 Genomes Project	SW	Stage II	coding	AUPRC	0.83877	0.833872	0.843697	144285	70787	73498	42
+1000 Genomes Project	SW	Stage II	noncoding	AUROC	0.885321	0.883178	0.887423	119907	13793	106114	42
+1000 Genomes Project	SW	Stage II	noncoding	AUPRC	0.770287	0.766662	0.773953	119907	13793	106114	42

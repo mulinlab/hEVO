@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#SBATCH --job-name=ds-gpnm-mapqc
+#SBATCH --partition=cpuPartition
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=24G
+#SBATCH --time=01:00:00
+set -euo pipefail
+HPC_HOME="${HPC_HOME:-${HOME}}"
+REPO="${HEVO_REPO_ROOT:-$(git -C "$(dirname "${BASH_SOURCE[0]}")" rev-parse --show-toplevel)}"
+DNAMODELS_BENCHMARK_ROOT="${DNAMODELS_BENCHMARK_ROOT:-${HPC_HOME}/DNAModelsBenchmark}"
+PYTHON="${LLMBM_PYTHON:-${HPC_HOME}/micromamba/envs/llmbm/bin/python}"
+CODE="${REPO}/hEvo_benchmark/scripts/DeepSEA_lora/map_deepsea_to_hg38.py"
+DATA="${DEEPSEA_DATA_ROOT:-${HPC_HOME}/hEvo/dataset/deepsea}"
+ROOT="${GPN_DEEPSEA_COORDINATE_ROOT:-${DNAMODELS_BENCHMARK_ROOT}/runs/deepsea_gpn_star_m_v1/coordinates}"
+exec "$PYTHON" "$CODE" summarize --dataset-root "$DATA" --output-dir "$ROOT" --shard-count 12

@@ -1,0 +1,25 @@
+table_id,id,dataset,panel,class,allele_frequency,vertical_coordinate,range_low,range_high,range_status,placement_confidence,placement_basis
+S22,1,ClinVar,a,positive,0.0005,-0.82,1e-06,0.01,inferred,moderate,Clinical pathogenicity/benignity; AF and review status absent locally.
+S22,1,ClinVar,a,negative,0.03,0.02,,,not_drawn,moderate,Clinical pathogenicity/benignity; AF and review status absent locally.
+S22,1,ClinVar,b,positive,0.0005,0.88,1e-06,0.01,inferred,moderate,Clinical pathogenicity/benignity; AF and review status absent locally.
+S22,1,ClinVar,b,negative,0.03,0.09,,,not_drawn,moderate,Clinical pathogenicity/benignity; AF and review status absent locally.
+S22,2,CAUSALdb GWAS,a,positive,0.01575,-0.16,7.54e-06,0.4986,observed,high for frequency; moderate for phenotype effect,Observed MAF and statistical fine-mapping/effect thresholds; not a common-only set.
+S22,2,CAUSALdb GWAS,a,negative,0.1273,0.02,,,not_drawn,high for frequency; moderate for phenotype effect,Observed MAF and statistical fine-mapping/effect thresholds; not a common-only set.
+S22,2,CAUSALdb GWAS,b,positive,0.01575,0.49,7.54e-06,0.4986,observed,high for frequency; moderate for phenotype effect,Observed MAF and statistical fine-mapping/effect thresholds; not a common-only set.
+S22,2,CAUSALdb GWAS,b,negative,0.1273,0.09,,,not_drawn,high for frequency; moderate for phenotype effect,Observed MAF and statistical fine-mapping/effect thresholds; not a common-only set.
+S22,3,CAUSALdb rare,a,positive,0.0019,-0.38,6.56e-06,0.0099,observed,high for frequency; moderate for phenotype effect,Observed AF<1% plus statistical causal-probability/effect contrast.
+S22,3,CAUSALdb rare,a,negative,0.0008,0.04,,,not_drawn,high for frequency; moderate for phenotype effect,Observed AF<1% plus statistical causal-probability/effect contrast.
+S22,3,CAUSALdb rare,b,positive,0.0019,0.65,6.56e-06,0.0099,observed,high for frequency; moderate for phenotype effect,Observed AF<1% plus statistical causal-probability/effect contrast.
+S22,3,CAUSALdb rare,b,negative,0.0008,0.12,,,not_drawn,high for frequency; moderate for phenotype effect,Observed AF<1% plus statistical causal-probability/effect contrast.
+S22,4,MPRA,a,positive,0.07,0.16,0.005,0.5,inferred,moderate for frequency; low for disease effect,Molecular allelic activity is measured; organismal fitness and disease effect are not.
+S22,4,MPRA,a,negative,0.08,0.02,,,not_drawn,moderate for frequency; low for disease effect,Molecular allelic activity is measured; organismal fitness and disease effect are not.
+S22,4,MPRA,b,positive,0.07,0.29,0.005,0.5,inferred,moderate for frequency; low for disease effect,Molecular allelic activity is measured; organismal fitness and disease effect are not.
+S22,4,MPRA,b,negative,0.08,0.09,,,not_drawn,moderate for frequency; low for disease effect,Molecular allelic activity is measured; organismal fitness and disease effect are not.
+S22,5,UKB rare,a,positive,0.0003,-0.6,1e-06,0.01,inferred,low-to-moderate,Rare/disease-positive naming; positive AF/effect metadata and source linkage absent locally.
+S22,5,UKB rare,a,negative,0.0008,-0.03,,,not_drawn,low-to-moderate,Rare/disease-positive naming; positive AF/effect metadata and source linkage absent locally.
+S22,5,UKB rare,b,positive,0.0003,0.78,1e-06,0.01,inferred,low-to-moderate,Rare/disease-positive naming; positive AF/effect metadata and source linkage absent locally.
+S22,5,UKB rare,b,negative,0.0008,0.14,,,not_drawn,low-to-moderate,Rare/disease-positive naming; positive AF/effect metadata and source linkage absent locally.
+S22,6,DDD de novo,a,positive,1.2e-06,-0.94,1e-06,3e-06,inferred,high for de novo frequency; moderate for phenotype effect,Confirmed de novo status and severe predicted consequence; DECIPHER public endpoint lacks clinical P/LP labels.
+S22,6,DDD de novo,a,negative,0.01,0.06,,,not_drawn,high for de novo frequency; moderate for phenotype effect,Confirmed de novo status and severe predicted consequence; DECIPHER public endpoint lacks clinical P/LP labels.
+S22,6,DDD de novo,b,positive,1.2e-06,0.95,1e-06,3e-06,inferred,high for de novo frequency; moderate for phenotype effect,Confirmed de novo status and severe predicted consequence; DECIPHER public endpoint lacks clinical P/LP labels.
+S22,6,DDD de novo,b,negative,0.01,0.11,,,not_drawn,high for de novo frequency; moderate for phenotype effect,Confirmed de novo status and severe predicted consequence; DECIPHER public endpoint lacks clinical P/LP labels.

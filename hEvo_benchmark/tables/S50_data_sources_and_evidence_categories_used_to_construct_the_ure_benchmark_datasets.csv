@@ -1,0 +1,48 @@
+Evidence category,Reference,URL
+MPRA,High-throughput functional testing of ENCODE segmentation predictions,
+MPRA,High-throughput functional analysis of lncRNA core promoters elucidates rules governing tissue specificity,
+MPRA,Functional dissection of complex and molecular trait variants at single nucleotide resolution,
+MPRA,Multiple causal variants underlie genetic associations in humans,
+MPRA,Transcriptomic signatures across human tissues identify functional rare genetic variation,
+MPRA,Genome-wide functional screen of 3ʹUTR variants uncovers causal variants for human disease and evolution,
+MPRA,Global discovery of lupus genetic risk variant allelic enhancer activity,
+MPRA,Prioritization of autoimmune disease-associated genetic variants that perturb regulatory element activity in T cells,
+MPRA,A screen of 1049 schizophrenia and 30 Alzheimer's-associated variants for regulatory potential,
+MPRA,Direct Identification of Hundreds of Expression- Modulating Variants using a Multiplexed Reporter Assay,
+MPRA,High-resolution genome-wide functional dissection of transcriptional regulatory regions and nucleotides in human,
+MPRA,Systematic Functional Dissection of Common Genetic Variation Affecting Red Blood Cell Traits,
+MPRA,Genome-scale high-resolution mapping of activating and repressive nucleotides in regulatory regions,
+MPRA,A massively parallel reporter assay dissects the influence of chromatin structure on cis-regulatory activity,
+MPRA,Promoter-distal RNA polymerase II binding discriminates active from inactive CCAAT/ enhancer-binding protein beta binding sites,
+MPRA,Saturation mutagenesis of twenty disease-associated regulatory elements at single base-pair resolution,
+MPRA,Candidate silencer elements for the human and mouse genomes,
+CRISPR,Coupled Single-Cell CRISPR Screening and Epigenomic Profiling Reveals Causal Gene Regulatory Networks,
+CRISPR,Global Analysis of Enhancer Targets Reveals Convergent Enhancer-Driven Regulatory Modules,
+CRISPR,A multiplexed single-cell CRISPR screening platform enables systematic dissection of the unfolded protein response,
+CRISPR,Pooled CRISPR screening with single-cell transcriptome readout,
+CRISPR,Multimodal pooled Perturb-CITE-seq screens in patient models define mechanisms of cancer immune evasion,
+CRISPR,Perturb-Seq: Dissecting Molecular Circuits with Scalable Single-Cell RNA Profiling of Pooled Genetic Screens,
+CRISPR,A Genome-wide Framework for Mapping Gene Regulation via Cellular Genetic Screens,
+CRISPR,Profiling the genetic determinants of chromatin accessibility with scalable single-cell CRISPR screens,
+CRISPR,"Scalable, multimodal profiling of chromatin accessibility, gene expression and protein levels in single cells",
+CRISPR,Exploring genetic interaction manifolds constructed from rich single-cell phenotypes,
+CRISPR,Characterizing the molecular regulation of inhibitory immune checkpoints with multimodal single-cell screens,
+CRISPR,High-throughput single-cell chromatin accessibility CRISPR screens enable unbiased identification of regulatory networks in cancer,
+CRISPR,Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq,
+CRISPR,Targeted Perturb-seq enables genome-scale genetic screens in single cells,
+CRISPR,Genome-wide CRISPR Screens in Primary Human T Cells Reveal Key Regulators of Immune Function,
+CRISPR,Multiplexed engineering and analysis of endogenous enhancer activity in single cells,
+Evolution,Identification of constrained sequence elements across 239 primate genomes,
+Evolution,Adaptive sequence divergence forged new neurodevelopmental enhancers in humans,
+Evolution,Ultraconserved Enhancers Are Required for Normal Development,
+Evolution,Evolutionary constraint and innovation across hundreds of placental mammals,
+Evolution,Leveraging base-pair mammalian constraint to understand genetic variation and human disease,
+Evolution,Mutations in Human Accelerated Regions Disrupt Cognition and Social Behavior,
+eQTL,GTEx Consortium. The GTEx Consortium atlas of genetic regulatory effects across human tissues,https://www.gtexportal.org/home/
+eQTL,"eQTL Catalogue 2023: New datasets, X chromosome QTLs, and improved detection and visualisation of transcript-level QTLs",https://www.ebi.ac.uk/eqtl/
+eQTL,An encyclopedia of enhancer-gene regulatory interactions in the human genome,
+epigenomic annotation,Regulatory genomic circuitry of human disease loci by integrative epigenomics,https://compbio.mit.edu/epimap/
+epigenomic annotation,The NIH Roadmap Epigenomics Mapping Consortium,https://www.ncbi.nlm.nih.gov/geo/roadmap/epigenomics/
+epigenomic annotation,Expanded encyclopaedias of DNA elements in the human and mouse genomes,https://www.encodeproject.org/
+MNase / nucleosome,NucMap 2.0: An updated database of genome-wide nucleosome positioning maps across species,https://ngdc.cncb.ac.cn/nucmap/
+Candidate Enhancers,Expanded encyclopaedias of DNA elements in the human and mouse genomes,https://screen.wenglab.org/downloads

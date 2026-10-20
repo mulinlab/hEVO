@@ -1,0 +1,17 @@
+## Repository Table R12. Conceptual placement of variant benchmarks
+## Study: hEVO, reader-facing repository tables
+## Description: Biological definitions underlying the six conceptual benchmark placements. The approved figure uses frequency categories, not measured frequencies for every group. Actual input counts and sampling definitions are in Supplementary Table S9.
+## Missing values: NA means unavailable or not applicable, never a zero score. Numeric values retain source precision.
+## Source: Supplementary Table S22.
+## Column 1 | Benchmark | Benchmark for the observation defined in the table description.
+## Column 2 | Primary evidence | Primary evidence for the observation defined in the table description.
+## Column 3 | Positive group | Positive group for the observation defined in the table description.
+## Column 4 | Comparison group | Comparison group for the observation defined in the table description.
+## Column 5 | Frequency evidence | Frequency evidence for the observation defined in the table description.
+Benchmark	Primary evidence	Positive group	Comparison group	Frequency evidence
+ClinVar	ClinVar, ANNOVAR hg38 export	Pathogenic-labelled biallelic SNVs	Benign-labelled biallelic SNVs	Complete allele frequencies were not available in the retained source.
+DDD	DECIPHER DDD research variants	Confirmed de novo SNVs with predicted loss-of-function or essential splice consequences	ClinVar benign coding SNVs	De novo inheritance defines the positive ascertainment; complete control allele frequencies were not available.
+GWAS fine mapping	CAUSALdb curated association exports	Candidate causal association variants	Low-evidence source-pool variants	Controls were sampled within chromosome quotas and nearby MAF bins; matching is approximate.
+Rare GWAS fine mapping	CAUSALdb-derived rare variant source files	Rare candidate causal association variants	Rare variants from the corresponding negative source pool	The retained rare source pools contain frequency annotations; this conceptual placement uses the supplied rare-variant category rather than a measured frequency for each group.
+UK Biobank rare associations	UKB490k association source; rare GWAS control pool	Rare association-supported variants	Rare GWAS source-pool controls with AF < 0.01	Controls required AF < 0.01; complete positive frequency annotations were not available.
+MPRA regulatory effects	Siraj et al., UK Biobank, BioBank Japan and GTEx variant assays	Fine-mapped or eQTL variants with an emVar flag in at least one cell type	Source-category control variants without detected emVar support	Experimental ascertainment defines the comparison; complete allele frequencies were not available.

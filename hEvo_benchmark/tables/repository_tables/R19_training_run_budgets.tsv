@@ -1,0 +1,13 @@
+## Repository Table R19 companion. Stage I training configurations and independent sequence budgets
+## Nominal nucleotide positions equal sequence budget times 1,024.
+## Blank budget fields remain independent inputs for the corresponding public-resource model.
+run	sequence_budget	optimizer_step_budget	nominal_nucleotide_positions	sequence_length_bp	effective_global_batch_size	peak_learning_rate	warmup_steps	gradient_accumulation_steps	precision	training_seed
+1000G_3K-NoSW-86M	118644115	92691	121491573760	1024	1280	0.0003	50000	1	bf16	42
+1000G_3K-SW-86M	948598669	741093	971365037056	1024	1280	0.0003	50000	1	bf16	42
+PopReduce_60K-NoSW-86M	618723864	483379	633573236736	1024	1280	0.0003	50000	1	bf16	42
+PopReduce_60K-SW-86M	4784082124	3737565	4898900094976	1024	1280	0.0003	50000	1	bf16	42
+UKB_500K-NoSW-86M	1464854962	1144418	1500011481088	1024	1280	0.0003	50000	1	bf16	42
+UKB_500K-SW-86M	1611340458	1258860	1650012628992	1024	1280	0.0003	50000	1	bf16	42
+hEvo-large	4784082124	6229274	4898900094976	1024	768	0.0002	60000	1	bf16	42
+hEvo-open-base	1113242880	869721	1139960709120	1024	1280	0.0003	50000	1	bfloat16	42
+hEvo-open-large	1113242880	1449535	1139960709120	1024	768	0.0002	60000	1	bfloat16	42

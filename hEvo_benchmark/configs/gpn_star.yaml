@@ -1,0 +1,30 @@
+# Portable GPN-Star native-MSA configuration. Model, MSA and run directories
+# are supplied at runtime; no machine-specific path is stored in Git.
+models:
+  GPN-Star-V:
+    hf_repo: songlab/gpn-star-hg38-v100-200m
+    revision: 0c949f132d35619a3eb188b402848c998a3313ae
+    msa_dataset: songlab/multiz100way-pigz
+    msa_revision: 6a9d42a35e7debbba845979dea6064f14d5cb3f9
+    msa_species: [100]
+  GPN-Star-M:
+    hf_repo: songlab/gpn-star-hg38-m447-200m
+    revision: 0d8f5164fba8e8108200c160370b86652bfb6244
+    msa_dataset: songlab/hg38_cactus447way
+    msa_revision: f523f0467bc143b62fb5b3b9a91c510e8dc2a7f6
+    # The 243-way target-bearing store must precede the 204-way source store.
+    msa_species: [243, 204]
+  GPN-Star-P:
+    hf_repo: songlab/gpn-star-hg38-p243-200m
+    revision: 16773016130e826cd3d72e91ed312a3cb27ba2b5
+    msa_dataset: songlab/hg38_cactus447way
+    msa_revision: f523f0467bc143b62fb5b3b9a91c510e8dc2a7f6
+    msa_species: [243]
+
+protocol:
+  assembly: hg38
+  window_bp: 1024
+  score: raw, uncalibrated native VEP LLR, oriented by selected/other allele when requested
+  calibration_sensitivity: separate checkpoint-specific neutral-pentanucleotide correction; primary raw scores unchanged
+  embedding_backend: official gpn.star.embedding.EmbeddingInference
+  embedding_probe: coordinate-aware native-MSA embeddings for hg38 intervals

@@ -1,0 +1,243 @@
+# Python
+# Local review records stay outside the repository.
+**/audit/
+**/*_audit/
+**/*_audit.*
+**/audit.json
+**/verification.json
+**/validation.json
+# Local release checks, original private identifiers, and generated revision evidence
+/.release_checks/
+/hEvo_benchmark/tables/revision_consistency/*
+!/hEvo_benchmark/tables/revision_consistency/cllr_sensitivity_summary.csv
+!/hEvo_benchmark/tables/revision_consistency/common_task_rank_sensitivity.csv
+!/hEvo_benchmark/tables/revision_consistency/retrospective_cllr_by_seed.csv
+!/hEvo_benchmark/tables/revision_consistency/retrospective_cllr_summary.csv
+**/endpoint_ledger.csv
+**/endpoint_model_scores.csv
+**/rank_inventory.json
+**/resource_run_manifest.csv
+**/reference_provenance.json
+**/calibration_manifest.json
+**/sensitivity_manifest.json
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.snakemake/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Operating system and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local tools and caches
+.codegraph/
+.cache/
+*.arrow
+*dataset_info.json
+
+# Logs, temporary files, and lock files
+*.log
+*.out
+*.err
+*.tmp
+*.temp
+*.lock
+
+# Credentials and local-only project files
+*.xlsx
+.project/teable/*.env
+.project/teable/*token*
+.project/teable/secrets.*
+.project
+hEvo_benchmark/scripts/GoogleSheets/*.json
+hEvo_benchmark/scripts/preprocess_stats/stats_engine
+hEvo_benchmark/scripts/huggingface/
+
+# -----------------------------------------------------------------------------
+# Dataset caches and large generated payloads
+# Keep documentation, source/build scripts, required inputs, checksums, and sample fixtures tracked.
+# -----------------------------------------------------------------------------
+hEvo_benchmark/datasets/**/.hf_cache/
+hEvo_benchmark/datasets/**/.reference_cache/
+hEvo_benchmark/datasets/**/_combined/
+hEvo_benchmark/datasets/**/processed/
+
+# DeepSEA downloaded/processed arrays
+# Generated dataset tensors and database payloads are local runtime data.
+hEvo_benchmark/datasets/**/*.npy
+hEvo_benchmark/datasets/**/*.npz
+hEvo_benchmark/datasets/**/*.lmdb/
+hEvo_benchmark/datasets/**/*.mdb
+
+# HAQER runtime dependencies and numeric fixtures live outside this repository.
+hEvo_benchmark/scripts/har_haqer_workflow/core/evo2_runtime/
+hEvo_benchmark/scripts/har_haqer_workflow/fixtures/
+
+hEvo_benchmark/datasets/DeepSEA/raw/
+hEvo_benchmark/datasets/DeepSEA/processed/
+hEvo_benchmark/datasets/DeepSEA/**/*.npy
+hEvo_benchmark/datasets/DeepSEA/**/*.h5
+!hEvo_benchmark/datasets/DeepSEA/sample/*.sample.npy
+
+# Ancestry data downloads and generated records
+hEvo_benchmark/datasets/Ancestry_Classification/raw/
+hEvo_benchmark/datasets/Ancestry_Classification/jsonl_*/
+hEvo_benchmark/datasets/Ancestry_Classification/smoke_jsonl/
+hEvo_benchmark/datasets/Ancestry_Classification/**/*.vcf
+hEvo_benchmark/datasets/Ancestry_Classification/**/*.vcf.gz
+hEvo_benchmark/datasets/Ancestry_Classification/**/*.vcf.gz.tbi
+!hEvo_benchmark/datasets/Ancestry_Classification/sample/*.sample.jsonl
+
+# GenomicBenchmark downloaded/reference and split data
+hEvo_benchmark/datasets/GenomicBenchmark/*/*.csv
+hEvo_benchmark/datasets/GenomicBenchmark/*/*.tsv
+hEvo_benchmark/datasets/GenomicBenchmark/*/*.jsonl
+
+# NT benchmark generated splits and Hugging Face cache
+hEvo_benchmark/datasets/NT_benchmark_v2/**/*.csv
+
+# ClinVar generated full/sharded sequence tables
+hEvo_benchmark/datasets/newClinvar_260615/clinvar_*_1023bp.csv
+hEvo_benchmark/datasets/newClinvar_260615/clinvar_all_1023bp.shard-*.csv
+hEvo_benchmark/datasets/newClinvar_260615/clinvar_260615_build_summary.tsv
+
+# Generated replication datasets
+hEvo_benchmark/datasets/Evolution/HAQER_replicates/
+hEvo_benchmark/datasets/Evolution/HAR_replicates/
+
+# Dataset-specific generated tables
+hEvo_benchmark/datasets/Adaptation_Variants/Adaptive_SNP_Benchmark_3549/generated/
+hEvo_benchmark/datasets/Adaptation_Variants/Adaptive_SNP_Benchmark_3549/results/compact/all_models_33/
+hEvo_benchmark/datasets/Adaptation_Variants/Verified_Adaptive_Loci_27_14/haplotype_retrieval/*all_haplotypes.csv
+hEvo_benchmark/datasets/Adaptation_Variants/Verified_Adaptive_Loci_27_14/haplotype_retrieval/verified_adaptive_haplotypes_w1024.ref_alt_pairs.csv
+hEvo_benchmark/datasets/Adaptation_Variants/**/*.h5
+hEvo_benchmark/datasets/Denovo_Variants/DDD_LoF_splice_vs_ClinVar_benign/*all_snv.csv
+hEvo_benchmark/datasets/Denovo_Variants/DDD_LoF_splice_vs_ClinVar_benign/*missense_snv.csv
+hEvo_benchmark/datasets/Denovo_Variants/DDD_LoF_splice_vs_same_position_other_alleles/*nearby_synthetic_5x.csv
+hEvo_benchmark/datasets/URE_binary_classification/*.csv
+hEvo_benchmark/datasets/URE_multi_classification/*.csv
+
+# Local generated benchmark outputs inside datasets
+hEvo_benchmark/datasets/**/summary.tsv
+hEvo_benchmark/datasets/**/metadata.json
+hEvo_benchmark/datasets/evaluation_elements/fig2b_embedding_benchmark/embeddings/
+hEvo_benchmark/datasets/evaluation_elements/fig2b_embedding_benchmark/reductions/
+hEvo_benchmark/datasets/evaluation_elements/fig2b_embedding_benchmark/slurm/
+hEvo_benchmark/datasets/evaluation_elements/fig2b_embedding_benchmark/logs/
+
+# Benchmark input files are kept in local storage.
+/hEvo_benchmark/datasets/
+
+# -----------------------------------------------------------------------------
+# Benchmark runtime outputs
+# -----------------------------------------------------------------------------
+hEvo_benchmark/.sbatch/
+hEvo_benchmark/slurm/
+hEvo_benchmark/logs/
+hEvo_benchmark/results/
+hEvo_benchmark/Probe_runs/
+hEvo_benchmark/results/DeepSEA_probe*/
+hEvo_benchmark/runs/
+hEvo_benchmark/**/runs/
+hEvo_benchmark/models/
+hEvo_benchmark/reports/
+hEvo_benchmark/.hf_dns*
+hEvo_benchmark/.hf_modules*/
+
+# Model and embedding artifacts
+hEvo_benchmark/datasets_emb_H5/
+hEvo_benchmark/datasets_H5/
+
+# Figure snapshots: keep repository PNG uploads; source code remains trackable.
+hEvo_benchmark/figures/**/*.pdf
+hEvo_benchmark/figures/**/*.svg
+# Figure source, run, and bundle manifests are generated sidecars.
+hEvo_benchmark/figures/**/source_manifest.json
+hEvo_benchmark/figures/**/manifest.json
+hEvo_benchmark/figures/**/*_manifest.json
+hEvo_benchmark/figures/panels/
+
+# Historical table snapshots and archived intermediate bundles
+hEvo_benchmark/tables/history/
+hEvo_benchmark/tables/DeepSEA_lora/runs
+hEvo_benchmark/tables/*backup*/
+
+**/*_validation.json
+**/*_validation.csv
+**/*_validation.tsv
+**/*_VALIDATION.json
+**/*_VALIDATION.csv
+**/*_VALIDATION.tsv
+**/validation_report.json
+**/validation_report.csv
+**/validation_report.tsv
+**/build_manifest.json
+**/input_manifest.json
+**/huggingface_validation.json
+**/run_manifest.json
+**/checkpoint_runtime_smoke.json
+hEvo_benchmark/reproducibility/
+hEvo_benchmark/scripts/har_haqer_workflow/configs/migration_source_sha256.json
+
+# Figure build sidecars and generated table-build summaries
+hEvo_benchmark/figures/**/SOURCE_DATA_MANIFEST.tsv
+hEvo_benchmark/figures/**/figure_sha256.tsv
+hEvo_benchmark/tables/S11_S16_genomic_element_ch_index_manifest.json
+
+# Local scratch snapshots
+**/*.pre_gpn_raw_*
+
+# Pretraining runtime outputs
+hEvo_pretrain/.sbatch/
+hEvo_pretrain/checkpoints/
+hEvo_pretrain/data/
+hEvo_pretrain/logs/
+hEvo_pretrain/results/
+
+# Backups and local release archives
+*.bak
+hEvo_benchmark/hEvo_gitlab.zip
+hEvo_benchmark/scripts/har_haqer_workflow/archive
+
+# Repository-local draft material
+/article/
+hEvo_benchmark/*.md
+
+# Legacy one-off generated index
+QTD000110.all.tsv.gz.tbi
+AGENTS.md
+
+# Public benchmark navigation
+!/hEvo_benchmark/README.md
+
+# ClinVar GPN reconstruction: keep compact evidence, omit per-variant caches.
+!hEvo_benchmark/reports/
+hEvo_benchmark/reports/*
+!hEvo_benchmark/reports/clinvar_gpn_subsets/
+hEvo_benchmark/reports/clinvar_gpn_subsets/*
+!hEvo_benchmark/reports/clinvar_gpn_subsets/inputs.json
+!hEvo_benchmark/reports/clinvar_gpn_subsets/metrics.csv
+!hEvo_benchmark/reports/clinvar_gpn_subsets/table_changes.json
+!hEvo_benchmark/reports/clinvar_gpn_subsets/README.md
+!hEvo_benchmark/figures/ClinVar_subsets_GPN_rebuilt/*.pdf
+!hEvo_benchmark/figures/ClinVar_subsets_GPN_rebuilt/*.png
+!hEvo_benchmark/figures/ClinVar_subsets_GPN_rebuilt/*.svg
+!hEvo_benchmark/figures/ClinVar_subsets_GPN_rebuilt/*.csv
+!hEvo_benchmark/figures/ClinVar_subsets_GPN_rebuilt/*.json
+!hEvo_benchmark/reports/clinvar_gpn_subsets/source_discovery.json
+!hEvo_benchmark/reports/clinvar_gpn_subsets/S23_GPN_MSA_lineage.md
+
+# The fixed ancestry model's small, pinned runtime environment is maintained.
+!hEvo_benchmark/scripts/ancestry_harmonization/env/
+!hEvo_benchmark/scripts/ancestry_harmonization/env/environment.yaml

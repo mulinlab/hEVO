@@ -1,0 +1,11 @@
+cohort	display_label	group	vcf_dir
+AFR4K	AFR4K	single	<hEvo-data-root>/Phasing_VCFs/AFR
+EAS2K	EAS2K	single	<hEvo-data-root>/Phasing_VCFs/KD
+SG10K	SG10K	single	<hEvo-data-root>/Phasing_VCFs/SG10K
+ALSPAC740	ALSPAC740	uk10k_component	<hEvo-data-root>/Phasing_VCFs/ALSPAC740
+TWINSUK741	TWINSUK741	uk10k_component	<hEvo-data-root>/Phasing_VCFs/TWINSUK741
+HGDP	HGDP	multi	<hEvo-data-root>/Phasing_VCFs/HGDP
+TOPMed	TOPMed	multi	<hEvo-data-root>/Phasing_VCFs/Topmed
+1KGP	1KGP	multi	<hEvo-data-root>/1Kgenome
+UKB	UKB subset	final_subset	<hEvo-data-root>/Phasing_VCFs/UKBB
+UKB_full	UKB full	reference	<hEvo-data-root>/Phasing_VCFs/UKB_full

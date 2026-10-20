@@ -1,0 +1,186 @@
+[
+  {
+    "segment": 0,
+    "chrom": "chr17",
+    "start": 56793531,
+    "end": 56793762,
+    "name": "EH38E1872604",
+    "annotation": "EH38E1872604\t196\t.\t56793531\t56793762\t255,205,0\tdELS,CTCF-bound\tdELS\t1.96660719972\tenhD\tE1872604\tEH38E1872604 distal enhancer-like signature"
+  },
+  {
+    "segment": 0,
+    "chrom": "chr17",
+    "start": 56793946,
+    "end": 56794268,
+    "name": "EH38E1872605",
+    "annotation": "EH38E1872605\t406\t.\t56793946\t56794268\t255,205,0\tdELS,CTCF-bound\tdELS\t4.06608979325\tenhD\tE1872605\tEH38E1872605 distal enhancer-like signature"
+  },
+  {
+    "segment": 1,
+    "chrom": "chr18",
+    "start": 24841547,
+    "end": 24841887,
+    "name": "EH38E1905069",
+    "annotation": "EH38E1905069\t185\t.\t24841547\t24841887\t255,205,0\tdELS\tdELS\t1.85412935318\tenhD\tE1905069\tEH38E1905069 distal enhancer-like signature"
+  },
+  {
+    "segment": 3,
+    "chrom": "chr21",
+    "start": 33893923,
+    "end": 33894272,
+    "name": "EH38E2138394",
+    "annotation": "EH38E2138394\t325\t.\t33893923\t33894272\t255,205,0\tdELS\tdELS\t3.25145200432\tenhD\tE2138394\tEH38E2138394 distal enhancer-like signature"
+  },
+  {
+    "segment": 3,
+    "chrom": "chr21",
+    "start": 33894742,
+    "end": 33895091,
+    "name": "EH38E2138395",
+    "annotation": "EH38E2138395\t481\t.\t33894742\t33895091\t255,205,0\tdELS,CTCF-bound\tdELS\t4.81095312229\tenhD\tE2138395\tEH38E2138395 distal enhancer-like signature"
+  },
+  {
+    "segment": 3,
+    "chrom": "chr21",
+    "start": 33895383,
+    "end": 33895692,
+    "name": "EH38E2138396",
+    "annotation": "EH38E2138396\t178\t.\t33895383\t33895692\t255,205,0\tdELS,CTCF-bound\tdELS\t1.78830124565\tenhD\tE2138396\tEH38E2138396 distal enhancer-like signature"
+  },
+  {
+    "segment": 3,
+    "chrom": "chr21",
+    "start": 33895827,
+    "end": 33896117,
+    "name": "EH38E2138397",
+    "annotation": "EH38E2138397\t173\t.\t33895827\t33896117\t255,170,170\tDNase-H3K4me3\tDNase-H3K4me3\t1.73590669153\tK4m3\tE2138397\tEH38E2138397 DNase-H3K4me3"
+  },
+  {
+    "segment": 5,
+    "chrom": "chr13",
+    "start": 34907904,
+    "end": 34908167,
+    "name": "EH38E1667340",
+    "annotation": "EH38E1667340\t187\t.\t34907904\t34908167\t0,176,240\tCTCF-only,CTCF-bound\tCTCF-only\t1.87577092209\tCTCF\tE1667340\tEH38E1667340 CTCF-only"
+  },
+  {
+    "segment": 6,
+    "chrom": "chr22",
+    "start": 48043027,
+    "end": 48043325,
+    "name": "EH38E2171585",
+    "annotation": "EH38E2171585\t198\t.\t48043027\t48043325\t255,205,0\tdELS\tdELS\t1.980937242\tenhD\tE2171585\tEH38E2171585 distal enhancer-like signature"
+  },
+  {
+    "segment": 6,
+    "chrom": "chr22",
+    "start": 48045411,
+    "end": 48045760,
+    "name": "EH38E2171589",
+    "annotation": "EH38E2171589\t430\t.\t48045411\t48045760\t255,205,0\tdELS\tdELS\t4.30472351473\tenhD\tE2171589\tEH38E2171589 distal enhancer-like signature"
+  },
+  {
+    "segment": 7,
+    "chrom": "chr16",
+    "start": 83513057,
+    "end": 83513390,
+    "name": "EH38E1832621",
+    "annotation": "EH38E1832621\t395\t.\t83513057\t83513390\t255,205,0\tdELS\tdELS\t3.95974122364\tenhD\tE1832621\tEH38E1832621 distal enhancer-like signature"
+  },
+  {
+    "segment": 9,
+    "chrom": "chr20",
+    "start": 23153784,
+    "end": 23153938,
+    "name": "EH38E2104076",
+    "annotation": "EH38E2104076\t166\t.\t23153784\t23153938\t255,205,0\tdELS\tdELS\t1.66155266175\tenhD\tE2104076\tEH38E2104076 distal enhancer-like signature"
+  },
+  {
+    "segment": 9,
+    "chrom": "chr20",
+    "start": 23153978,
+    "end": 23154256,
+    "name": "EH38E2104077",
+    "annotation": "EH38E2104077\t213\t.\t23153978\t23154256\t255,205,0\tdELS\tdELS\t2.13856129017\tenhD\tE2104077\tEH38E2104077 distal enhancer-like signature"
+  },
+  {
+    "segment": 9,
+    "chrom": "chr20",
+    "start": 23155247,
+    "end": 23155573,
+    "name": "EH38E2104079",
+    "annotation": "EH38E2104079\t352\t.\t23155247\t23155573\t255,205,0\tdELS\tdELS\t3.52714722198\tenhD\tE2104079\tEH38E2104079 distal enhancer-like signature"
+  },
+  {
+    "segment": 9,
+    "chrom": "chr20",
+    "start": 23156110,
+    "end": 23156458,
+    "name": "EH38E2104080",
+    "annotation": "EH38E2104080\t523\t.\t23156110\t23156458\t255,205,0\tdELS\tdELS\t5.23950463752\tenhD\tE2104080\tEH38E2104080 distal enhancer-like signature"
+  },
+  {
+    "segment": 9,
+    "chrom": "chr20",
+    "start": 23157041,
+    "end": 23157372,
+    "name": "EH38E2104082",
+    "annotation": "EH38E2104082\t273\t.\t23157041\t23157372\t255,205,0\tdELS,CTCF-bound\tdELS\t2.73148013351\tenhD\tE2104082\tEH38E2104082 distal enhancer-like signature"
+  },
+  {
+    "segment": 10,
+    "chrom": "chr16",
+    "start": 89067667,
+    "end": 89068013,
+    "name": "EH38E1837744",
+    "annotation": "EH38E1837744\t364\t.\t89067667\t89068013\t255,205,0\tdELS\tdELS\t3.64082119887\tenhD\tE1837744\tEH38E1837744 distal enhancer-like signature"
+  },
+  {
+    "segment": 10,
+    "chrom": "chr16",
+    "start": 89069973,
+    "end": 89070264,
+    "name": "EH38E1837745",
+    "annotation": "EH38E1837745\t206\t.\t89069973\t89070264\t255,170,170\tDNase-H3K4me3\tDNase-H3K4me3\t2.06250530504\tK4m3\tE1837745\tEH38E1837745 DNase-H3K4me3"
+  },
+  {
+    "segment": 11,
+    "chrom": "chr13",
+    "start": 110311984,
+    "end": 110312309,
+    "name": "EH38E1697741",
+    "annotation": "EH38E1697741\t286\t.\t110311984\t110312309\t255,205,0\tdELS,CTCF-bound\tdELS\t2.86390680542\tenhD\tE1697741\tEH38E1697741 distal enhancer-like signature"
+  },
+  {
+    "segment": 11,
+    "chrom": "chr13",
+    "start": 110312542,
+    "end": 110312891,
+    "name": "EH38E1697742",
+    "annotation": "EH38E1697742\t446\t.\t110312542\t110312891\t255,205,0\tdELS,CTCF-bound\tdELS\t4.46189976188\tenhD\tE1697742\tEH38E1697742 distal enhancer-like signature"
+  },
+  {
+    "segment": 11,
+    "chrom": "chr13",
+    "start": 110312976,
+    "end": 110313177,
+    "name": "EH38E1697743",
+    "annotation": "EH38E1697743\t287\t.\t110312976\t110313177\t255,205,0\tdELS,CTCF-bound\tdELS\t2.87142315822\tenhD\tE1697743\tEH38E1697743 distal enhancer-like signature"
+  },
+  {
+    "segment": 11,
+    "chrom": "chr13",
+    "start": 110314292,
+    "end": 110314474,
+    "name": "EH38E1697745",
+    "annotation": "EH38E1697745\t218\t.\t110314292\t110314474\t255,205,0\tdELS\tdELS\t2.18147725679\tenhD\tE1697745\tEH38E1697745 distal enhancer-like signature"
+  },
+  {
+    "segment": 11,
+    "chrom": "chr13",
+    "start": 110314934,
+    "end": 110315116,
+    "name": "EH38E1697746",
+    "annotation": "EH38E1697746\t418\t.\t110314934\t110315116\t255,205,0\tdELS\tdELS\t4.18985666671\tenhD\tE1697746\tEH38E1697746 distal enhancer-like signature"
+  }
+]

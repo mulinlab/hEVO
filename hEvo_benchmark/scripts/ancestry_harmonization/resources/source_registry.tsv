@@ -1,0 +1,7 @@
+source_id	role	source_url	local_policy
+1KGP_pedigree	Official population and family descriptors	https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/working/20130606_sample_info/20130606_g1k.ped	Exact sample-ID match; verify all 3202 existing superpopulation labels
+IGSR_HGDP	Original HGDP population/region descriptors	https://www.internationalgenome.org/data-portal/data-collection/HGDP/	Snapshot may cover only a subset; record exact coverage and SHA256
+HGDP_metadata_mirror	Bergstrom 20190516 metadata deposited with FLARE2	https://datadryad.org/dataset/doi:10.5061/dryad.bk3j9kdrk	Mirror provenance explicit; verify deposited file digest and cross-check overlapping official metadata
+gnomAD_HGDP_metadata	Original project descriptors; never use gnomAD inferred ancestry as truth	https://gnomad.broadinstitute.org/news/2020-10-gnomad-v3-1-new-content-methods-annotations-and-data-availability/	Use hgdp_tgp_meta only; conflicts excluded from supervision
+PLINK2_projection	Reference-frequency allele-weight projection	https://www.cog-genomics.org/plink/2.0/score	Record exact executable hash and version; score SUM used for both reference and targets
+SG10K_publication	Aggregate descriptor comparison only	https://doi.org/10.1016/j.cell.2019.09.019	No per-individual labels synthesized from published counts

@@ -1,0 +1,9 @@
+Supplementary Figures S3-S6. Model-family color and marker conventions follow the shared figure system.
+
+FigS3. Genomic Benchmark and nucleotide-transformer classification. Panels a and b show local source-table task performance from S18 and S17, respectively.
+
+FigS4. Functional class separation in two-dimensional PCA representations. Three columns show ENCODE cCRE v4, GENCODE v45, and UCSC RefSeq; values are three-seed means from S11-S16.
+
+FigS5. Regulatory classification. Panel a shows class-specific F1; panel b shows URE-versus-enhancer MCC across five benchmark sets, sourced from S19-S20.
+
+FigS6. DeepSEA chromatin prediction. Category-macro AUROC and macro AUPRC with equal-weight category means, sourced from S21. The displayed roster includes 22 model configurations with complete DHS, HM and TF results, including hEVO-base-o and hEVO-large-o; for hEVO-large-o the figure uses one-epoch FP16 rerun S21_run_24, whose manifest/model summary report actual pooler output although the declared configuration says mean-pooling. Historical S21_run_22 (three-epoch BF16, mean-pooling) remains in S21; the two runs are not a matched training comparison. GPN-Star-M is included. Input lengths vary by model (512, 1,000 or 1,024 bp), so this is not a matched-length comparison. GPN-Star-M uses native 1,000-bp MSA input and has 436,931 of 455,024 test windows mapped (96.02%); unmapped windows are excluded from its evaluation.

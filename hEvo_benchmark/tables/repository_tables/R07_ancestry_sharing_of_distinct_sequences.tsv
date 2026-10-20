@@ -1,0 +1,41 @@
+## Repository Table R7. Ancestry sharing of distinct sequences
+## Study: hEVO, reader-facing repository tables
+## Description: Presence in the listed operational ancestry categories within the assembled corpus. Absence from another sampled category is not population exclusivity. The source field called total distinct loci counts sequence strings in this analysis.
+## Missing values: NA means unavailable or not applicable, never a zero score. Numeric values retain source precision.
+## Source: Supplementary Table S9; sequence-sharing counts use PC1/PC2-based ancestry annotations.
+## Column 1 | Observed ancestry combination | Observed ancestry combination for the observation defined in the table description.
+## Column 2 | Distinct sequences | Distinct sequences for the observation defined in the table description.
+## Column 3 | Number of ancestry categories | Number of ancestry categories for the observation defined in the table description.
+## Column 4 | Total distinct sequences | Total distinct sequences for the observation defined in the table description.
+Observed ancestry combination	Distinct sequences	Number of ancestry categories	Total distinct sequences
+AFR	1770161123	1	1772560765
+EUR	476079691	1	476161797
+Others	411972882	1	411994769
+EAS	401336969	1	401427488
+SAS	339750547	1	339763450
+AFR|Others	203445067	2	204012345
+AFR|EUR|EAS|SAS|Others	148769364	5	149249246
+SAS|Others	129611901	2	129648596
+AFR|SAS|Others	122485700	3	122781856
+AFR|EUR|Others	100447450	3	100969488
+AFR|EUR|SAS|Others	97267200	4	97557964
+AFR|EUR	90751291	2	91081795
+EUR|Others	85082739	2	85188991
+EAS|Others	79062071	2	79134473
+AFR|SAS	66272590	2	66371751
+EAS|SAS|Others	40043788	3	40102087
+AFR|EAS|SAS|Others	35014356	4	35096307
+AFR|EAS	31298041	2	31393310
+EUR|SAS|Others	21110113	3	21125873
+AFR|EUR|EAS|Others	21045182	4	21310900
+EAS|SAS	21002031	2	21014150
+AFR|EAS|Others	18808653	3	18870606
+EUR|SAS	13807460	2	13815430
+EUR|EAS	11435073	2	11454987
+EUR|EAS|SAS|Others	10267271	4	10290387
+AFR|EUR|SAS	9119599	3	9140177
+EUR|EAS|Others	8559231	3	8582395
+AFR|EUR|EAS	7886521	3	7937105
+AFR|EAS|SAS	7294107	3	7306678
+AFR|EUR|EAS|SAS	2687959	4	2696124
+EUR|EAS|SAS	2205884	3	2207997

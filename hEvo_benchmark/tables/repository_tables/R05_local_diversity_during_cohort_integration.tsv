@@ -1,0 +1,22 @@
+## Repository Table R5. Local diversity during cohort integration
+## Study: hEVO, reader-facing repository tables
+## Description: Cohort-balanced local SNV haplotype richness across 577 sampled 100 kb windows. Total sampled chromosome copies increase as cohorts are added. Ratio uses the full reference baseline, not the initial selected subset.
+## Missing values: NA means unavailable or not applicable, never a zero score. Numeric values retain source precision.
+## Source: Supplementary Table S6.
+## Column 1 | Scenario | Scenario for the observation defined in the table description.
+## Column 2 | Windows | Windows for the observation defined in the table description.
+## Column 3 | Mean distinct haplotypes | Mean distinct haplotypes for the observation defined in the table description.
+## Column 4 | Lower 95% bound | Source-reported percentile interval endpoint unless the table description specifies exact binomial inference.
+## Column 5 | Upper 95% bound | Source-reported percentile interval endpoint unless the table description specifies exact binomial inference.
+## Column 6 | Ratio to full UK Biobank reference | Ratio to full UK Biobank reference for the observation defined in the table description.
+## Column 7 | Novel window–haplotype observations | Novel window–haplotype observations for the observation defined in the table description.
+Scenario	Windows	Mean distinct haplotypes	Lower 95% bound	Upper 95% bound	Ratio to full UK Biobank reference	Novel window–haplotype observations
+UKB full reference	577	141.9254766031196	139.50073656845754	144.23990467937608	1	0
+UKB subset	577	169.9618717504333	168.12902946273832	171.83019930675908	1.197543075551648	89118
++ UK10K	577	323.0409012131716	318.634280762565	327.94904679376083	2.2761304661073867	249465
++ EAS2K	577	476.6641247833621	469.3425823223569	483.320636915078	3.3585522218558808	337946
++ SG10K	577	640.2414211438476	630.8104852686308	649.6197573656846	4.5111098899757	432308
++ AFR1K	577	745.2507798960139	731.8307755632582	758.6188344887348	5.251000720469893	492814
++ TOPMed	577	920.930849220104	906.946083188908	934.5181672443674	6.488833937795362	594040
++ HGDP	577	1080.7743500866552	1064.9658535528597	1096.8787521663778	7.61508346460539	686074
++ 1KGP	577	1251.1923743500868	1234.885506932409	1268.3155112651646	8.815840568560649	784182

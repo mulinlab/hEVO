@@ -1,0 +1,5 @@
+inputs:
+  s1: ../../tables/S1_genetic_principal_component_coordinates_of_the_prescreening_cohort.csv
+  targets: ../../tables/S2_principal_component_coordinates_of_the_final_63_809_participant_cohort.csv
+output_dir: /path/outside/repository/ancestry_6pc
+training_output_dir: /path/outside/repository/ancestry_6pc_refit

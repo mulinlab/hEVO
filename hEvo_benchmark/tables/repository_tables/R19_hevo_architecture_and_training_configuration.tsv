@@ -1,0 +1,59 @@
+## Repository Table R19. hEVO architecture and training configuration
+## Description: Architecture and shared training settings for the four primary hEVO checkpoints. Public-resource variants use the corresponding scale-specific settings.
+## Definitions: Trainer fields are Trainer arguments; a DeepSpeed configuration can override optimizer and scheduler fields. Checkpoint dtype and training precision are different quantities.
+## Missing values: NA means unavailable or not applicable.
+## Related table: Supplementary Table S46. Run-specific sequence budgets are in R19_training_run_budgets.tsv.
+## Column 1 | Model | Model for the listed model
+## Column 2 | Training resource | Training resource for the listed model
+## Column 3 | Window length (bp) | Window length (bp) for the listed model
+## Column 4 | Stride (bp) | Stride (bp) for the listed model
+## Column 5 | Hidden dimension | Hidden dimension for the listed model
+## Column 6 | Transformer layers | Transformer layers for the listed model
+## Column 7 | Attention heads | Attention heads for the listed model
+## Column 8 | Feedforward dimension | Feedforward dimension for the listed model
+## Column 9 | Vocabulary size | Vocabulary size for the listed model
+## Column 10 | Maximum positions | Maximum positions for the listed model
+## Column 11 | Hidden dropout | Hidden dropout for the listed model
+## Column 12 | Attention dropout | Attention dropout for the listed model
+## Column 13 | Stage I global batch | Stage I global batch for the listed model
+## Column 14 | Stage I peak learning rate | Stage I peak learning rate for the listed model
+## Column 15 | Stage I warmup steps | Stage I warmup steps for the listed model
+## Column 16 | Gradient accumulation | Gradient accumulation for the listed model
+## Column 17 | Stage I precision | Stage I precision for the listed model
+## Column 18 | Stage I seed | Stage I seed for the listed model
+## Column 19 | Trainer per-device batch | Trainer per-device batch for the listed model
+## Column 20 | Trainer weight decay | Trainer weight decay for the listed model
+## Column 21 | Trainer beta1 | Trainer beta1 for the listed model
+## Column 22 | Trainer beta2 | Trainer beta2 for the listed model
+## Column 23 | Trainer epsilon | Trainer epsilon for the listed model
+## Column 24 | Gradient clipping | Gradient clipping for the listed model
+## Column 25 | Trainer optimizer | Trainer optimizer for the listed model
+## Column 26 | Trainer scheduler | Trainer scheduler for the listed model
+## Column 27 | Mask fraction | Mask fraction for the listed model
+## Column 28 | Mean span length | Mean span length for the listed model
+## Column 29 | Maximum span length | Maximum span length for the listed model
+## Column 30 | Stage II encoder frozen | Stage II encoder frozen for the listed model
+## Column 31 | Stage II trainable module | Stage II trainable module for the listed model
+## Column 32 | Stage II trainable parameters | Stage II trainable parameters for the listed model
+## Column 33 | Checkpoint role | Checkpoint role for the listed model
+## Column 34 | Shared hyperparameters with | Shared hyperparameters with for the listed model
+## Column 35 | Stage II optimizer | Stage II optimizer for the listed model
+## Column 36 | Stage II learning rate | Stage II learning rate for the listed model
+## Column 37 | Stage II weight decay | Stage II weight decay for the listed model
+## Column 38 | Stage II batch size | Stage II batch size for the listed model
+## Column 39 | Stage II validation batch size | Stage II validation batch size for the listed model
+## Column 40 | Stage II gradient accumulation | Stage II gradient accumulation for the listed model
+## Column 41 | Stage II epochs | Stage II epochs for the listed model
+## Column 42 | Stage II training seed | Stage II training seed for the listed model
+## Column 43 | Stage II validation seed | Stage II validation seed for the listed model
+## Column 44 | Stage II sequence length | Stage II sequence length for the listed model
+## Column 45 | Stage II masked centre | Stage II masked centre for the listed model
+## Column 46 | Stage II mask token ID | Stage II mask token ID for the listed model
+## Column 47 | Stage II maximum per AF stratum | Stage II maximum per AF stratum for the listed model
+## Column 48 | Stage II prediction target | Stage II prediction target for the listed model
+## Column 49 | Stage II train/validation/test split | Stage II train/validation/test split for the listed model
+Model	Training resource	Window length (bp)	Stride (bp)	Hidden dimension	Transformer layers	Attention heads	Feedforward dimension	Vocabulary size	Maximum positions	Hidden dropout	Attention dropout	Stage I global batch	Stage I peak learning rate	Stage I warmup steps	Gradient accumulation	Stage I precision	Stage I seed	Trainer per-device batch	Trainer weight decay	Trainer beta1	Trainer beta2	Trainer epsilon	Gradient clipping	Trainer optimizer	Trainer scheduler	Mask fraction	Mean span length	Maximum span length	Stage II encoder frozen	Stage II trainable module	Stage II trainable parameters	Checkpoint role	Shared hyperparameters with	Stage II optimizer	Stage II learning rate	Stage II weight decay	Stage II batch size	Stage II validation batch size	Stage II gradient accumulation	Stage II epochs	Stage II training seed	Stage II validation seed	Stage II sequence length	Stage II masked centre	Stage II mask token ID	Stage II maximum per AF stratum	Stage II prediction target	Stage II train/validation/test split
+hEVO-base	final 60k cohort	1024	128	768	12	12	3072	10	1024	0.1	0.1	1280	0.0003	50000	1	bfloat16	42	128	0.001	0.9	0.98	1e-06	1.0	adamw_torch	linear	0.2	3.0	12	True	complete_existing_MLM_head	599818	final_stage2	NA	AdamW	0.001	0	8	8	1	1	42	59	1023	511	4	100000	alt_only	90:5:5
+hEVO-large	final 60k cohort	1024	128	1280	16	20	5120	10	1024	0.1	0.1	768	0.0002	60000	1	bfloat16	42	96	0.01	0.9	0.98	1e-08	1.0	adamw_torch	linear	0.2	3.0	12	True	complete_existing_MLM_head	1655050	final_stage2	NA	AdamW	0.001	0	8	8	1	1	42	59	1023	511	4	100000	alt_only	90:5:5
+hEVO-base-o	1000 Genomes Project + HGDP	1024	128	768	12	12	3072	10	1024	0.1	0.1	1280	0.0003	50000	1	bfloat16	42	128	0.001	0.9	0.98	1e-06	1.0	adamw_torch	linear	0.2	3.0	12	True	complete_existing_MLM_head	599818	final_stage2	hEVO-base	AdamW	0.001	0	8	8	1	1	42	59	1023	511	4	100000	alt_only	90:5:5
+hEVO-large-o	1000 Genomes Project + HGDP	1024	128	1280	16	20	5120	10	1024	0.1	0.1	768	0.0002	60000	1	bfloat16	42	96	0.01	0.9	0.98	1e-08	1.0	adamw_torch	linear	0.2	3.0	12	True	complete_existing_MLM_head	1655050	final_stage2	hEVO-large	AdamW	0.001	0	8	8	1	1	42	59	1023	511	4	100000	alt_only	90:5:5

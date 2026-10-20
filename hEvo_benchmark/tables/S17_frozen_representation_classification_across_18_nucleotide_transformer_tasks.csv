@@ -1,0 +1,613 @@
+benchmark,task_group,model,dataset,mcc_mean,mcc_lower,mcc_upper,task_rank,task_count
+NT Benchmark,Histone Markers,hEvo-base,H3K9ac,0.574591,0.521942,0.623659,1,34
+NT Benchmark,Histone Markers,SpeciesLM,H3K9ac,0.552194,0.50085,0.602939,2,34
+NT Benchmark,Histone Markers,hEvo-large,H3K9ac,0.546412,0.49106,0.594532,3,34
+NT Benchmark,Histone Markers,evo2_7b_base,H3K9ac,0.537555,0.477825,0.5898,4,34
+NT Benchmark,Histone Markers,GPN-MSA,H3K9ac,0.53413346437115,0.482676883775746,0.58384731005638,5,34
+NT Benchmark,Histone Markers,hEvo-open-base,H3K9ac,0.527301,0.471355,0.57678,6,34
+NT Benchmark,Histone Markers,GENA-LM-large,H3K9ac,0.526938,0.475498,0.578617,7,34
+NT Benchmark,Histone Markers,Mistral-DNA-422M,H3K9ac,0.516528,0.460397,0.568283,8,34
+NT Benchmark,Histone Markers,DNABERT2,H3K9ac,0.509281,0.453942,0.560208,9,34
+NT Benchmark,Histone Markers,NT_500m_MS,H3K9ac,0.509139,0.451961,0.558878,10,34
+NT Benchmark,Histone Markers,DNABERT,H3K9ac,0.507744,0.450518,0.559919,11,34
+NT Benchmark,Histone Markers,hEvo-open-large,H3K9ac,0.5044718790385974,0.4524656672672285,0.5541684220903094,12,34
+NT Benchmark,Histone Markers,AIDO.DNA-300M,H3K9ac,0.503033,0.4484,0.555482,13,34
+NT Benchmark,Histone Markers,NTv3-100M-pre,H3K9ac,0.501473,0.448911,0.556065,14,34
+NT Benchmark,Histone Markers,NT_2.5b_1kG,H3K9ac,0.501414,0.44648,0.552443,15,34
+NT Benchmark,Histone Markers,GENERator-3B,H3K9ac,0.497658,0.439191,0.552093,16,34
+NT Benchmark,Histone Markers,GPN-Star-P,H3K9ac,0.493337691301777,0.441482797108804,0.544112222832155,17,34
+NT Benchmark,Histone Markers,Genos-1.2B,H3K9ac,0.487643,0.432269,0.539554,18,34
+NT Benchmark,Histone Markers,NT_2.5b_MS,H3K9ac,0.487536,0.427463,0.538153,19,34
+NT Benchmark,Histone Markers,evo2_1b_base,H3K9ac,0.4839,0.424959,0.534812,20,34
+NT Benchmark,Histone Markers,GROVER,H3K9ac,0.479419,0.425044,0.532597,21,34
+NT Benchmark,Histone Markers,GPN-Star-M,H3K9ac,0.479205493867321,0.424705200486255,0.529707702753851,22,34
+NT Benchmark,Histone Markers,NTv3-8M-pre,H3K9ac,0.470853,0.414429,0.525681,23,34
+NT Benchmark,Histone Markers,Mistral-DNA-17M,H3K9ac,0.459931,0.403407,0.515308,24,34
+NT Benchmark,Histone Markers,Caduceus-PS,H3K9ac,0.458844,0.403288,0.51548,25,34
+NT Benchmark,Histone Markers,NT_500m_1kG,H3K9ac,0.454929,0.396551,0.508326,26,34
+NT Benchmark,Histone Markers,GENA-LM-base,H3K9ac,0.454904,0.397894,0.507162,27,34
+NT Benchmark,Histone Markers,Caduceus-PH,H3K9ac,0.444747,0.390963,0.496612,28,34
+NT Benchmark,Histone Markers,HyenaDNA_tiny_1k,H3K9ac,0.436928,0.382063,0.492608,29,34
+NT Benchmark,Histone Markers,GPN-Star-V,H3K9ac,0.434572573533582,0.379877473663224,0.484366916999496,30,34
+NT Benchmark,Histone Markers,NTv3-650M-pre,H3K9ac,0.430902,0.378797,0.484332,31,34
+NT Benchmark,Histone Markers,GENERator-1.2B,H3K9ac,0.415998,0.366761,0.462782,32,34
+NT Benchmark,Histone Markers,GPN-promoter,H3K9ac,0.411121,0.353964,0.469937,33,34
+NT Benchmark,Histone Markers,Mistral-DNA-138M,H3K9ac,0.352788,0.297121,0.411599,34,34
+NT Benchmark,Regulatory Annotation,GPN-Star-P,promoter_all,0.771626623929667,0.73929270720561,0.801666182379422,1,34
+NT Benchmark,Regulatory Annotation,evo2_7b_base,promoter_all,0.769902,0.735788,0.801072,2,34
+NT Benchmark,Regulatory Annotation,GPN-MSA,promoter_all,0.761603424510861,0.730814718998744,0.79094800165667,3,34
+NT Benchmark,Regulatory Annotation,GPN-Star-V,promoter_all,0.757770134310841,0.727328487335098,0.787787177435798,4,34
+NT Benchmark,Regulatory Annotation,GPN-Star-M,promoter_all,0.755342927944367,0.725038528967536,0.783347562410071,5,34
+NT Benchmark,Regulatory Annotation,hEvo-base,promoter_all,0.755136,0.724279,0.786243,6,34
+NT Benchmark,Regulatory Annotation,Genos-1.2B,promoter_all,0.74124,0.70854,0.772935,7,34
+NT Benchmark,Regulatory Annotation,SpeciesLM,promoter_all,0.73587,0.702627,0.767693,8,34
+NT Benchmark,Regulatory Annotation,hEvo-large,promoter_all,0.73387,0.699127,0.765403,9,34
+NT Benchmark,Regulatory Annotation,GENA-LM-large,promoter_all,0.730436,0.69674,0.762618,10,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-17M,promoter_all,0.729117,0.69567,0.762582,11,34
+NT Benchmark,Regulatory Annotation,hEvo-open-large,promoter_all,0.7284843166701931,0.6963720328016738,0.760700330556222,12,34
+NT Benchmark,Regulatory Annotation,NTv3-650M-pre,promoter_all,0.727122,0.694724,0.760436,13,34
+NT Benchmark,Regulatory Annotation,GPN-promoter,promoter_all,0.721956,0.688755,0.754313,14,34
+NT Benchmark,Regulatory Annotation,AIDO.DNA-300M,promoter_all,0.721445,0.68695,0.753502,15,34
+NT Benchmark,Regulatory Annotation,GROVER,promoter_all,0.717007,0.680882,0.749412,16,34
+NT Benchmark,Regulatory Annotation,NT_2.5b_1kG,promoter_all,0.71477,0.680705,0.748666,17,34
+NT Benchmark,Regulatory Annotation,evo2_1b_base,promoter_all,0.713804,0.680531,0.746014,18,34
+NT Benchmark,Regulatory Annotation,hEvo-open-base,promoter_all,0.713522,0.67874,0.745533,19,34
+NT Benchmark,Regulatory Annotation,NT_500m_MS,promoter_all,0.711681,0.678027,0.744985,20,34
+NT Benchmark,Regulatory Annotation,NTv3-8M-pre,promoter_all,0.708857,0.675172,0.741287,21,34
+NT Benchmark,Regulatory Annotation,NT_2.5b_MS,promoter_all,0.708004,0.676904,0.740939,22,34
+NT Benchmark,Regulatory Annotation,Caduceus-PH,promoter_all,0.703774,0.669699,0.736819,23,34
+NT Benchmark,Regulatory Annotation,HyenaDNA_tiny_1k,promoter_all,0.698532,0.662732,0.733126,24,34
+NT Benchmark,Regulatory Annotation,Caduceus-PS,promoter_all,0.697275,0.664689,0.731171,25,34
+NT Benchmark,Regulatory Annotation,DNABERT,promoter_all,0.696349,0.661446,0.731139,26,34
+NT Benchmark,Regulatory Annotation,NT_500m_1kG,promoter_all,0.690861,0.657274,0.725157,27,34
+NT Benchmark,Regulatory Annotation,GENERator-3B,promoter_all,0.689648,0.66069,0.717365,28,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-422M,promoter_all,0.683313,0.649235,0.717138,29,34
+NT Benchmark,Regulatory Annotation,DNABERT2,promoter_all,0.67737,0.640761,0.71197,30,34
+NT Benchmark,Regulatory Annotation,NTv3-100M-pre,promoter_all,0.662699,0.629768,0.696392,31,34
+NT Benchmark,Regulatory Annotation,GENA-LM-base,promoter_all,0.630002,0.592992,0.667091,32,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-138M,promoter_all,0.537277,0.499217,0.578705,33,34
+NT Benchmark,Regulatory Annotation,GENERator-1.2B,promoter_all,0.457235,0.423239,0.488984,34,34
+NT Benchmark,Regulatory Annotation,GPN-Star-M,enhancers,0.51643170940249,0.484964279806739,0.54656046064076,1,34
+NT Benchmark,Regulatory Annotation,GPN-Star-V,enhancers,0.506644516008517,0.474237459931616,0.538894880614237,2,34
+NT Benchmark,Regulatory Annotation,hEvo-large,enhancers,0.503856,0.473733,0.535194,3,34
+NT Benchmark,Regulatory Annotation,hEvo-open-large,enhancers,0.5027674167332068,0.4724541062705105,0.5328991786366464,4,34
+NT Benchmark,Regulatory Annotation,hEvo-base,enhancers,0.49394,0.46442,0.524642,5,34
+NT Benchmark,Regulatory Annotation,GPN-Star-P,enhancers,0.493671780886003,0.463072458901991,0.525063727794948,6,34
+NT Benchmark,Regulatory Annotation,evo2_7b_base,enhancers,0.488162,0.45648,0.522163,7,34
+NT Benchmark,Regulatory Annotation,GENA-LM-large,enhancers,0.486683,0.453405,0.51943,8,34
+NT Benchmark,Regulatory Annotation,hEvo-open-base,enhancers,0.483695,0.454578,0.51512,9,34
+NT Benchmark,Regulatory Annotation,NT_2.5b_1kG,enhancers,0.48255,0.451567,0.513056,10,34
+NT Benchmark,Regulatory Annotation,DNABERT2,enhancers,0.482534,0.451635,0.513562,11,34
+NT Benchmark,Regulatory Annotation,NT_500m_MS,enhancers,0.482255,0.449539,0.513822,12,34
+NT Benchmark,Regulatory Annotation,DNABERT,enhancers,0.48191,0.450648,0.512862,13,34
+NT Benchmark,Regulatory Annotation,GROVER,enhancers,0.480946,0.448883,0.514955,14,34
+NT Benchmark,Regulatory Annotation,SpeciesLM,enhancers,0.479114,0.446398,0.511064,15,34
+NT Benchmark,Regulatory Annotation,GPN-MSA,enhancers,0.478904629830965,0.446911461141101,0.511218665327143,16,34
+NT Benchmark,Regulatory Annotation,Genos-1.2B,enhancers,0.476165,0.446556,0.506369,17,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-17M,enhancers,0.47547,0.444515,0.505689,18,34
+NT Benchmark,Regulatory Annotation,GENERator-1.2B,enhancers,0.472192,0.440677,0.503073,19,34
+NT Benchmark,Regulatory Annotation,AIDO.DNA-300M,enhancers,0.470172,0.439221,0.500194,20,34
+NT Benchmark,Regulatory Annotation,GENERator-3B,enhancers,0.460653,0.429635,0.491643,21,34
+NT Benchmark,Regulatory Annotation,GENA-LM-base,enhancers,0.46002,0.429169,0.490917,22,34
+NT Benchmark,Regulatory Annotation,NTv3-650M-pre,enhancers,0.459515,0.427819,0.492935,23,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-422M,enhancers,0.459102,0.426557,0.494091,24,34
+NT Benchmark,Regulatory Annotation,NT_2.5b_MS,enhancers,0.451955,0.420218,0.484991,25,34
+NT Benchmark,Regulatory Annotation,Caduceus-PS,enhancers,0.447199,0.414361,0.481189,26,34
+NT Benchmark,Regulatory Annotation,NTv3-8M-pre,enhancers,0.445175,0.412465,0.477117,27,34
+NT Benchmark,Regulatory Annotation,NTv3-100M-pre,enhancers,0.443824,0.413992,0.474511,28,34
+NT Benchmark,Regulatory Annotation,Caduceus-PH,enhancers,0.437035,0.405303,0.470407,29,34
+NT Benchmark,Regulatory Annotation,HyenaDNA_tiny_1k,enhancers,0.400786,0.368527,0.43383,30,34
+NT Benchmark,Regulatory Annotation,evo2_1b_base,enhancers,0.39571,0.365901,0.426809,31,34
+NT Benchmark,Regulatory Annotation,GPN-promoter,enhancers,0.394928,0.364318,0.425969,32,34
+NT Benchmark,Regulatory Annotation,NT_500m_1kG,enhancers,0.352002,0.319869,0.384465,33,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-138M,enhancers,0.246366,0.211836,0.281261,34,34
+NT Benchmark,Regulatory Annotation,GPN-Star-M,promoter_no_tata,0.808291493262341,0.776120356865084,0.837253428491279,1,34
+NT Benchmark,Regulatory Annotation,GPN-Star-P,promoter_no_tata,0.800012539959678,0.769564782047342,0.829774436960719,2,34
+NT Benchmark,Regulatory Annotation,GPN-MSA,promoter_no_tata,0.792173860898869,0.760480874293056,0.823839580880918,3,34
+NT Benchmark,Regulatory Annotation,evo2_7b_base,promoter_no_tata,0.792099,0.760649,0.825299,4,34
+NT Benchmark,Regulatory Annotation,GPN-Star-V,promoter_no_tata,0.786301160103343,0.751034378037611,0.818260994321342,5,34
+NT Benchmark,Regulatory Annotation,hEvo-base,promoter_no_tata,0.767818,0.734888,0.802471,6,34
+NT Benchmark,Regulatory Annotation,Genos-1.2B,promoter_no_tata,0.767509,0.733281,0.801431,7,34
+NT Benchmark,Regulatory Annotation,hEvo-large,promoter_no_tata,0.762202,0.725861,0.796016,8,34
+NT Benchmark,Regulatory Annotation,NT_2.5b_1kG,promoter_no_tata,0.754726,0.71832,0.790006,9,34
+NT Benchmark,Regulatory Annotation,hEvo-open-base,promoter_no_tata,0.750202,0.715677,0.785628,10,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-17M,promoter_no_tata,0.749041,0.712073,0.784013,11,34
+NT Benchmark,Regulatory Annotation,NT_500m_MS,promoter_no_tata,0.74766,0.712039,0.784011,12,34
+NT Benchmark,Regulatory Annotation,GENA-LM-large,promoter_no_tata,0.745163,0.709197,0.780021,13,34
+NT Benchmark,Regulatory Annotation,hEvo-open-large,promoter_no_tata,0.7436918289038499,0.7093685104728297,0.7797967867544843,14,34
+NT Benchmark,Regulatory Annotation,NT_500m_1kG,promoter_no_tata,0.742914,0.706702,0.777877,15,34
+NT Benchmark,Regulatory Annotation,NTv3-650M-pre,promoter_no_tata,0.742708,0.706657,0.776752,16,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-422M,promoter_no_tata,0.741921,0.706005,0.778882,17,34
+NT Benchmark,Regulatory Annotation,Caduceus-PS,promoter_no_tata,0.74188,0.707065,0.778594,18,34
+NT Benchmark,Regulatory Annotation,SpeciesLM,promoter_no_tata,0.740431,0.705395,0.775695,19,34
+NT Benchmark,Regulatory Annotation,GENERator-1.2B,promoter_no_tata,0.738309,0.704595,0.77126,20,34
+NT Benchmark,Regulatory Annotation,Caduceus-PH,promoter_no_tata,0.737308,0.702034,0.771729,21,34
+NT Benchmark,Regulatory Annotation,AIDO.DNA-300M,promoter_no_tata,0.735848,0.700894,0.769366,22,34
+NT Benchmark,Regulatory Annotation,DNABERT2,promoter_no_tata,0.73471,0.698552,0.771875,23,34
+NT Benchmark,Regulatory Annotation,GPN-promoter,promoter_no_tata,0.733508,0.697871,0.767564,24,34
+NT Benchmark,Regulatory Annotation,HyenaDNA_tiny_1k,promoter_no_tata,0.733457,0.697078,0.768253,25,34
+NT Benchmark,Regulatory Annotation,NT_2.5b_MS,promoter_no_tata,0.73292,0.696267,0.767029,26,34
+NT Benchmark,Regulatory Annotation,DNABERT,promoter_no_tata,0.728368,0.691762,0.763767,27,34
+NT Benchmark,Regulatory Annotation,NTv3-100M-pre,promoter_no_tata,0.721772,0.686118,0.758938,28,34
+NT Benchmark,Regulatory Annotation,GENERator-3B,promoter_no_tata,0.7211,0.68517,0.756363,29,34
+NT Benchmark,Regulatory Annotation,evo2_1b_base,promoter_no_tata,0.714311,0.675999,0.750125,30,34
+NT Benchmark,Regulatory Annotation,NTv3-8M-pre,promoter_no_tata,0.713268,0.675603,0.750614,31,34
+NT Benchmark,Regulatory Annotation,GENA-LM-base,promoter_no_tata,0.710661,0.673062,0.750052,32,34
+NT Benchmark,Regulatory Annotation,GROVER,promoter_no_tata,0.707949,0.672167,0.744519,33,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-138M,promoter_no_tata,0.594426,0.550453,0.634416,34,34
+NT Benchmark,Regulatory Annotation,GPN-Star-M,enhancers_types,0.477972146487689,0.44910733293981,0.509449474339995,1,34
+NT Benchmark,Regulatory Annotation,hEvo-base,enhancers_types,0.474001,0.444946,0.505024,2,34
+NT Benchmark,Regulatory Annotation,evo2_7b_base,enhancers_types,0.472116,0.442046,0.502987,3,34
+NT Benchmark,Regulatory Annotation,hEvo-large,enhancers_types,0.469934,0.440397,0.500368,4,34
+NT Benchmark,Regulatory Annotation,GROVER,enhancers_types,0.456435,0.42546,0.486524,5,34
+NT Benchmark,Regulatory Annotation,GPN-Star-P,enhancers_types,0.45545424667154,0.425583152669417,0.485834246512625,6,34
+NT Benchmark,Regulatory Annotation,hEvo-open-large,enhancers_types,0.455027777045176,0.42764767496952544,0.48420907523812845,7,34
+NT Benchmark,Regulatory Annotation,GPN-Star-V,enhancers_types,0.454673573984223,0.425702068366354,0.485715886298398,8,34
+NT Benchmark,Regulatory Annotation,NT_500m_MS,enhancers_types,0.450352,0.418371,0.480654,9,34
+NT Benchmark,Regulatory Annotation,NT_2.5b_1kG,enhancers_types,0.450259,0.420831,0.480054,10,34
+NT Benchmark,Regulatory Annotation,DNABERT2,enhancers_types,0.448404,0.418976,0.477897,11,34
+NT Benchmark,Regulatory Annotation,hEvo-open-base,enhancers_types,0.446369,0.416953,0.476098,12,34
+NT Benchmark,Regulatory Annotation,DNABERT,enhancers_types,0.446354,0.416021,0.476,13,34
+NT Benchmark,Regulatory Annotation,GENA-LM-large,enhancers_types,0.440075,0.409023,0.47002,14,34
+NT Benchmark,Regulatory Annotation,GENERator-3B,enhancers_types,0.439127,0.410166,0.46772,15,34
+NT Benchmark,Regulatory Annotation,GENERator-1.2B,enhancers_types,0.436432,0.406362,0.467293,16,34
+NT Benchmark,Regulatory Annotation,SpeciesLM,enhancers_types,0.435386,0.40324,0.466495,17,34
+NT Benchmark,Regulatory Annotation,NT_2.5b_MS,enhancers_types,0.433535,0.405597,0.464277,18,34
+NT Benchmark,Regulatory Annotation,GPN-MSA,enhancers_types,0.431292049320308,0.401280410552873,0.461386455614097,19,34
+NT Benchmark,Regulatory Annotation,AIDO.DNA-300M,enhancers_types,0.427676,0.396686,0.459026,20,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-422M,enhancers_types,0.424906,0.394723,0.456622,21,34
+NT Benchmark,Regulatory Annotation,NT_500m_1kG,enhancers_types,0.421075,0.391563,0.450827,22,34
+NT Benchmark,Regulatory Annotation,NTv3-650M-pre,enhancers_types,0.418177,0.388156,0.449076,23,34
+NT Benchmark,Regulatory Annotation,NTv3-100M-pre,enhancers_types,0.413048,0.381287,0.443098,24,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-17M,enhancers_types,0.410073,0.378101,0.441169,25,34
+NT Benchmark,Regulatory Annotation,Caduceus-PH,enhancers_types,0.402889,0.371392,0.434416,26,34
+NT Benchmark,Regulatory Annotation,Caduceus-PS,enhancers_types,0.400138,0.368973,0.431817,27,34
+NT Benchmark,Regulatory Annotation,Genos-1.2B,enhancers_types,0.399971,0.368694,0.430552,28,34
+NT Benchmark,Regulatory Annotation,GENA-LM-base,enhancers_types,0.387418,0.357342,0.418295,29,34
+NT Benchmark,Regulatory Annotation,HyenaDNA_tiny_1k,enhancers_types,0.383333,0.352003,0.412966,30,34
+NT Benchmark,Regulatory Annotation,NTv3-8M-pre,enhancers_types,0.378692,0.346738,0.407521,31,34
+NT Benchmark,Regulatory Annotation,evo2_1b_base,enhancers_types,0.369806,0.338883,0.398887,32,34
+NT Benchmark,Regulatory Annotation,GPN-promoter,enhancers_types,0.363238,0.333644,0.392038,33,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-138M,enhancers_types,0.214713,0.181248,0.247752,34,34
+NT Benchmark,Regulatory Annotation,SpeciesLM,promoter_tata,0.809601,0.733713,0.878189,1,34
+NT Benchmark,Regulatory Annotation,evo2_7b_base,promoter_tata,0.804916,0.724416,0.87213,2,34
+NT Benchmark,Regulatory Annotation,GPN-MSA,promoter_tata,0.791648131334176,0.717779126309807,0.863516046335949,3,34
+NT Benchmark,Regulatory Annotation,GPN-Star-V,promoter_tata,0.783279219863864,0.704842128056594,0.856718774649183,4,34
+NT Benchmark,Regulatory Annotation,NT_2.5b_MS,promoter_tata,0.776243,0.688751,0.861772,5,34
+NT Benchmark,Regulatory Annotation,GPN-Star-P,promoter_tata,0.774473885736602,0.691459055049657,0.851495285058587,6,34
+NT Benchmark,Regulatory Annotation,GPN-Star-M,promoter_tata,0.772737639089406,0.693105253550869,0.852867013253431,7,34
+NT Benchmark,Regulatory Annotation,NTv3-650M-pre,promoter_tata,0.767343,0.679437,0.849007,8,34
+NT Benchmark,Regulatory Annotation,GENA-LM-large,promoter_tata,0.766037,0.674236,0.84906,9,34
+NT Benchmark,Regulatory Annotation,GROVER,promoter_tata,0.760258,0.678726,0.842941,10,34
+NT Benchmark,Regulatory Annotation,hEvo-base,promoter_tata,0.755515,0.667999,0.839667,11,34
+NT Benchmark,Regulatory Annotation,NT_500m_MS,promoter_tata,0.753836,0.669527,0.840003,12,34
+NT Benchmark,Regulatory Annotation,GPN-promoter,promoter_tata,0.746717,0.65141,0.830337,13,34
+NT Benchmark,Regulatory Annotation,DNABERT,promoter_tata,0.746362,0.655192,0.839059,14,34
+NT Benchmark,Regulatory Annotation,hEvo-large,promoter_tata,0.745282,0.650775,0.830789,15,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-17M,promoter_tata,0.736703,0.651806,0.819857,16,34
+NT Benchmark,Regulatory Annotation,NT_500m_1kG,promoter_tata,0.736432,0.646915,0.821872,17,34
+NT Benchmark,Regulatory Annotation,hEvo-open-base,promoter_tata,0.729875,0.6393,0.816122,18,34
+NT Benchmark,Regulatory Annotation,hEvo-open-large,promoter_tata,0.7267299576707177,0.639220421121545,0.8110528051530158,19,34
+NT Benchmark,Regulatory Annotation,Caduceus-PS,promoter_tata,0.718405,0.625903,0.810607,20,34
+NT Benchmark,Regulatory Annotation,DNABERT2,promoter_tata,0.701399,0.606069,0.792635,21,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-422M,promoter_tata,0.701224,0.608201,0.788736,22,34
+NT Benchmark,Regulatory Annotation,GENA-LM-base,promoter_tata,0.699335,0.603817,0.786405,23,34
+NT Benchmark,Regulatory Annotation,Caduceus-PH,promoter_tata,0.698903,0.604634,0.790231,24,34
+NT Benchmark,Regulatory Annotation,NTv3-8M-pre,promoter_tata,0.690348,0.593056,0.788743,25,34
+NT Benchmark,Regulatory Annotation,AIDO.DNA-300M,promoter_tata,0.690342,0.594517,0.778075,26,34
+NT Benchmark,Regulatory Annotation,NT_2.5b_1kG,promoter_tata,0.67268,0.574899,0.770796,27,34
+NT Benchmark,Regulatory Annotation,evo2_1b_base,promoter_tata,0.672058,0.569101,0.764512,28,34
+NT Benchmark,Regulatory Annotation,NTv3-100M-pre,promoter_tata,0.665592,0.566345,0.760211,29,34
+NT Benchmark,Regulatory Annotation,HyenaDNA_tiny_1k,promoter_tata,0.654124,0.551574,0.753599,30,34
+NT Benchmark,Regulatory Annotation,Genos-1.2B,promoter_tata,0.632514,0.54399,0.714569,31,34
+NT Benchmark,Regulatory Annotation,GENERator-1.2B,promoter_tata,0.618317,0.530524,0.703934,32,34
+NT Benchmark,Regulatory Annotation,Mistral-DNA-138M,promoter_tata,0.535947,0.416676,0.646192,33,34
+NT Benchmark,Regulatory Annotation,GENERator-3B,promoter_tata,0.332398,0.260446,0.403263,34,34
+NT Benchmark,Histone Markers,GPN-Star-P,H3K4me3,0.667643728523187,0.615219076020131,0.7149202792159,1,34
+NT Benchmark,Histone Markers,GPN-Star-M,H3K4me3,0.650654418797358,0.595671350656192,0.698914247195632,2,34
+NT Benchmark,Histone Markers,hEvo-open-large,H3K4me3,0.6426540645536267,0.5872524096818255,0.6959135981233794,3,34
+NT Benchmark,Histone Markers,GENA-LM-base,H3K4me3,0.638672,0.582194,0.694713,4,34
+NT Benchmark,Histone Markers,hEvo-large,H3K4me3,0.632234,0.581227,0.684622,5,34
+NT Benchmark,Histone Markers,NT_2.5b_1kG,H3K4me3,0.629384,0.577177,0.682494,6,34
+NT Benchmark,Histone Markers,hEvo-base,H3K4me3,0.626311,0.570648,0.682415,7,34
+NT Benchmark,Histone Markers,hEvo-open-base,H3K4me3,0.625645,0.571799,0.681995,8,34
+NT Benchmark,Histone Markers,SpeciesLM,H3K4me3,0.623246,0.56448,0.676617,9,34
+NT Benchmark,Histone Markers,AIDO.DNA-300M,H3K4me3,0.622593,0.567753,0.674535,10,34
+NT Benchmark,Histone Markers,GPN-Star-V,H3K4me3,0.621949621003275,0.565738549349613,0.673178572376369,11,34
+NT Benchmark,Histone Markers,GENA-LM-large,H3K4me3,0.618679,0.560409,0.673159,12,34
+NT Benchmark,Histone Markers,evo2_7b_base,H3K4me3,0.605815,0.546821,0.661309,13,34
+NT Benchmark,Histone Markers,DNABERT2,H3K4me3,0.602464,0.547847,0.656068,14,34
+NT Benchmark,Histone Markers,DNABERT,H3K4me3,0.597545,0.540013,0.653237,15,34
+NT Benchmark,Histone Markers,Mistral-DNA-422M,H3K4me3,0.596214,0.543195,0.65248,16,34
+NT Benchmark,Histone Markers,GROVER,H3K4me3,0.596105,0.53834,0.651781,17,34
+NT Benchmark,Histone Markers,NT_2.5b_MS,H3K4me3,0.59063,0.533553,0.644148,18,34
+NT Benchmark,Histone Markers,NT_500m_MS,H3K4me3,0.589864,0.533842,0.648616,19,34
+NT Benchmark,Histone Markers,GENERator-1.2B,H3K4me3,0.589032,0.535069,0.642753,20,34
+NT Benchmark,Histone Markers,NTv3-100M-pre,H3K4me3,0.586344,0.528364,0.640069,21,34
+NT Benchmark,Histone Markers,Mistral-DNA-17M,H3K4me3,0.585746,0.530525,0.641324,22,34
+NT Benchmark,Histone Markers,NTv3-8M-pre,H3K4me3,0.581399,0.52625,0.638289,23,34
+NT Benchmark,Histone Markers,HyenaDNA_tiny_1k,H3K4me3,0.577679,0.521501,0.631702,24,34
+NT Benchmark,Histone Markers,GPN-promoter,H3K4me3,0.565052,0.510961,0.620871,25,34
+NT Benchmark,Histone Markers,GPN-MSA,H3K4me3,0.564869491318279,0.507588051766351,0.622466385384084,26,34
+NT Benchmark,Histone Markers,evo2_1b_base,H3K4me3,0.560343,0.505502,0.620957,27,34
+NT Benchmark,Histone Markers,Caduceus-PH,H3K4me3,0.53708,0.47889,0.594005,28,34
+NT Benchmark,Histone Markers,Genos-1.2B,H3K4me3,0.535078,0.479554,0.591434,29,34
+NT Benchmark,Histone Markers,Caduceus-PS,H3K4me3,0.529496,0.47171,0.586289,30,34
+NT Benchmark,Histone Markers,NT_500m_1kG,H3K4me3,0.516081,0.459811,0.575736,31,34
+NT Benchmark,Histone Markers,Mistral-DNA-138M,H3K4me3,0.460829,0.396829,0.518748,32,34
+NT Benchmark,Histone Markers,NTv3-650M-pre,H3K4me3,0.460553,0.416564,0.508379,33,34
+NT Benchmark,Histone Markers,GENERator-3B,H3K4me3,0.379609,0.334066,0.427024,34,34
+NT Benchmark,Histone Markers,hEvo-large,H2AFZ,0.49209,0.458993,0.524452,1,34
+NT Benchmark,Histone Markers,hEvo-open-large,H2AFZ,0.4880350450965031,0.45793236574625773,0.5178530995277719,2,34
+NT Benchmark,Histone Markers,evo2_7b_base,H2AFZ,0.465355,0.434386,0.499663,3,34
+NT Benchmark,Histone Markers,hEvo-base,H2AFZ,0.463866,0.432986,0.494384,4,34
+NT Benchmark,Histone Markers,NT_2.5b_1kG,H2AFZ,0.45329,0.421863,0.486441,5,34
+NT Benchmark,Histone Markers,evo2_1b_base,H2AFZ,0.452114,0.422803,0.483459,6,34
+NT Benchmark,Histone Markers,AIDO.DNA-300M,H2AFZ,0.447967,0.417347,0.481258,7,34
+NT Benchmark,Histone Markers,Mistral-DNA-422M,H2AFZ,0.424749,0.395134,0.456815,8,34
+NT Benchmark,Histone Markers,Genos-1.2B,H2AFZ,0.417017,0.38717,0.449465,9,34
+NT Benchmark,Histone Markers,hEvo-open-base,H2AFZ,0.416779,0.385802,0.446324,10,34
+NT Benchmark,Histone Markers,GENA-LM-large,H2AFZ,0.410562,0.378633,0.442394,11,34
+NT Benchmark,Histone Markers,Caduceus-PH,H2AFZ,0.410371,0.377986,0.442069,12,34
+NT Benchmark,Histone Markers,GROVER,H2AFZ,0.41006,0.379641,0.440818,13,34
+NT Benchmark,Histone Markers,SpeciesLM,H2AFZ,0.40546,0.37313,0.438962,14,34
+NT Benchmark,Histone Markers,DNABERT2,H2AFZ,0.404924,0.373293,0.436339,15,34
+NT Benchmark,Histone Markers,NT_2.5b_MS,H2AFZ,0.400027,0.367481,0.433322,16,34
+NT Benchmark,Histone Markers,Caduceus-PS,H2AFZ,0.398478,0.366554,0.429139,17,34
+NT Benchmark,Histone Markers,GPN-Star-M,H2AFZ,0.396405944900228,0.363112387356323,0.430571088756761,18,34
+NT Benchmark,Histone Markers,DNABERT,H2AFZ,0.393681,0.359489,0.426928,19,34
+NT Benchmark,Histone Markers,GPN-Star-V,H2AFZ,0.391272030643043,0.359348906825912,0.423303672340787,20,34
+NT Benchmark,Histone Markers,NTv3-100M-pre,H2AFZ,0.385184,0.354368,0.416428,21,34
+NT Benchmark,Histone Markers,NT_500m_MS,H2AFZ,0.380576,0.348773,0.415041,22,34
+NT Benchmark,Histone Markers,GENA-LM-base,H2AFZ,0.380044,0.348866,0.412777,23,34
+NT Benchmark,Histone Markers,GENERator-1.2B,H2AFZ,0.379924,0.348901,0.411349,24,34
+NT Benchmark,Histone Markers,Mistral-DNA-17M,H2AFZ,0.374768,0.34294,0.407357,25,34
+NT Benchmark,Histone Markers,GPN-promoter,H2AFZ,0.372996,0.34092,0.406333,26,34
+NT Benchmark,Histone Markers,NT_500m_1kG,H2AFZ,0.362551,0.332061,0.395058,27,34
+NT Benchmark,Histone Markers,HyenaDNA_tiny_1k,H2AFZ,0.361561,0.329715,0.390656,28,34
+NT Benchmark,Histone Markers,NTv3-8M-pre,H2AFZ,0.360949,0.328885,0.393908,29,34
+NT Benchmark,Histone Markers,GPN-Star-P,H2AFZ,0.357688720864056,0.324941306091559,0.391030773083707,30,34
+NT Benchmark,Histone Markers,GPN-MSA,H2AFZ,0.352323541273217,0.320177603036893,0.385784098639064,31,34
+NT Benchmark,Histone Markers,NTv3-650M-pre,H2AFZ,0.321991,0.291152,0.351875,32,34
+NT Benchmark,Histone Markers,Mistral-DNA-138M,H2AFZ,0.295325,0.263759,0.329093,33,34
+NT Benchmark,Histone Markers,GENERator-3B,H2AFZ,0.277387,0.250568,0.301379,34,34
+NT Benchmark,Histone Markers,GPN-Star-M,H3K36me3,0.605230040123398,0.575685243836174,0.632613661151572,1,34
+NT Benchmark,Histone Markers,evo2_7b_base,H3K36me3,0.602937,0.574273,0.629992,2,34
+NT Benchmark,Histone Markers,GPN-Star-P,H3K36me3,0.598244988635751,0.567723861472676,0.624553574668185,3,34
+NT Benchmark,Histone Markers,Genos-1.2B,H3K36me3,0.572127,0.545941,0.600902,4,34
+NT Benchmark,Histone Markers,hEvo-base,H3K36me3,0.571004,0.54199,0.59949,5,34
+NT Benchmark,Histone Markers,GENA-LM-large,H3K36me3,0.570796,0.542838,0.5998,6,34
+NT Benchmark,Histone Markers,hEvo-large,H3K36me3,0.568626,0.540058,0.59517,7,34
+NT Benchmark,Histone Markers,NT_2.5b_MS,H3K36me3,0.567331,0.537918,0.59637,8,34
+NT Benchmark,Histone Markers,GPN-Star-V,H3K36me3,0.555927884048295,0.525917864665398,0.584919593324053,9,34
+NT Benchmark,Histone Markers,NT_2.5b_1kG,H3K36me3,0.551959,0.521258,0.581734,10,34
+NT Benchmark,Histone Markers,hEvo-open-large,H3K36me3,0.5516497500514158,0.5226917568256749,0.580565200598492,11,34
+NT Benchmark,Histone Markers,AIDO.DNA-300M,H3K36me3,0.545323,0.51632,0.575389,12,34
+NT Benchmark,Histone Markers,DNABERT,H3K36me3,0.544945,0.514647,0.574237,13,34
+NT Benchmark,Histone Markers,GENA-LM-base,H3K36me3,0.536595,0.507461,0.564326,14,34
+NT Benchmark,Histone Markers,DNABERT2,H3K36me3,0.524552,0.494511,0.555796,15,34
+NT Benchmark,Histone Markers,GPN-MSA,H3K36me3,0.520152482978468,0.492395717771361,0.548446952344805,16,34
+NT Benchmark,Histone Markers,Mistral-DNA-422M,H3K36me3,0.518795,0.486856,0.54918,17,34
+NT Benchmark,Histone Markers,SpeciesLM,H3K36me3,0.518795,0.489357,0.548659,17,34
+NT Benchmark,Histone Markers,evo2_1b_base,H3K36me3,0.508001,0.47877,0.538767,19,34
+NT Benchmark,Histone Markers,hEvo-open-base,H3K36me3,0.507248,0.477631,0.539361,20,34
+NT Benchmark,Histone Markers,GENERator-1.2B,H3K36me3,0.503595,0.471026,0.532314,21,34
+NT Benchmark,Histone Markers,NT_500m_MS,H3K36me3,0.499122,0.466395,0.529564,22,34
+NT Benchmark,Histone Markers,NTv3-100M-pre,H3K36me3,0.496939,0.465765,0.52599,23,34
+NT Benchmark,Histone Markers,NTv3-650M-pre,H3K36me3,0.491032,0.462,0.520997,24,34
+NT Benchmark,Histone Markers,GROVER,H3K36me3,0.486382,0.454224,0.517312,25,34
+NT Benchmark,Histone Markers,NT_500m_1kG,H3K36me3,0.468304,0.439375,0.498235,26,34
+NT Benchmark,Histone Markers,GENERator-3B,H3K36me3,0.46433,0.438476,0.491018,27,34
+NT Benchmark,Histone Markers,Mistral-DNA-17M,H3K36me3,0.462809,0.429722,0.493237,28,34
+NT Benchmark,Histone Markers,NTv3-8M-pre,H3K36me3,0.458611,0.426915,0.49228,29,34
+NT Benchmark,Histone Markers,Caduceus-PS,H3K36me3,0.43751,0.404951,0.471419,30,34
+NT Benchmark,Histone Markers,GPN-promoter,H3K36me3,0.430565,0.399938,0.464102,31,34
+NT Benchmark,Histone Markers,Caduceus-PH,H3K36me3,0.423093,0.389573,0.455665,32,34
+NT Benchmark,Histone Markers,HyenaDNA_tiny_1k,H3K36me3,0.417971,0.38547,0.451925,33,34
+NT Benchmark,Histone Markers,Mistral-DNA-138M,H3K36me3,0.358323,0.326066,0.39102,34,34
+NT Benchmark,Histone Markers,hEvo-base,H4K20me1,0.647382,0.617207,0.676708,1,34
+NT Benchmark,Histone Markers,evo2_7b_base,H4K20me1,0.641753,0.611323,0.675289,2,34
+NT Benchmark,Histone Markers,hEvo-large,H4K20me1,0.635598,0.601969,0.666826,3,34
+NT Benchmark,Histone Markers,hEvo-open-large,H4K20me1,0.6293295378652471,0.5997445927507882,0.6617098828038395,4,34
+NT Benchmark,Histone Markers,GPN-Star-P,H4K20me1,0.627895834132381,0.59665479382489,0.657837066412499,5,34
+NT Benchmark,Histone Markers,GPN-Star-M,H4K20me1,0.622681225359591,0.593024000974066,0.652027268989442,6,34
+NT Benchmark,Histone Markers,GENA-LM-large,H4K20me1,0.604992,0.573481,0.637305,7,34
+NT Benchmark,Histone Markers,NT_2.5b_MS,H4K20me1,0.59969,0.567064,0.633947,8,34
+NT Benchmark,Histone Markers,NT_2.5b_1kG,H4K20me1,0.598286,0.564251,0.629798,9,34
+NT Benchmark,Histone Markers,hEvo-open-base,H4K20me1,0.5967,0.564389,0.628431,10,34
+NT Benchmark,Histone Markers,Genos-1.2B,H4K20me1,0.592892,0.557844,0.62586,11,34
+NT Benchmark,Histone Markers,DNABERT2,H4K20me1,0.592877,0.561432,0.625622,12,34
+NT Benchmark,Histone Markers,DNABERT,H4K20me1,0.590683,0.558322,0.623837,13,34
+NT Benchmark,Histone Markers,AIDO.DNA-300M,H4K20me1,0.588219,0.557287,0.621759,14,34
+NT Benchmark,Histone Markers,GPN-Star-V,H4K20me1,0.577508991471591,0.544064481057654,0.6111091770408,15,34
+NT Benchmark,Histone Markers,Mistral-DNA-422M,H4K20me1,0.576089,0.541569,0.611784,16,34
+NT Benchmark,Histone Markers,GENERator-3B,H4K20me1,0.575248,0.543127,0.605536,17,34
+NT Benchmark,Histone Markers,GENA-LM-base,H4K20me1,0.571147,0.540153,0.604639,18,34
+NT Benchmark,Histone Markers,SpeciesLM,H4K20me1,0.569387,0.53688,0.603229,19,34
+NT Benchmark,Histone Markers,GROVER,H4K20me1,0.561971,0.527843,0.594534,20,34
+NT Benchmark,Histone Markers,NTv3-650M-pre,H4K20me1,0.558864,0.525806,0.593724,21,34
+NT Benchmark,Histone Markers,Caduceus-PS,H4K20me1,0.557797,0.52117,0.59213,22,34
+NT Benchmark,Histone Markers,GPN-MSA,H4K20me1,0.557655461504558,0.522976048866211,0.592882909138661,23,34
+NT Benchmark,Histone Markers,evo2_1b_base,H4K20me1,0.557503,0.522541,0.594188,24,34
+NT Benchmark,Histone Markers,Caduceus-PH,H4K20me1,0.556434,0.520057,0.589406,25,34
+NT Benchmark,Histone Markers,NT_500m_1kG,H4K20me1,0.552891,0.519024,0.585143,26,34
+NT Benchmark,Histone Markers,NTv3-100M-pre,H4K20me1,0.549334,0.516869,0.58554,27,34
+NT Benchmark,Histone Markers,NT_500m_MS,H4K20me1,0.547645,0.512557,0.584178,28,34
+NT Benchmark,Histone Markers,HyenaDNA_tiny_1k,H4K20me1,0.5267,0.492904,0.561969,29,34
+NT Benchmark,Histone Markers,Mistral-DNA-17M,H4K20me1,0.525186,0.490588,0.560745,30,34
+NT Benchmark,Histone Markers,NTv3-8M-pre,H4K20me1,0.523405,0.486864,0.558322,31,34
+NT Benchmark,Histone Markers,GPN-promoter,H4K20me1,0.506536,0.470617,0.542896,32,34
+NT Benchmark,Histone Markers,GENERator-1.2B,H4K20me1,0.499683,0.470622,0.529023,33,34
+NT Benchmark,Histone Markers,Mistral-DNA-138M,H4K20me1,0.410353,0.372125,0.446632,34,34
+NT Benchmark,Histone Markers,hEvo-large,H3K4me2,0.56398,0.532075,0.596873,1,34
+NT Benchmark,Histone Markers,evo2_7b_base,H3K4me2,0.539702,0.504574,0.574217,2,34
+NT Benchmark,Histone Markers,hEvo-open-large,H3K4me2,0.5378280970886788,0.5006384456266847,0.572857356543919,3,34
+NT Benchmark,Histone Markers,hEvo-base,H3K4me2,0.535848,0.498893,0.56939,4,34
+NT Benchmark,Histone Markers,Mistral-DNA-422M,H3K4me2,0.513956,0.47929,0.5482,5,34
+NT Benchmark,Histone Markers,NT_2.5b_1kG,H3K4me2,0.507175,0.469472,0.544362,6,34
+NT Benchmark,Histone Markers,hEvo-open-base,H3K4me2,0.498267,0.458842,0.534773,7,34
+NT Benchmark,Histone Markers,evo2_1b_base,H3K4me2,0.496666,0.462199,0.531863,8,34
+NT Benchmark,Histone Markers,SpeciesLM,H3K4me2,0.484611,0.449036,0.521539,9,34
+NT Benchmark,Histone Markers,DNABERT,H3K4me2,0.483312,0.442609,0.51831,10,34
+NT Benchmark,Histone Markers,GENA-LM-large,H3K4me2,0.482464,0.445504,0.520378,11,34
+NT Benchmark,Histone Markers,Caduceus-PH,H3K4me2,0.475439,0.438735,0.515371,12,34
+NT Benchmark,Histone Markers,GROVER,H3K4me2,0.475016,0.436424,0.511472,13,34
+NT Benchmark,Histone Markers,Caduceus-PS,H3K4me2,0.474555,0.43755,0.511039,14,34
+NT Benchmark,Histone Markers,AIDO.DNA-300M,H3K4me2,0.469349,0.433725,0.503713,15,34
+NT Benchmark,Histone Markers,DNABERT2,H3K4me2,0.468702,0.430094,0.502764,16,34
+NT Benchmark,Histone Markers,NT_500m_MS,H3K4me2,0.467014,0.429546,0.504658,17,34
+NT Benchmark,Histone Markers,Mistral-DNA-17M,H3K4me2,0.456456,0.418052,0.495944,18,34
+NT Benchmark,Histone Markers,Genos-1.2B,H3K4me2,0.455916,0.421778,0.487963,19,34
+NT Benchmark,Histone Markers,NT_2.5b_MS,H3K4me2,0.455489,0.418888,0.495172,20,34
+NT Benchmark,Histone Markers,NT_500m_1kG,H3K4me2,0.451776,0.412118,0.489358,21,34
+NT Benchmark,Histone Markers,GENA-LM-base,H3K4me2,0.446113,0.407806,0.483501,22,34
+NT Benchmark,Histone Markers,NTv3-100M-pre,H3K4me2,0.440828,0.400901,0.47642,23,34
+NT Benchmark,Histone Markers,GPN-Star-P,H3K4me2,0.43623146972098,0.401677922824328,0.469849569629002,24,34
+NT Benchmark,Histone Markers,NTv3-8M-pre,H3K4me2,0.430526,0.393793,0.466464,25,34
+NT Benchmark,Histone Markers,GPN-Star-M,H3K4me2,0.42715865171245,0.393319612155737,0.461223854832799,26,34
+NT Benchmark,Histone Markers,GENERator-1.2B,H3K4me2,0.427007,0.392893,0.457495,27,34
+NT Benchmark,Histone Markers,GPN-MSA,H3K4me2,0.424992979282426,0.38634214936834,0.459898837755998,28,34
+NT Benchmark,Histone Markers,HyenaDNA_tiny_1k,H3K4me2,0.414043,0.37381,0.452175,29,34
+NT Benchmark,Histone Markers,GPN-Star-V,H3K4me2,0.406086558247371,0.371383020468932,0.441340723690805,30,34
+NT Benchmark,Histone Markers,NTv3-650M-pre,H3K4me2,0.401924,0.368025,0.436067,31,34
+NT Benchmark,Histone Markers,GPN-promoter,H3K4me2,0.387016,0.347015,0.428811,32,34
+NT Benchmark,Histone Markers,GENERator-3B,H3K4me2,0.369024,0.340485,0.395882,33,34
+NT Benchmark,Histone Markers,Mistral-DNA-138M,H3K4me2,0.322787,0.281536,0.361565,34,34
+NT Benchmark,Splice Site Annotation,hEvo-base,splice_sites_all,0.622239,0.598456,0.645622,1,34
+NT Benchmark,Splice Site Annotation,hEvo-open-large,splice_sites_all,0.5196768174608332,0.49538209028607416,0.5440006730835188,2,34
+NT Benchmark,Splice Site Annotation,evo2_7b_base,splice_sites_all,0.501636,0.475313,0.52487,3,34
+NT Benchmark,Splice Site Annotation,hEvo-open-base,splice_sites_all,0.488542,0.463395,0.510983,4,34
+NT Benchmark,Splice Site Annotation,GPN-Star-V,splice_sites_all,0.487352641033833,0.464667262839941,0.511045531455457,5,34
+NT Benchmark,Splice Site Annotation,AIDO.DNA-300M,splice_sites_all,0.485614,0.461263,0.50937,6,34
+NT Benchmark,Splice Site Annotation,hEvo-large,splice_sites_all,0.482967,0.458123,0.507864,7,34
+NT Benchmark,Splice Site Annotation,GPN-Star-P,splice_sites_all,0.479978736798874,0.457159174293976,0.502591396580373,8,34
+NT Benchmark,Splice Site Annotation,GPN-Star-M,splice_sites_all,0.458131791394486,0.43355133916559,0.483407795451145,9,34
+NT Benchmark,Splice Site Annotation,NT_2.5b_MS,splice_sites_all,0.457814,0.435097,0.481248,10,34
+NT Benchmark,Splice Site Annotation,GENERator-3B,splice_sites_all,0.416482,0.394802,0.438973,11,34
+NT Benchmark,Splice Site Annotation,NT_2.5b_1kG,splice_sites_all,0.40251,0.377379,0.428696,12,34
+NT Benchmark,Splice Site Annotation,SpeciesLM,splice_sites_all,0.399122,0.372292,0.425159,13,34
+NT Benchmark,Splice Site Annotation,NTv3-650M-pre,splice_sites_all,0.396463,0.375294,0.418012,14,34
+NT Benchmark,Splice Site Annotation,GPN-promoter,splice_sites_all,0.390849,0.363855,0.414593,15,34
+NT Benchmark,Splice Site Annotation,GPN-MSA,splice_sites_all,0.378444948550582,0.354155259272043,0.402732421276557,16,34
+NT Benchmark,Splice Site Annotation,Genos-1.2B,splice_sites_all,0.365041,0.341074,0.387972,17,34
+NT Benchmark,Splice Site Annotation,GENA-LM-large,splice_sites_all,0.363134,0.337515,0.387706,18,34
+NT Benchmark,Splice Site Annotation,NTv3-100M-pre,splice_sites_all,0.353796,0.329005,0.380215,19,34
+NT Benchmark,Splice Site Annotation,DNABERT2,splice_sites_all,0.35225,0.326241,0.376973,20,34
+NT Benchmark,Splice Site Annotation,NT_500m_MS,splice_sites_all,0.340025,0.314286,0.36678,21,34
+NT Benchmark,Splice Site Annotation,NTv3-8M-pre,splice_sites_all,0.332381,0.307848,0.356896,22,34
+NT Benchmark,Splice Site Annotation,GENA-LM-base,splice_sites_all,0.313647,0.290015,0.338023,23,34
+NT Benchmark,Splice Site Annotation,DNABERT,splice_sites_all,0.309564,0.284472,0.334233,24,34
+NT Benchmark,Splice Site Annotation,Caduceus-PS,splice_sites_all,0.307596,0.279942,0.333914,25,34
+NT Benchmark,Splice Site Annotation,NT_500m_1kG,splice_sites_all,0.297744,0.274539,0.320807,26,34
+NT Benchmark,Splice Site Annotation,Mistral-DNA-422M,splice_sites_all,0.295023,0.270946,0.320581,27,34
+NT Benchmark,Splice Site Annotation,GROVER,splice_sites_all,0.288678,0.264311,0.314284,28,34
+NT Benchmark,Splice Site Annotation,evo2_1b_base,splice_sites_all,0.283974,0.257155,0.311882,29,34
+NT Benchmark,Splice Site Annotation,GENERator-1.2B,splice_sites_all,0.276523,0.255615,0.297363,30,34
+NT Benchmark,Splice Site Annotation,Caduceus-PH,splice_sites_all,0.271933,0.245091,0.298729,31,34
+NT Benchmark,Splice Site Annotation,Mistral-DNA-17M,splice_sites_all,0.265277,0.23884,0.290388,32,34
+NT Benchmark,Splice Site Annotation,HyenaDNA_tiny_1k,splice_sites_all,0.226255,0.19849,0.252398,33,34
+NT Benchmark,Splice Site Annotation,Mistral-DNA-138M,splice_sites_all,0.118809,0.092428,0.144785,34,34
+NT Benchmark,Histone Markers,hEvo-large,H3K27me3,0.60025,0.574121,0.627075,1,34
+NT Benchmark,Histone Markers,evo2_7b_base,H3K27me3,0.59703,0.571256,0.624388,2,34
+NT Benchmark,Histone Markers,NT_2.5b_1kG,H3K27me3,0.578171,0.549254,0.604787,3,34
+NT Benchmark,Histone Markers,hEvo-base,H3K27me3,0.575002,0.547717,0.600336,4,34
+NT Benchmark,Histone Markers,GENA-LM-large,H3K27me3,0.574595,0.54621,0.602556,5,34
+NT Benchmark,Histone Markers,GPN-Star-M,H3K27me3,0.574538606243717,0.548936747563901,0.600583562175619,6,34
+NT Benchmark,Histone Markers,GPN-Star-P,H3K27me3,0.566310215220506,0.540498644519969,0.592377679221121,7,34
+NT Benchmark,Histone Markers,hEvo-open-large,H3K27me3,0.563052499242272,0.536363907122834,0.5899244541638227,8,34
+NT Benchmark,Histone Markers,Mistral-DNA-422M,H3K27me3,0.560157,0.529066,0.587554,9,34
+NT Benchmark,Histone Markers,DNABERT2,H3K27me3,0.559832,0.533127,0.587609,10,34
+NT Benchmark,Histone Markers,AIDO.DNA-300M,H3K27me3,0.559697,0.531873,0.590653,11,34
+NT Benchmark,Histone Markers,GENA-LM-base,H3K27me3,0.559218,0.530127,0.587501,12,34
+NT Benchmark,Histone Markers,NT_2.5b_MS,H3K27me3,0.558222,0.528188,0.587391,13,34
+NT Benchmark,Histone Markers,GPN-Star-V,H3K27me3,0.550264797584694,0.521838444186091,0.578906867730658,14,34
+NT Benchmark,Histone Markers,SpeciesLM,H3K27me3,0.549294,0.520455,0.578381,15,34
+NT Benchmark,Histone Markers,GROVER,H3K27me3,0.548597,0.518653,0.578669,16,34
+NT Benchmark,Histone Markers,DNABERT,H3K27me3,0.545635,0.517886,0.572693,17,34
+NT Benchmark,Histone Markers,hEvo-open-base,H3K27me3,0.544433,0.520616,0.567674,18,34
+NT Benchmark,Histone Markers,NT_500m_MS,H3K27me3,0.537423,0.510432,0.567443,19,34
+NT Benchmark,Histone Markers,NTv3-100M-pre,H3K27me3,0.533849,0.50453,0.563657,20,34
+NT Benchmark,Histone Markers,NTv3-650M-pre,H3K27me3,0.532618,0.50681,0.559777,21,34
+NT Benchmark,Histone Markers,Genos-1.2B,H3K27me3,0.521831,0.494771,0.549242,22,34
+NT Benchmark,Histone Markers,evo2_1b_base,H3K27me3,0.520184,0.49194,0.548198,23,34
+NT Benchmark,Histone Markers,GPN-MSA,H3K27me3,0.514316611834768,0.488068587045848,0.539577711846842,24,34
+NT Benchmark,Histone Markers,Mistral-DNA-17M,H3K27me3,0.512329,0.482085,0.541801,25,34
+NT Benchmark,Histone Markers,GENERator-3B,H3K27me3,0.509801,0.485874,0.534941,26,34
+NT Benchmark,Histone Markers,Caduceus-PS,H3K27me3,0.509412,0.480289,0.538518,27,34
+NT Benchmark,Histone Markers,GENERator-1.2B,H3K27me3,0.508146,0.48366,0.532218,28,34
+NT Benchmark,Histone Markers,Caduceus-PH,H3K27me3,0.507954,0.477575,0.538868,29,34
+NT Benchmark,Histone Markers,GPN-promoter,H3K27me3,0.494492,0.465157,0.522797,30,34
+NT Benchmark,Histone Markers,NT_500m_1kG,H3K27me3,0.48805,0.461804,0.515061,31,34
+NT Benchmark,Histone Markers,HyenaDNA_tiny_1k,H3K27me3,0.486919,0.458073,0.517852,32,34
+NT Benchmark,Histone Markers,NTv3-8M-pre,H3K27me3,0.481084,0.452123,0.510586,33,34
+NT Benchmark,Histone Markers,Mistral-DNA-138M,H3K27me3,0.350589,0.31713,0.381453,34,34
+NT Benchmark,Histone Markers,hEvo-base,H3K4me1,0.48852,0.459096,0.518029,1,34
+NT Benchmark,Histone Markers,NT_2.5b_1kG,H3K4me1,0.457838,0.4275,0.487984,2,34
+NT Benchmark,Histone Markers,hEvo-open-large,H3K4me1,0.45425421765710083,0.42218311631725547,0.48473900384599067,3,34
+NT Benchmark,Histone Markers,GPN-Star-M,H3K4me1,0.453879332632195,0.421785082189452,0.484251334227937,4,34
+NT Benchmark,Histone Markers,GPN-Star-P,H3K4me1,0.453485922540479,0.422955082067193,0.483538749885504,5,34
+NT Benchmark,Histone Markers,hEvo-large,H3K4me1,0.452663,0.421256,0.48261,6,34
+NT Benchmark,Histone Markers,hEvo-open-base,H3K4me1,0.450617,0.41978,0.481399,7,34
+NT Benchmark,Histone Markers,evo2_7b_base,H3K4me1,0.449073,0.416253,0.480814,8,34
+NT Benchmark,Histone Markers,GENA-LM-large,H3K4me1,0.446047,0.412661,0.476803,9,34
+NT Benchmark,Histone Markers,DNABERT,H3K4me1,0.432562,0.400101,0.462636,10,34
+NT Benchmark,Histone Markers,AIDO.DNA-300M,H3K4me1,0.430315,0.399227,0.461454,11,34
+NT Benchmark,Histone Markers,DNABERT2,H3K4me1,0.426358,0.396602,0.458067,12,34
+NT Benchmark,Histone Markers,Genos-1.2B,H3K4me1,0.425627,0.392288,0.458362,13,34
+NT Benchmark,Histone Markers,GROVER,H3K4me1,0.424029,0.393801,0.452746,14,34
+NT Benchmark,Histone Markers,SpeciesLM,H3K4me1,0.42283,0.393109,0.454023,15,34
+NT Benchmark,Histone Markers,NT_2.5b_MS,H3K4me1,0.422053,0.389739,0.454161,16,34
+NT Benchmark,Histone Markers,evo2_1b_base,H3K4me1,0.413423,0.381525,0.445298,17,34
+NT Benchmark,Histone Markers,NT_500m_MS,H3K4me1,0.410594,0.379941,0.44213,18,34
+NT Benchmark,Histone Markers,Mistral-DNA-422M,H3K4me1,0.409216,0.379494,0.439276,19,34
+NT Benchmark,Histone Markers,NTv3-100M-pre,H3K4me1,0.406027,0.376766,0.438418,20,34
+NT Benchmark,Histone Markers,GPN-Star-V,H3K4me1,0.402416409501815,0.371975301674126,0.434292828085692,21,34
+NT Benchmark,Histone Markers,GENA-LM-base,H3K4me1,0.401455,0.369019,0.433719,22,34
+NT Benchmark,Histone Markers,NT_500m_1kG,H3K4me1,0.401345,0.370963,0.435307,23,34
+NT Benchmark,Histone Markers,GPN-MSA,H3K4me1,0.393812269494947,0.360568237820051,0.4266409214141,24,34
+NT Benchmark,Histone Markers,Mistral-DNA-17M,H3K4me1,0.387195,0.355518,0.419788,25,34
+NT Benchmark,Histone Markers,NTv3-650M-pre,H3K4me1,0.377224,0.345263,0.408971,26,34
+NT Benchmark,Histone Markers,NTv3-8M-pre,H3K4me1,0.376302,0.342148,0.40899,27,34
+NT Benchmark,Histone Markers,Caduceus-PS,H3K4me1,0.364975,0.332692,0.398247,28,34
+NT Benchmark,Histone Markers,Caduceus-PH,H3K4me1,0.364451,0.332949,0.397221,29,34
+NT Benchmark,Histone Markers,HyenaDNA_tiny_1k,H3K4me1,0.332164,0.299268,0.368545,30,34
+NT Benchmark,Histone Markers,GPN-promoter,H3K4me1,0.314954,0.28132,0.34921,31,34
+NT Benchmark,Histone Markers,GENERator-3B,H3K4me1,0.295508,0.272843,0.316245,32,34
+NT Benchmark,Histone Markers,Mistral-DNA-138M,H3K4me1,0.277453,0.244062,0.311876,33,34
+NT Benchmark,Histone Markers,GENERator-1.2B,H3K4me1,0.266194,0.235753,0.297025,34,34
+NT Benchmark,Splice Site Annotation,evo2_7b_base,splice_sites_acceptors,0.690995,0.664889,0.717767,1,34
+NT Benchmark,Splice Site Annotation,hEvo-base,splice_sites_acceptors,0.669149,0.64013,0.696576,2,34
+NT Benchmark,Splice Site Annotation,GPN-Star-V,splice_sites_acceptors,0.663584294352638,0.637932297728946,0.689205303363131,3,34
+NT Benchmark,Splice Site Annotation,GPN-Star-M,splice_sites_acceptors,0.66150338452369,0.63442357494888,0.688148050464242,4,34
+NT Benchmark,Splice Site Annotation,hEvo-open-large,splice_sites_acceptors,0.6545775551303998,0.6254359679075313,0.6818961585079568,5,34
+NT Benchmark,Splice Site Annotation,GPN-Star-P,splice_sites_acceptors,0.653726112547862,0.625888725520615,0.680194094097015,6,34
+NT Benchmark,Splice Site Annotation,NT_2.5b_MS,splice_sites_acceptors,0.653594,0.627411,0.680177,7,34
+NT Benchmark,Splice Site Annotation,SpeciesLM,splice_sites_acceptors,0.641545,0.614543,0.668638,8,34
+NT Benchmark,Splice Site Annotation,GENA-LM-large,splice_sites_acceptors,0.640306,0.61372,0.668014,9,34
+NT Benchmark,Splice Site Annotation,AIDO.DNA-300M,splice_sites_acceptors,0.640271,0.613398,0.668627,10,34
+NT Benchmark,Splice Site Annotation,hEvo-large,splice_sites_acceptors,0.62845,0.601132,0.654802,11,34
+NT Benchmark,Splice Site Annotation,GPN-MSA,splice_sites_acceptors,0.627131297620203,0.598534438728452,0.656256884946471,12,34
+NT Benchmark,Splice Site Annotation,hEvo-open-base,splice_sites_acceptors,0.62663,0.597878,0.65456,13,34
+NT Benchmark,Splice Site Annotation,GPN-promoter,splice_sites_acceptors,0.625445,0.596637,0.652676,14,34
+NT Benchmark,Splice Site Annotation,DNABERT2,splice_sites_acceptors,0.620562,0.591035,0.651703,15,34
+NT Benchmark,Splice Site Annotation,GENERator-3B,splice_sites_acceptors,0.602935,0.58073,0.625522,16,34
+NT Benchmark,Splice Site Annotation,NT_2.5b_1kG,splice_sites_acceptors,0.590699,0.559993,0.619973,17,34
+NT Benchmark,Splice Site Annotation,Genos-1.2B,splice_sites_acceptors,0.581731,0.552492,0.611389,18,34
+NT Benchmark,Splice Site Annotation,NTv3-650M-pre,splice_sites_acceptors,0.553947,0.523719,0.582523,19,34
+NT Benchmark,Splice Site Annotation,NTv3-100M-pre,splice_sites_acceptors,0.54397,0.513669,0.573874,20,34
+NT Benchmark,Splice Site Annotation,GENERator-1.2B,splice_sites_acceptors,0.540649,0.511648,0.569619,21,34
+NT Benchmark,Splice Site Annotation,Caduceus-PS,splice_sites_acceptors,0.529421,0.497258,0.559918,22,34
+NT Benchmark,Splice Site Annotation,DNABERT,splice_sites_acceptors,0.500034,0.467387,0.531608,23,34
+NT Benchmark,Splice Site Annotation,Caduceus-PH,splice_sites_acceptors,0.468123,0.434868,0.499671,24,34
+NT Benchmark,Splice Site Annotation,NT_500m_1kG,splice_sites_acceptors,0.464484,0.430731,0.497222,25,34
+NT Benchmark,Splice Site Annotation,Mistral-DNA-422M,splice_sites_acceptors,0.462866,0.430715,0.494748,26,34
+NT Benchmark,Splice Site Annotation,NT_500m_MS,splice_sites_acceptors,0.447184,0.416033,0.479733,27,34
+NT Benchmark,Splice Site Annotation,GROVER,splice_sites_acceptors,0.444071,0.413288,0.473653,28,34
+NT Benchmark,Splice Site Annotation,GENA-LM-base,splice_sites_acceptors,0.441596,0.413041,0.469019,29,34
+NT Benchmark,Splice Site Annotation,NTv3-8M-pre,splice_sites_acceptors,0.427132,0.395912,0.45619,30,34
+NT Benchmark,Splice Site Annotation,Mistral-DNA-17M,splice_sites_acceptors,0.423328,0.391867,0.457339,31,34
+NT Benchmark,Splice Site Annotation,evo2_1b_base,splice_sites_acceptors,0.411356,0.377167,0.446195,32,34
+NT Benchmark,Splice Site Annotation,HyenaDNA_tiny_1k,splice_sites_acceptors,0.330782,0.295601,0.364487,33,34
+NT Benchmark,Splice Site Annotation,Mistral-DNA-138M,splice_sites_acceptors,0.190754,0.157304,0.224574,34,34
+NT Benchmark,Splice Site Annotation,GPN-Star-P,splice_sites_donors,0.719296474470474,0.696997565923887,0.742470007714094,1,34
+NT Benchmark,Splice Site Annotation,evo2_7b_base,splice_sites_donors,0.718999,0.695062,0.742293,2,34
+NT Benchmark,Splice Site Annotation,GPN-Star-M,splice_sites_donors,0.717901072219353,0.695764271987169,0.741327597409227,3,34
+NT Benchmark,Splice Site Annotation,GPN-Star-V,splice_sites_donors,0.713430751086111,0.690855387595917,0.736687284491442,4,34
+NT Benchmark,Splice Site Annotation,GPN-MSA,splice_sites_donors,0.712586783257206,0.68869404393002,0.736040115663811,5,34
+NT Benchmark,Splice Site Annotation,NT_2.5b_MS,splice_sites_donors,0.690626,0.665955,0.717185,6,34
+NT Benchmark,Splice Site Annotation,AIDO.DNA-300M,splice_sites_donors,0.682979,0.656963,0.709811,7,34
+NT Benchmark,Splice Site Annotation,hEvo-base,splice_sites_donors,0.681495,0.653988,0.708213,8,34
+NT Benchmark,Splice Site Annotation,NTv3-650M-pre,splice_sites_donors,0.67686,0.6523,0.701276,9,34
+NT Benchmark,Splice Site Annotation,GPN-promoter,splice_sites_donors,0.66616,0.640238,0.69146,10,34
+NT Benchmark,Splice Site Annotation,hEvo-open-large,splice_sites_donors,0.6603976448428956,0.6338311039491885,0.685661177776898,11,34
+NT Benchmark,Splice Site Annotation,GENA-LM-large,splice_sites_donors,0.652067,0.625263,0.677334,12,34
+NT Benchmark,Splice Site Annotation,GENERator-1.2B,splice_sites_donors,0.650432,0.627556,0.6728,13,34
+NT Benchmark,Splice Site Annotation,SpeciesLM,splice_sites_donors,0.649045,0.619946,0.675904,14,34
+NT Benchmark,Splice Site Annotation,NTv3-100M-pre,splice_sites_donors,0.643187,0.615964,0.668285,15,34
+NT Benchmark,Splice Site Annotation,DNABERT2,splice_sites_donors,0.634527,0.606559,0.662356,16,34
+NT Benchmark,Splice Site Annotation,hEvo-open-base,splice_sites_donors,0.633875,0.605705,0.659247,17,34
+NT Benchmark,Splice Site Annotation,hEvo-large,splice_sites_donors,0.626859,0.601563,0.652816,18,34
+NT Benchmark,Splice Site Annotation,NT_2.5b_1kG,splice_sites_donors,0.620786,0.593276,0.648979,19,34
+NT Benchmark,Splice Site Annotation,Genos-1.2B,splice_sites_donors,0.60419,0.576154,0.631402,20,34
+NT Benchmark,Splice Site Annotation,NTv3-8M-pre,splice_sites_donors,0.575086,0.544395,0.603383,21,34
+NT Benchmark,Splice Site Annotation,DNABERT,splice_sites_donors,0.543039,0.514472,0.572266,22,34
+NT Benchmark,Splice Site Annotation,Caduceus-PS,splice_sites_donors,0.53252,0.503243,0.561138,23,34
+NT Benchmark,Splice Site Annotation,GENERator-3B,splice_sites_donors,0.53219,0.508865,0.553928,24,34
+NT Benchmark,Splice Site Annotation,GENA-LM-base,splice_sites_donors,0.530111,0.499962,0.559929,25,34
+NT Benchmark,Splice Site Annotation,GROVER,splice_sites_donors,0.502004,0.473008,0.530955,26,34
+NT Benchmark,Splice Site Annotation,Mistral-DNA-422M,splice_sites_donors,0.491356,0.461725,0.520126,27,34
+NT Benchmark,Splice Site Annotation,NT_500m_MS,splice_sites_donors,0.489816,0.459922,0.520351,28,34
+NT Benchmark,Splice Site Annotation,Caduceus-PH,splice_sites_donors,0.486457,0.455813,0.517041,29,34
+NT Benchmark,Splice Site Annotation,evo2_1b_base,splice_sites_donors,0.454232,0.422934,0.484964,30,34
+NT Benchmark,Splice Site Annotation,NT_500m_1kG,splice_sites_donors,0.448008,0.415047,0.478822,31,34
+NT Benchmark,Splice Site Annotation,Mistral-DNA-17M,splice_sites_donors,0.44673,0.417314,0.479818,32,34
+NT Benchmark,Splice Site Annotation,HyenaDNA_tiny_1k,splice_sites_donors,0.385891,0.354657,0.416828,33,34
+NT Benchmark,Splice Site Annotation,Mistral-DNA-138M,splice_sites_donors,0.206235,0.172755,0.240351,34,34
+NT Benchmark,Histone Markers,evo2_7b_base,H3K27ac,0.506724,0.463379,0.547435,1,34
+NT Benchmark,Histone Markers,hEvo-base,H3K27ac,0.49913,0.457588,0.541672,2,34
+NT Benchmark,Histone Markers,hEvo-open-large,H3K27ac,0.48815391938212815,0.4469498304452381,0.5276778453975252,3,34
+NT Benchmark,Histone Markers,hEvo-large,H3K27ac,0.482448,0.442237,0.524797,4,34
+NT Benchmark,Histone Markers,GENA-LM-large,H3K27ac,0.470658,0.428527,0.513137,5,34
+NT Benchmark,Histone Markers,NT_2.5b_1kG,H3K27ac,0.461966,0.417282,0.504062,6,34
+NT Benchmark,Histone Markers,hEvo-open-base,H3K27ac,0.448851,0.402769,0.489656,7,34
+NT Benchmark,Histone Markers,DNABERT,H3K27ac,0.446939,0.404454,0.490751,8,34
+NT Benchmark,Histone Markers,GPN-Star-M,H3K27ac,0.443060532975458,0.399006622674528,0.48683664411132,9,34
+NT Benchmark,Histone Markers,GROVER,H3K27ac,0.436602,0.392603,0.481013,10,34
+NT Benchmark,Histone Markers,GPN-Star-P,H3K27ac,0.434916275388814,0.388335603413914,0.479221733289128,11,34
+NT Benchmark,Histone Markers,NT_2.5b_MS,H3K27ac,0.434333,0.392528,0.472849,12,34
+NT Benchmark,Histone Markers,DNABERT2,H3K27ac,0.434283,0.391334,0.478277,13,34
+NT Benchmark,Histone Markers,Mistral-DNA-422M,H3K27ac,0.432048,0.388264,0.47515,14,34
+NT Benchmark,Histone Markers,SpeciesLM,H3K27ac,0.428807,0.383723,0.469752,15,34
+NT Benchmark,Histone Markers,NTv3-100M-pre,H3K27ac,0.415885,0.371272,0.463006,16,34
+NT Benchmark,Histone Markers,NT_500m_MS,H3K27ac,0.413872,0.369374,0.458107,17,34
+NT Benchmark,Histone Markers,GENA-LM-base,H3K27ac,0.404494,0.363103,0.448881,18,34
+NT Benchmark,Histone Markers,AIDO.DNA-300M,H3K27ac,0.403293,0.358474,0.449372,19,34
+NT Benchmark,Histone Markers,evo2_1b_base,H3K27ac,0.403255,0.356084,0.446144,20,34
+NT Benchmark,Histone Markers,GPN-MSA,H3K27ac,0.400426975008538,0.356304093709815,0.442360190308123,21,34
+NT Benchmark,Histone Markers,GPN-Star-V,H3K27ac,0.396069300338805,0.349449631962476,0.440196161573028,22,34
+NT Benchmark,Histone Markers,Genos-1.2B,H3K27ac,0.394105,0.35309,0.435905,23,34
+NT Benchmark,Histone Markers,GENERator-1.2B,H3K27ac,0.387971,0.348337,0.427057,24,34
+NT Benchmark,Histone Markers,Mistral-DNA-17M,H3K27ac,0.370757,0.327329,0.414614,25,34
+NT Benchmark,Histone Markers,NT_500m_1kG,H3K27ac,0.349655,0.308063,0.388438,26,34
+NT Benchmark,Histone Markers,NTv3-8M-pre,H3K27ac,0.341975,0.304347,0.384219,27,34
+NT Benchmark,Histone Markers,Caduceus-PH,H3K27ac,0.338835,0.292632,0.385906,28,34
+NT Benchmark,Histone Markers,NTv3-650M-pre,H3K27ac,0.33179,0.288612,0.371824,29,34
+NT Benchmark,Histone Markers,HyenaDNA_tiny_1k,H3K27ac,0.325861,0.280701,0.371956,30,34
+NT Benchmark,Histone Markers,Caduceus-PS,H3K27ac,0.322413,0.274423,0.368424,31,34
+NT Benchmark,Histone Markers,GPN-promoter,H3K27ac,0.291517,0.244237,0.340289,32,34
+NT Benchmark,Histone Markers,GENERator-3B,H3K27ac,0.286134,0.252235,0.31921,33,34
+NT Benchmark,Histone Markers,Mistral-DNA-138M,H3K27ac,0.247598,0.196111,0.295661,34,34
+NT Benchmark,Histone Markers,hEvo-large,H3K9me3,0.435973,0.379604,0.496544,1,34
+NT Benchmark,Histone Markers,evo2_7b_base,H3K9me3,0.427986,0.36859,0.487212,2,34
+NT Benchmark,Histone Markers,hEvo-base,H3K9me3,0.426324,0.369494,0.483187,3,34
+NT Benchmark,Histone Markers,hEvo-open-large,H3K9me3,0.4109184297647354,0.3506435201375303,0.4661974393237667,4,34
+NT Benchmark,Histone Markers,NT_2.5b_1kG,H3K9me3,0.400919,0.337883,0.46398,5,34
+NT Benchmark,Histone Markers,GENA-LM-large,H3K9me3,0.371607,0.303916,0.432675,6,34
+NT Benchmark,Histone Markers,NT_2.5b_MS,H3K9me3,0.367064,0.302632,0.428366,7,34
+NT Benchmark,Histone Markers,Mistral-DNA-422M,H3K9me3,0.365256,0.302715,0.424166,8,34
+NT Benchmark,Histone Markers,hEvo-open-base,H3K9me3,0.362539,0.299444,0.423898,9,34
+NT Benchmark,Histone Markers,SpeciesLM,H3K9me3,0.351307,0.285345,0.419407,10,34
+NT Benchmark,Histone Markers,DNABERT,H3K9me3,0.347285,0.280112,0.406068,11,34
+NT Benchmark,Histone Markers,GROVER,H3K9me3,0.342611,0.280933,0.407271,12,34
+NT Benchmark,Histone Markers,Genos-1.2B,H3K9me3,0.33544,0.26636,0.396534,13,34
+NT Benchmark,Histone Markers,GENERator-3B,H3K9me3,0.331019,0.267771,0.395811,14,34
+NT Benchmark,Histone Markers,DNABERT2,H3K9me3,0.329335,0.263011,0.387639,15,34
+NT Benchmark,Histone Markers,NT_500m_1kG,H3K9me3,0.327069,0.263702,0.387297,16,34
+NT Benchmark,Histone Markers,Caduceus-PS,H3K9me3,0.324142,0.259764,0.387478,17,34
+NT Benchmark,Histone Markers,evo2_1b_base,H3K9me3,0.317235,0.253703,0.37909,18,34
+NT Benchmark,Histone Markers,NTv3-100M-pre,H3K9me3,0.315303,0.253039,0.375964,19,34
+NT Benchmark,Histone Markers,Mistral-DNA-17M,H3K9me3,0.305664,0.243757,0.364986,20,34
+NT Benchmark,Histone Markers,NT_500m_MS,H3K9me3,0.292679,0.224874,0.356387,21,34
+NT Benchmark,Histone Markers,AIDO.DNA-300M,H3K9me3,0.291013,0.227436,0.351938,22,34
+NT Benchmark,Histone Markers,HyenaDNA_tiny_1k,H3K9me3,0.264869,0.198385,0.33112,23,34
+NT Benchmark,Histone Markers,Caduceus-PH,H3K9me3,0.26004,0.192983,0.323429,24,34
+NT Benchmark,Histone Markers,GENA-LM-base,H3K9me3,0.25781,0.191555,0.318575,25,34
+NT Benchmark,Histone Markers,GPN-promoter,H3K9me3,0.248458,0.183816,0.310986,26,34
+NT Benchmark,Histone Markers,NTv3-650M-pre,H3K9me3,0.241456,0.187587,0.290597,27,34
+NT Benchmark,Histone Markers,GPN-Star-V,H3K9me3,0.205014495239399,0.145295689883612,0.259038292041956,28,34
+NT Benchmark,Histone Markers,NTv3-8M-pre,H3K9me3,0.184228,0.116722,0.248276,29,34
+NT Benchmark,Histone Markers,GPN-Star-M,H3K9me3,0.181932336233495,0.121703141704738,0.237276729591099,30,34
+NT Benchmark,Histone Markers,GPN-Star-P,H3K9me3,0.177384475465392,0.118765448493076,0.232476824252211,31,34
+NT Benchmark,Histone Markers,GENERator-1.2B,H3K9me3,0.17161,0.126022,0.211535,32,34
+NT Benchmark,Histone Markers,GPN-MSA,H3K9me3,0.161026998512358,0.0984396398364403,0.218984265883847,33,34
+NT Benchmark,Histone Markers,Mistral-DNA-138M,H3K9me3,0.09901,0.036547,0.164791,34,34

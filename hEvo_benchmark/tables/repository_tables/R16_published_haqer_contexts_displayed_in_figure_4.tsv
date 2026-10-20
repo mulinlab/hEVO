@@ -1,0 +1,27 @@
+## Repository Table R16. Published HAQER contexts displayed in Figure 4
+## Study: hEVO, reader-facing repository tables
+## Description: The 12 contexts used in the main HAQER illustration. Contexts were selected for model disagreement and are not an unbiased estimate of sensitivity. Gene proximity does not establish a regulatory target. The common threshold 0.59 was selected on validation data; callers use different smoothing and peak criteria.
+## Missing values: NA means unavailable or not applicable, never a zero score. Numeric values retain source precision.
+## Source: Supplementary Table S40.
+## Column 1 | HAQER identifier | HAQER identifier for the observation defined in the table description.
+## Column 2 | Chromosome | Chromosome for the observation defined in the table description.
+## Column 3 | Context start (0-based) | Beginning of the stated genomic interval; coordinates follow the table-specific convention.
+## Column 4 | Context end (exclusive) | End of the stated interval or recorded range; interval convention is stated above.
+## Column 5 | HAQER start (0-based) | Beginning of the stated genomic interval; coordinates follow the table-specific convention.
+## Column 6 | HAQER end (exclusive) | End of the stated interval or recorded range; interval convention is stated above.
+## Column 7 | Data split | Data split for the observation defined in the table description.
+## Column 8 | Nearby-gene context | Nearby-gene context for the observation defined in the table description.
+## Column 9 | HAQER catalogue reference | HAQER catalogue reference for the observation defined in the table description.
+HAQER identifier	Chromosome	Context start (0-based)	Context end (exclusive)	HAQER start (0-based)	HAQER end (exclusive)	Data split	Nearby-gene context	HAQER catalogue reference
+HAQER1223	chr17	56790730	56794730	56792427	56793033	val	NA	PMID 36423581
+HAQER1230	chr18	24838924	24842924	24840598	24841250	test	NA	PMID 36423581
+HAQER0333	chr22	49593822	49597822	49595384	49596261	test	NA	PMID 36423581
+HAQER1262	chr21	33893573	33897573	33895221	33895925	test	NA	PMID 36423581
+HAQER0258	chr20	61216276	61220276	61217801	61218752	test	NA	PMID 36423581
+HAQER0521	chr13	34906535	34910535	34908071	34909000	val	NA	PMID 36423581
+HAQER1272	chr22	48042169	48046169	48043846	48044493	test	NA	PMID 36423581
+HAQER1411	chr16	83509214	83513214	83510930	83511499	val	NA	PMID 36423581
+HAQER0679	chr15	75238090	75242090	75239690	75240490	val	NA	PMID 36423581
+HAQER0608	chr20	23153682	23157682	23155263	23156101	test	NA	PMID 36423581
+HAQER0412	chr16	89067208	89071208	89068733	89069684	val	NA	PMID 36423581
+HAQER0218	chr13	110311608	110315608	110313147	110314069	val	near COL4A2; nearby-gene context only	PMID 36423581

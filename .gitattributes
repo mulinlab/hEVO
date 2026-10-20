@@ -1,0 +1,8 @@
+# Figure exports are binary deliverables even when their extensions are
+# ignored by the repository's text whitespace checks.
+*.pdf binary
+*.png binary
+*.svg binary
+
+# Keep the S31 comparison table stable across platforms.
+hEvo_benchmark/tables/S31_within_site_top_rank_discrimination_of_ddd_de_novo_alleles.csv text eol=lf

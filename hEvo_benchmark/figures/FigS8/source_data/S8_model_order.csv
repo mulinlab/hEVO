@@ -1,0 +1,33 @@
+﻿row_order,model,model_display,family
+1,hEvo-large,hEVO-large,hEVO
+2,hEvo-base,hEVO-base,hEVO
+3,evo2_7b_base,Evo2-7B,Evo 2
+4,evo2_1b_base,Evo2-1B,Evo 2
+5,NT_2.5b_1kG,NTv2-2.5B-1kG,NT
+6,NTv3-650M-pre,NTv3-650M,NT
+7,NT_2.5b_MS,NTv2-2.5B-MS,NT
+8,NT_500m_MS,NTv2-500M-MS,NT
+9,NTv3-100M-pre,NTv3-100M,NT
+10,NT_500m_1kG,NTv2-500M-1kG,NT
+11,NTv3-8M-pre,NTv3-8M,NT
+12,GPN-Star-M,GPN-Star-M,GPN
+13,GPN-Star-P,GPN-Star-P,GPN
+14,GPN-Star-V,GPN-Star-V,GPN
+15,GPN-promoter,GPN-Promoter,GPN
+16,GPN-MSA,GPN-MSA,GPN
+17,DNABERT,DNABERT,Other
+18,DNABERT2,DNABERT2,Other
+19,GENERator-1.2B,GENERator-1.2B,Other
+20,GENA-LM-large,GENA-LM-large,Other
+21,GENERator-3B,GENERator-3B,Other
+22,GENA-LM-base,GENA-LM-base,Other
+23,Mistral-DNA-422M,Mistral-DNA-422M,Other
+24,AIDO.DNA-300M,AIDO.DNA-300M,Other
+25,GROVER,GROVER,Other
+26,Genos-1.2B,Genos-1.2B,Other
+27,Mistral-DNA-17M,Mistral-DNA-17M,Other
+28,SpeciesLM,SpeciesLM,Other
+29,HyenaDNA_tiny_1k,HyenaDNA-1K,Other
+30,Caduceus-PS,Caduceus-PS,Other
+31,Caduceus-PH,Caduceus-PH,Other
+32,Mistral-DNA-138M,Mistral-DNA-138M,Other

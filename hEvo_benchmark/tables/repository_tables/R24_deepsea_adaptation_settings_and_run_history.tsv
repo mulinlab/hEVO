@@ -1,0 +1,89 @@
+## Repository Table R24. DeepSEA adaptation settings and run history
+## Study: hEVO, reader-facing repository tables
+## Description: Recorded input and mapping properties for each S21 run. The Run selection column identifies the runs used in the current comparison and earlier runs retained for context. Active hEVO-large-o run 24 and GPN-Star-M differ in training duration, pooling or native input handling from some comparators.
+## Missing values: NA means unavailable or not applicable, never a zero score. Numeric values retain source precision.
+## Column 1 | Model | Evaluated checkpoint display name, harmonized with the figures.
+## Column 2 | Category | Category for the observation defined in the table description.
+## Column 3 | Run | Run for the observation defined in the table description.
+## Column 4 | Run selection | Identifies whether the recorded run is current or prior to the comparison.
+## Column 5 | Configured input length | Configured input length for the observation defined in the table description.
+## Column 6 | Pooling | Pooling for the observation defined in the table description.
+## Column 7 | Seed | Random seed of the recorded projection or sampling run.
+## Column 8 | Training input rows | Training input rows for the observation defined in the table description.
+## Column 9 | Training mapped rows | Training mapped rows for the observation defined in the table description.
+## Column 10 | Training mapping fraction | Training mapping fraction for the observation defined in the table description.
+## Column 11 | Test input rows | Test input rows for the observation defined in the table description.
+## Column 12 | Test mapped rows | Test mapped rows for the observation defined in the table description.
+## Column 13 | Test mapping fraction | Test mapping fraction for the observation defined in the table description.
+## Column 14 | AUROC | Area under the receiver operating characteristic curve; larger is better; chance expectation 0.5.
+## Column 15 | Macro AUPRC | Macro AUPRC for the observation defined in the table description.
+Model	Category	Run	Run selection	Configured input length	Pooling	Seed	Training input rows	Training mapped rows	Training mapping fraction	Test input rows	Test mapped rows	Test mapping fraction	AUROC	Macro AUPRC
+AIDO.DNA-300M	DHS	S21_run_02	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.5	0.042832518724287075
+AIDO.DNA-300M	HM	S21_run_02	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.5	0.06404734
+AIDO.DNA-300M	TF	S21_run_02	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.5	0.009974702
+DNABERT2	DHS	S21_run_03	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7530208185549918	0.14927983166005532
+DNABERT2	HM	S21_run_03	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7325559721819569	0.2309162901156809
+DNABERT2	TF	S21_run_03	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.769131	0.09001493
+GENA-LM-base	DHS	S21_run_04	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7502842513308079	0.14259528726237988
+GENA-LM-base	HM	S21_run_04	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7815506777636311	0.26264849237271676
+GENA-LM-base	TF	S21_run_04	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7911077576503708	0.092831184
+GENA-LM-large	DHS	S21_run_05	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7653492993364941	0.1632371036239857
+GENA-LM-large	HM	S21_run_05	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7837720680079373	0.27258326162678304
+GENA-LM-large	TF	S21_run_05	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.800411	0.11106937540761293
+GENERator-1.2B	DHS	S21_run_06	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8656183608751549	0.3392741261973159
+GENERator-1.2B	HM	S21_run_06	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8150290916607588	0.32025728128570263
+GENERator-1.2B	TF	S21_run_06	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8769247797108974	0.22713575569017444
+GROVER	DHS	S21_run_07	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7389763848174681	0.13484397295703485
+GROVER	HM	S21_run_07	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7330877599805231	0.2267244343733328
+GROVER	TF	S21_run_07	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.765743	0.080342561
+HyenaDNA-1K	DHS	S21_run_08	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.6794453592587882	0.11026819164717913
+HyenaDNA-1K	HM	S21_run_08	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7254897359749714	0.21848565983408094
+HyenaDNA-1K	TF	S21_run_08	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7427883623155913	0.06523705851603463
+Mistral-DNA-138M	DHS	S21_run_09	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.40889923911688825	0.03563452
+Mistral-DNA-138M	HM	S21_run_09	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.39075060804424394	0.050936605
+Mistral-DNA-138M	TF	S21_run_09	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.36526995003999235	0.008171218
+Mistral-DNA-17M	DHS	S21_run_10	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.671486	0.1084439740100459
+Mistral-DNA-17M	HM	S21_run_10	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7049199517798767	0.20297693942380238
+Mistral-DNA-17M	TF	S21_run_10	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7392541412485067	0.058656272
+Mistral-DNA-422M	DHS	S21_run_11	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7387378847180701	0.12817406402582052
+Mistral-DNA-422M	HM	S21_run_11	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7418860179254148	0.22556258331900217
+Mistral-DNA-422M	TF	S21_run_11	Current	512	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7723315364120047	0.073282313
+NTv1-2.5B-1kG	DHS	S21_run_12	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8131798417093006	0.21503240026480241
+NTv1-2.5B-1kG	HM	S21_run_12	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8015960322880435	0.29248847385264204
+NTv1-2.5B-1kG	TF	S21_run_12	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8456584951710266	0.1487943918454523
+NTv1-2.5B-MS	DHS	S21_run_13	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8540141528828172	0.31002433975763455
+NTv1-2.5B-MS	HM	S21_run_13	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8190776780312101	0.3190719181771708
+NTv1-2.5B-MS	TF	S21_run_13	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8726630849293548	0.2131689191518442
+NTv1-500M-1kG	DHS	S21_run_14	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7518086332247981	0.14274230860622533
+NTv1-500M-1kG	HM	S21_run_14	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7643956294789689	0.24850583582314334
+NTv1-500M-1kG	TF	S21_run_14	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7913149349251362	0.087046535
+NTv3-8M	DHS	S21_run_15	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.6808998061401577	0.1128687634489628
+NTv3-8M	HM	S21_run_15	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.718865	0.21625689523447086
+NTv3-8M	TF	S21_run_15	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7380050941577981	0.067729006
+Evo2-1B	DHS	S21_run_16	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.5015553642385453	0.043112786245162286
+Evo2-1B	HM	S21_run_16	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.500572	0.064316168
+Evo2-1B	TF	S21_run_16	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.5028343905882722	0.010575026
+hEVO-large	DHS	S21_run_17	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8759564884252999	0.3964551772842225
+hEVO-large	HM	S21_run_17	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8243734596781855	0.3304849441654925
+hEVO-large	TF	S21_run_17	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.8868838034347115	0.23691452123061596
+hEVO-base	DHS	S21_run_18	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7835077416839756	0.17367061005611176
+hEVO-base	HM	S21_run_18	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7680904450886364	0.2608544251665185
+hEVO-base	TF	S21_run_18	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7847713734688442	0.098099997
+Evo2-7B	DHS	S21_run_19	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.698884471988094	0.1140643521947234
+Evo2-7B	HM	S21_run_19	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.686901107749549	0.1122677339495611
+Evo2-7B	TF	S21_run_19	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.719163498337821	0.2215265919495611
+hEVO-base-o	DHS	S21_run_20	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7531003862271284	0.1444179530589054
+hEVO-base-o	HM	S21_run_20	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7354698985376734	0.2326631872447681
+hEVO-base-o	TF	S21_run_20	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.7706479412887388	0.08405693879365822
+GPN-Promoter	DHS	S21_run_21	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.5748653362205794	0.06376562273695262
+GPN-Promoter	HM	S21_run_21	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.5916946260135811	0.10404152001447167
+GPN-Promoter	TF	S21_run_21	Current	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.641855054766659	0.02462694403704403
+hEVO-large-o	DHS	S21_run_22	Prior	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.5048072103753525	0.04563397387812289
+hEVO-large-o	HM	S21_run_22	Prior	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.5040939745066643	0.07020760386591357
+hEVO-large-o	TF	S21_run_22	Prior	1024	mean-pooling	42	NA	NA	NA	NA	NA	NA	0.5146900286901948	0.012293414063054129
+GPN-Star-M	DHS	S21_run_23	Current	1000	mean-pooling	42	4400000	4230062	0.961377727273	455024	436931	0.96023726221	0.523127168312475	0.04722611290623
+GPN-Star-M	HM	S21_run_23	Current	1000	mean-pooling	42	4400000	4230062	0.961377727273	455024	436931	0.96023726221	0.536832931743845	0.0792710564392148
+GPN-Star-M	TF	S21_run_23	Current	1000	mean-pooling	42	4400000	4230062	0.961377727273	455024	436931	0.96023726221	0.527837984383404	0.0124151242315306
+hEVO-large-o	DHS	S21_run_24	Current	1024	pooler	42	NA	NA	NA	NA	NA	NA	0.8142841786616063	0.21798105710501742
+hEVO-large-o	HM	S21_run_24	Current	1024	pooler	42	NA	NA	NA	NA	NA	NA	0.7705467734088361	0.2557496027394303
+hEVO-large-o	TF	S21_run_24	Current	1024	pooler	42	NA	NA	NA	NA	NA	NA	0.8326963567677063	0.14834870172934628

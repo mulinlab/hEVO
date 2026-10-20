@@ -1,0 +1,66 @@
+## Repository Table R8. Family-level benchmark summaries
+## Study: hEVO, reader-facing repository tables
+## Description: Thirteen established radar axes. A family may use different checkpoints on different axes. GPN-Star belongs to the GPN family. Clinical reclassification and ClinVar coding/noncoding subsets are not extra axes. Radius=(N-rank+1)/N.
+## Missing values: NA means unavailable or not applicable, never a zero score. Numeric values retain source precision.
+## Source: Supplementary Table S10.
+## Column 1 | Domain | Domain for the observation defined in the table description.
+## Column 2 | Radar axis | Radar axis for the observation defined in the table description.
+## Column 3 | Family | Family for the observation defined in the table description.
+## Column 4 | Best eligible model | Best eligible model for the observation defined in the table description.
+## Column 5 | Primary summary | Primary summary for the observation defined in the table description.
+## Column 6 | Within-axis rank | Within-axis rank for the observation defined in the table description.
+## Column 7 | Eligible models | Eligible models for the observation defined in the table description.
+## Column 8 | Radar radius | Radar radius for the observation defined in the table description.
+Domain	Radar axis	Family	Best eligible model	Primary summary	Within-axis rank	Eligible models	Radar radius
+Genomic elements	Genomic (7)	hEVO family	hEVO-large	0.6680738431349912	1.0	29	1.0
+Genomic elements	Genomic (7)	Evo 2 family	Evo2-7B	0.6053710555429533	7.0	29	0.7931034482758621
+Genomic elements	Genomic (7)	NT family	NTv1-2.5B-MS	0.6160335247322503	4.0	29	0.896551724137931
+Genomic elements	Genomic (7)	GPN family	GPN-Promoter	0.5591476036111673	18.0	29	0.4137931034482758
+Genomic elements	NT (18)	hEVO family	hEVO-base	0.5904039444444444	1.0	29	1.0
+Genomic elements	NT (18)	Evo 2 family	Evo2-7B	0.5895975	2.0	29	0.9655172413793104
+Genomic elements	NT (18)	NT family	NTv1-2.5B-1kG	0.5460767777777777	5.0	29	0.8620689655172413
+Genomic elements	NT (18)	GPN family	GPN-MSA	0.5220830778278822	10.0	29	0.6896551724137931
+Genomic elements	URE (10)	hEVO family	hEVO-large	0.8443590851873854	1.0	29	1.0
+Genomic elements	URE (10)	Evo 2 family	Evo2-7B	0.7247331948455062	5.0	29	0.8620689655172413
+Genomic elements	URE (10)	NT family	NTv1-2.5B-MS	0.7143786949384853	6.0	29	0.8275862068965517
+Genomic elements	URE (10)	GPN family	GPN-MSA	0.7581904453013868	2.0	29	0.9655172413793104
+Genomic elements	DeepSEA (3)	hEVO family	hEVO-large	0.8624045838460658	1.0	19	1.0
+Genomic elements	DeepSEA (3)	Evo 2 family	Evo2-7B	0.7016496926918213	15.0	19	0.2631578947368421
+Genomic elements	DeepSEA (3)	NT family	NTv1-2.5B-MS	0.848584971947794	3.0	19	0.8947368421052632
+Genomic elements	DeepSEA (3)	GPN family	GPN-Promoter	0.6028050056669398	16.0	19	0.2105263157894736
+Variant scoring	ClinVar (3)	hEVO family	hEVO-base	0.90311663964745	1.0	28	1.0
+Variant scoring	ClinVar (3)	Evo 2 family	Evo2-7B	0.8981513058144083	2.0	28	0.9642857142857144
+Variant scoring	ClinVar (3)	NT family	NTv3-650M	0.7243713317144808	4.0	28	0.8928571428571429
+Variant scoring	ClinVar (3)	GPN family	GPN-Promoter	0.5943995005945206	8.0	28	0.75
+Variant scoring	De novo (2)	hEVO family	hEVO-base	0.7255724479799172	1.0	28	1.0
+Variant scoring	De novo (2)	Evo 2 family	Evo2-7B	0.6862421600501338	2.0	28	0.9642857142857144
+Variant scoring	De novo (2)	NT family	NTv3-650M	0.660237875945232	4.0	28	0.8928571428571429
+Variant scoring	De novo (2)	GPN family	GPN-Promoter	0.3800564881498071	13.0	28	0.5714285714285714
+Variant scoring	GWAS causal (1)	hEVO family	hEVO-large	0.1690132954490836	1.0	28	1.0
+Variant scoring	GWAS causal (1)	Evo 2 family	Evo2-7B	0.1254487867919076	4.0	28	0.8928571428571429
+Variant scoring	GWAS causal (1)	NT family	NTv1-2.5B-1kG	0.0977041087676892	15.0	28	0.5
+Variant scoring	GWAS causal (1)	GPN family	GPN-MSA	0.1509386103507646	3.0	28	0.9285714285714286
+Variant scoring	Rare variants (1)	hEVO family	hEVO-large	0.76747436790496	1.0	28	1.0
+Variant scoring	Rare variants (1)	Evo 2 family	Evo2-7B	0.7175056923135232	2.0	28	0.9642857142857144
+Variant scoring	Rare variants (1)	NT family	NTv1-2.5B-1kG	0.6671091183974394	13.0	28	0.5714285714285714
+Variant scoring	Rare variants (1)	GPN family	GPN-MSA	0.674198035955	7.0	28	0.7857142857142857
+Variant scoring	MPRA (1)	hEVO family	hEVO-large	0.3253387164223057	1.0	28	1.0
+Variant scoring	MPRA (1)	Evo 2 family	Evo2-7B	0.276008337522066	5.0	28	0.8571428571428571
+Variant scoring	MPRA (1)	NT family	NTv3-8M	0.2742980977677628	7.0	28	0.7857142857142857
+Variant scoring	MPRA (1)	GPN family	GPN-Promoter	0.2884361355776461	3.0	28	0.9285714285714286
+Evolution & ancestry	HAR (5)	hEVO family	hEVO-large	0.8711705279905264	1.0	29	1.0
+Evolution & ancestry	HAR (5)	Evo 2 family	Evo2-7B	0.6547528882642991	5.0	29	0.8620689655172413
+Evolution & ancestry	HAR (5)	NT family	NTv1-2.5B-1kG	0.62090152329107	8.0	29	0.7586206896551724
+Evolution & ancestry	HAR (5)	GPN family	GPN-MSA	0.8572790012922369	2.0	29	0.9655172413793104
+Evolution & ancestry	HAQER (5)	hEVO family	hEVO-large	0.8425146471687848	1.0	29	1.0
+Evolution & ancestry	HAQER (5)	Evo 2 family	Evo2-7B	0.6774564506011008	4.0	29	0.896551724137931
+Evolution & ancestry	HAQER (5)	NT family	NTv1-2.5B-1kG	0.6438015708151225	8.0	29	0.7586206896551724
+Evolution & ancestry	HAQER (5)	GPN family	GPN-MSA	0.6172402928347529	14.0	29	0.5517241379310345
+Evolution & ancestry	Ancestry (3)	hEVO family	hEVO-large	0.9343613804880596	1.0	29	1.0
+Evolution & ancestry	Ancestry (3)	Evo 2 family	Evo2-7B	0.8944323123756885	7.0	29	0.7931034482758621
+Evolution & ancestry	Ancestry (3)	NT family	NTv1-2.5B-1kG	0.913964763620232	3.0	29	0.9310344827586208
+Evolution & ancestry	Ancestry (3)	GPN family	GPN-MSA	0.7502111017222441	23.0	29	0.2413793103448276
+Evolution & ancestry	Adaptation (30)	hEVO family	hEVO-base	0.6666666667	1.0	28	1.0
+Evolution & ancestry	Adaptation (30)	Evo 2 family	Evo2-1B	0.4333333333	15.0	28	0.5
+Evolution & ancestry	Adaptation (30)	NT family	NTv2-500M-MS	0.5333333333	3.0	28	0.9285714285714286
+Evolution & ancestry	Adaptation (30)	GPN family	GPN-Promoter	0.4	17.0	28	0.4285714285714285

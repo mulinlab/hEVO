@@ -1,0 +1,6 @@
+Models:
+  - name: GPN-Star-M
+    url: ${GPN_STAR_ASSETS_ROOT}/models/GPN-Star-M
+    type: gpn-star-native-msa
+    future: mean-pooling
+    max_length: 1000
